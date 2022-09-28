@@ -5,6 +5,8 @@ gsettings set org.gnome.desktop.interface gtk-theme WhiteSur-Dark
 gsettings set org.gnome.desktop.interface enable-hot-corners false
 gsettings set org.gnome.desktop.interface clock-show-weekday true
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"
+gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
+gsettings set org.gnome.settings-daemon.plugins.color night-light-temperature 3700
 
 # plank
 dconf write /net/launchpad/plank/docks/dock1/theme "'mcOS-BS-iMacM1-Black'"
