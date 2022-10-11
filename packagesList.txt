@@ -1,0 +1,17 @@
+brave-bin
+visual-studio-code-bin
+discord
+gthumb
+vlc
+motrix-bin
+spotify
+kitty
+zsh
+blender
+jdk-lts
+android-studio
+onlyoffice-bin
+thunderbird
+neovim
+obs-studio
+plank
