@@ -15,3 +15,7 @@ thunderbird
 neovim
 obs-studio
 plank
+gnome-browser-connector
+touchegg
+libgda
+acpi
