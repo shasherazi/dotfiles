@@ -4,12 +4,14 @@ dirsToRemove=(
     .icons
     .themes
     .local/share/plank
+    scripts
 )
 
 dirsInDotfiles=(
     gnome/.icons
     gnome/.themes
     plank/plank
+    scripts
 )
 
 for index in ${!dirsToRemove[*]}; do
