@@ -19,3 +19,7 @@ gnome-browser-connector
 touchegg
 libgda
 acpi
+zoom
+slack-desktop
+zscroll-git
+playerctl
