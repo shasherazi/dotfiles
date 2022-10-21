@@ -8,6 +8,7 @@ gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"
 gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.settings-daemon.plugins.color night-light-temperature 3700
 gsettings set org.gnome.desktop.interface show-battery-percentage true
+gsettings set org.gnome.desktop.peripherals.mouse natural-scroll false
 
 # plank
 dconf write /net/launchpad/plank/docks/dock1/theme "'mcOS-BS-iMacM1-Black'"

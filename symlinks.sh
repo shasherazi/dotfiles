@@ -5,6 +5,8 @@ dirsToRemove=(
     .themes
     .local/share/plank
     scripts
+    .config/kitty
+    .config/polybar
 )
 
 dirsInDotfiles=(
@@ -12,6 +14,8 @@ dirsInDotfiles=(
     gnome/.themes
     plank/plank
     scripts
+    kitty
+    polybar
 )
 
 for index in ${!dirsToRemove[*]}; do
