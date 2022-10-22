@@ -24,3 +24,4 @@ slack-desktop
 zscroll-git
 playerctl
 polybar
+jq
