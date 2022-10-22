@@ -23,3 +23,4 @@ zoom
 slack-desktop
 zscroll-git
 playerctl
+polybar
