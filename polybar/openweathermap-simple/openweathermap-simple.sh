@@ -20,22 +20,6 @@ get_icon() {
         50d) icon="";;
         50n) icon="";;
         *) icon="";
-
-        # Icons for Font Awesome 5 Pro
-        #01d) icon="";;
-        #01n) icon="";;
-        #02d) icon="";;
-        #02n) icon="";;
-        #03d) icon="";;
-        #03n) icon="";;
-        #04*) icon="";;
-        #09*) icon="";;
-        #10d) icon="";;
-        #10n) icon="";;
-        #11*) icon="";;
-        #13*) icon="";;
-        #50*) icon="";;
-        #*) icon="";
     esac
 
     echo $icon
@@ -44,7 +28,7 @@ get_icon() {
 KEY="20275097114d70d01392954f120847c3"
 CITY="1166548"
 UNITS="metric"
-SYMBOL="°"
+SYMBOL="°C"
 
 API="https://api.openweathermap.org/data/2.5"
 
