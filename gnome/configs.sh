@@ -2,6 +2,7 @@
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 gsettings set org.gnome.desktop.interface cursor-theme Posy_Cursor
 gsettings set org.gnome.desktop.interface gtk-theme WhiteSur-Dark
+gsettings set org.gnome.desktop.interface icon-theme WhiteSur-dark
 gsettings set org.gnome.desktop.interface enable-hot-corners false
 gsettings set org.gnome.desktop.interface clock-show-weekday true
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"

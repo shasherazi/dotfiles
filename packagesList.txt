@@ -14,5 +14,8 @@ plank
 acpi
 zoom
 slack-desktop
+gnome-browser-connector
+libgda6
 polybar
 ripgrep
+jq
