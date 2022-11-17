@@ -1,0 +1,5 @@
+require("shasherazi.plugins-setup")
+require("shasherazi.core.colorscheme")
+require("shasherazi.core.options")
+require("shasherazi.core.keymaps")
+require("shasherazi.plugins.comment")
