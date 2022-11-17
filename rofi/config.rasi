@@ -1,0 +1,67 @@
+configuration {
+    display-drun: "Applications:";
+    drub-display-format: "{icon} {name}";
+    show-icons: true;
+    icon-theme: "WhiteSur-dark";
+    modi: "window,drun,run,emoji";
+}
+
+
+// to avoid weird theme mixing
+@theme "/dev/null"
+
+* {
+    bg: #28282844;
+    fg: #ebdbb2;
+    orange: #fe8019;
+    green: #b8bb26;
+
+    background-color: @bg;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+// the search input text
+entry {
+    text-color: @fg;
+    margin: 10 0;
+}
+
+// where it says "Applications"
+prompt {
+    text-color: @fg;
+    margin: 10 10;
+}
+
+// All ekements' text
+element {
+    text-color: @fg;
+    padding: 5 0;
+}
+
+element-text {
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element-icon {
+    size: 30;
+    padding: 0 10;
+}
+
+element selected {
+    text-color: @orange;
+}
+
+listview {
+    lines: 8;
+}
+
+window {
+    border-radius: 10;
+    border: 1px;
+    border-color: @green;
+}

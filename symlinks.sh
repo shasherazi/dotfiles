@@ -7,6 +7,11 @@ dirsToRemove=(
     scripts
     .config/kitty
     .config/polybar
+    .config/bspwm
+    .config/nvim
+    .config/picom
+    .config/rofi
+    .config/sxhkd
 )
 
 dirsInDotfiles=(
@@ -16,6 +21,11 @@ dirsInDotfiles=(
     scripts
     kitty
     polybar
+    bspwm
+    nvim
+    picom
+    rofi
+    sxhkd
 )
 
 for index in ${!dirsToRemove[*]}; do
