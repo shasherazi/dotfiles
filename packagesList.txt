@@ -14,8 +14,10 @@ plank
 acpi
 zoom
 slack-desktop
-gnome-browser-connector
-libgda6
 polybar
 ripgrep
 jq
+scrot
+notification-daemon
+gnome-keyring
+libsecret

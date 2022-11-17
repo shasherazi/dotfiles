@@ -1,0 +1,1 @@
+setxkbmap -model pc86 -layout us, -variant us -option caps:swapescape
