@@ -12,6 +12,9 @@ dirsToRemove=(
     .config/picom
     .config/rofi
     .config/sxhkd
+    .config/dunst
+    .config/eww
+    .config/zathura
 )
 
 dirsInDotfiles=(
@@ -26,6 +29,9 @@ dirsInDotfiles=(
     picom
     rofi
     sxhkd
+    dunst
+    eww
+    zathura
 )
 
 for index in ${!dirsToRemove[*]}; do
