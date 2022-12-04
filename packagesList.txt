@@ -18,6 +18,14 @@ polybar
 ripgrep
 jq
 scrot
+hacksaw
 notification-daemon
 gnome-keyring
 libsecret
+fd
+ranger
+ueberzug
+highlight
+ffmpegthumbnailer
+mediainfo
+nemo
