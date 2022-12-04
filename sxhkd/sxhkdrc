@@ -19,7 +19,7 @@ super + Escape
 
 # thunar
 super + n
-	thunar
+	nemo
 
 # browser
 super + b
@@ -135,7 +135,7 @@ XF86AudioLowerVolume
 	pactl set-sink-volume 0 -5%
 
 XF86AudioMute
-	pactl set-sink-mute 0 toggle && dunstify "Test" "$(echo '1 2 3 4 5' | awk '{ print $2}')"
+	pactl set-sink-mute 0 toggle 
 
 # Precise volume controls
 shift + XF86AudioRaiseVolume
@@ -153,8 +153,20 @@ XF86MonBrightnessDown
 
 # Screenshot a selection
 Print
-  scrot -zs ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png
+  scrot -za $(hacksaw -f '%x,%y,%w,%h') ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png -e 'xclip -selection clipboard -t image/png -i $f'
 
 # Screenshot full screen
 shift + Print
-  scrot -z ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png
+  scrot -z ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png -e 'xclip -selection clipboard -t image/png -i $f'
+
+# Screenshot a window
+super + Print
+  scrot -zu ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png -e 'xclip -selection clipboard -t image/png -i $f'
+
+# clipboard
+super + v
+  rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+
+# lockscreen
+alt + shift + x
+  betterlockscreen -l dimblur
