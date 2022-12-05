@@ -11,17 +11,12 @@ configuration {
 @theme "/dev/null"
 
 * {
-    bg: #28282844;
-    fg: #ebdbb2;
-    orange: #fe8019;
-    green: #b8bb26;
+    bg: #22283155;
+    fg: #eeeeee;
+    blue: #00adb5;
+    gray: #393e46;
 
     background-color: @bg;
-
-    border: 0;
-    margin: 0;
-    padding: 0;
-    spacing: 0;
 }
 
 // the search input text
@@ -53,7 +48,7 @@ element-icon {
 }
 
 element selected {
-    text-color: @orange;
+    text-color: @blue;
 }
 
 listview {
@@ -63,5 +58,5 @@ listview {
 window {
     border-radius: 10;
     border: 1px;
-    border-color: @green;
+    border-color: @blue;
 }
