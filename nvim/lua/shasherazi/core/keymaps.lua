@@ -27,6 +27,11 @@ k.set("n", "L", "gt") -- go to previous tab
 
 k.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
 
+k.set("n", "<leader>tv", ":ToggleTerm direction=vertical<CR>") -- toggle terminal in vertical pane
+k.set("n", "<leader>th", ":ToggleTerm direction=horizontal<CR>") -- toggle terminal in horizontal pane
+k.set("n", "<leader>tf", ":ToggleTerm direction=float<CR>") -- toggle terminal in float pane
+
+
 -- telescope
 k.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
 k.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string in current working directory as you type
