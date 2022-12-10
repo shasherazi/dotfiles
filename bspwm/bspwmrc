@@ -2,14 +2,16 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-nitrogen --set-auto --random
+nitrogen --set-zoom-fill --random
 pkill picom
 pkill polybar; polybar -l warning &
 sh $HOME/dotfiles/mouseAndTouchpad.sh
 sh $HOME/dotfiles/keyboard.sh
 pkill dunst; dunst &
 picom -b
-if ! (ps aux | grep "thunderbird" | grep -v "grep"); then thunderbird& fi
+/usr/bin/emacs --daemon &
+if ! (ps aux | grep "thunderbird" | grep -v "grep"); then thunderbird& fi # start thunderbird if not already
+clipmenud & # run clipmenu daemon
 
 bspc monitor -d term files web code music discord slack zoom mail misc
 
@@ -32,6 +34,8 @@ bspc rule -a thunderbird desktop=mail follow=on
 bspc rule -a zoom desktop=zoom follow=on
 bspc rule -a Slack desktop=slack follow=on
 bspc rule -a Screenkey manage=off
+bspc rule -a Zathura state=tiled
+
 
 bspc subscribe node_state | while read -r _ _ _ _ state flag; do
 if [ "$state" != "fullscreen" ]; then

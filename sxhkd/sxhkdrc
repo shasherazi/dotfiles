@@ -165,8 +165,16 @@ super + Print
 
 # clipboard
 super + v
-  rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+  CM_LAUNCHER=rofi clipmenu
 
 # lockscreen
 alt + shift + x
   betterlockscreen -l dimblur
+
+# toggle picom
+super + shift + p
+  sh ~/scripts/togglePicom.sh
+
+# change wallpaper with nitrogen
+super + shift + r
+  nitrogen --set-zoom-fill --random

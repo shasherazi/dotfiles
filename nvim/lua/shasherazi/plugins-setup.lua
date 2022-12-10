@@ -80,6 +80,9 @@ return packer.startup(function(use)
   -- good looking tabs
   use('romgrk/barbar.nvim')
 
+  -- terminal
+  use("akinsho/toggleterm.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
