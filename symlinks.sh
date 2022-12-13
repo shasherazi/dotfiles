@@ -1,8 +1,6 @@
 DOTFILES=~/dotfiles
 
 dirsToRemove=(
-    .icons
-    .themes
     .local/share/plank
     scripts
     .config/kitty
@@ -18,8 +16,6 @@ dirsToRemove=(
 )
 
 dirsInDotfiles=(
-    gnome/.icons
-    gnome/.themes
     plank/plank
     scripts
     kitty
