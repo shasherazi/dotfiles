@@ -12,6 +12,7 @@ picom -b
 /usr/bin/emacs --daemon &
 if ! (ps aux | grep "thunderbird" | grep -v "grep"); then thunderbird& fi # start thunderbird if not already
 clipmenud & # run clipmenu daemon
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 bspc monitor -d term files web code music discord slack zoom mail misc
 
