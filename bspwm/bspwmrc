@@ -11,6 +11,7 @@ pkill dunst; dunst &
 picom -b
 /usr/bin/emacs --daemon &
 if ! (ps aux | grep "thunderbird" | grep -v "grep"); then thunderbird& fi # start thunderbird if not already
+export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
 clipmenud & # run clipmenu daemon
 export _JAVA_AWT_WM_NONREPARENTING=1
 
@@ -26,7 +27,7 @@ bspc config gapless_monocle      true
 
 bspc config focus_follows_pointer true
 
-bspc rule -a Brave-browser desktop=web follow=on
+bspc rule -a firefox desktop=web follow=on
 bspc rule -a Nemo desktop=files follow=on
 bspc rule -a Code desktop=code follow=on
 bspc rule -a Spotify desktop=music follow=on

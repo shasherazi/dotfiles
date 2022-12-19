@@ -23,7 +23,7 @@ super + n
 
 # browser
 super + b
-	brave
+	firefox
 
 #
 # bspwm hotkeys
