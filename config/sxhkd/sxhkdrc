@@ -23,7 +23,7 @@ super + n
 
 # browser
 super + b
-	firefox
+	google-chrome-stable %U --enable-features=WebUIDarkMode --force-dark-mode
 
 #
 # bspwm hotkeys
