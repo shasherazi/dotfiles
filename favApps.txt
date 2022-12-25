@@ -1,11 +1,9 @@
-brave-bin
+google-chrome
 discord
 kitty
 neovim
 obs-studio
-plank
 slack-desktop
-spotify
 thunderbird
 visual-studio-code-bin
 vlc

@@ -5,8 +5,8 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 nitrogen --set-zoom-fill --random
 pkill picom
 pkill polybar; polybar -l warning &
-sh $HOME/dotfiles/mouseAndTouchpad.sh
-sh $HOME/dotfiles/keyboard.sh
+sh $HOME/dotfiles/scripts/mouseAndTouchpad.sh
+sh $HOME/dotfiles/scripts/keyboard.sh
 pkill dunst; dunst &
 picom -b
 /usr/bin/emacs --daemon &
