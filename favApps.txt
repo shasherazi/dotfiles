@@ -4,6 +4,7 @@ kitty
 neovim
 obs-studio
 slack-desktop
+thunar
 thunderbird
 visual-studio-code-bin
 vlc

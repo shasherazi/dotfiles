@@ -19,7 +19,7 @@ super + Escape
 
 # thunar
 super + n
-	nemo
+	thunar
 
 # browser
 super + b

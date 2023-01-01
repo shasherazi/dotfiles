@@ -20,12 +20,14 @@ destinations = [
     ".zshrc",
     ".p10k.zsh",
     ".local/share/applications/google-chrome.desktop",
+    ".config/xfce4/helpers.rc",
 ]
 
 sources = [
     "config/zsh/.zshrc",
     "config/zsh/.p10k.zsh",
     "config/applications/google-chrome.desktop",
+    "config/xfce4/helpers.rc",
 ]
 
 for zippped in zip(sources, destinations):

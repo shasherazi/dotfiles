@@ -7,3 +7,8 @@ if [ $battery_level -ge 80 ] && [ -z "$discharging" ]
 then
     notify-send -u critical "Battery almost full" "Battery level is ${battery_level}%!"
 fi
+
+if [ $battery_level -le 50 ] && [ $discharging ]
+then
+  notify-send -u critical "Charge your battery" "Battery level is ${battery_level}%!"
+fi
