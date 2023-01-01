@@ -7,7 +7,6 @@ highlight
 jq
 libsecret
 mediainfo
-nemo
 notification-daemon
 noto-fonts-emoji
 polybar
