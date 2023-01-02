@@ -18,7 +18,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 bspc monitor -d term files web code music discord slack zoom mail misc
 
 bspc config border_width         1
-bspc config focused_border_color "#00adb5"
+bspc config focused_border_color "#869aa4"
 bspc config window_gap           8
 
 bspc config split_ratio          0.52

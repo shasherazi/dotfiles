@@ -1,0 +1,7 @@
+darkmatter     = #0D0000 background
+bogart         = #a39c8f foreground
+camouflage     = #3B4014
+blackenedBrown = #402401
+italianRoast   = #26130D
+faluRed        = #801817
+weldonBlue     = #869aa4
