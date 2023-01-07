@@ -1,5 +1,5 @@
 darkmatter     = #0D0000 background
-bogart         = #a39c8f foreground
+bogart         = #d5c7ac foreground
 camouflage     = #3B4014
 blackenedBrown = #402401
 italianRoast   = #26130D
