@@ -8,7 +8,9 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show drun
+  j4-dmenu-desktop --dmenu="dmenu -i -p 'Apps: '"  --usage-log=$HOME/.cache/j4-dmenu-desktop.log
+  # dmenu_run -fn "JetBrains Mono NF"
+  # rofi -show drun
 
 super + e
   rofi -show emoji
@@ -165,7 +167,8 @@ super + Print
 
 # clipboard
 super + v
-  CM_LAUNCHER=rofi clipmenu
+  clipmenu
+#   CM_LAUNCHER=rofi clipmenu
 
 # lockscreen
 alt + shift + x

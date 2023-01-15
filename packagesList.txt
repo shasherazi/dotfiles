@@ -1,13 +1,16 @@
 acpi
+clipmenu
 fd
 ffmpegthumbnailer
 gnome-keyring
 hacksaw
 highlight
 jq
+j4-dmenu-desktop
 libsecret
 mediainfo
 notification-daemon
+noto-fonts
 noto-fonts-emoji
 polybar
 ripgrep
