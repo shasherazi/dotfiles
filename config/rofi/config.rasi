@@ -1,6 +1,8 @@
 configuration {
     display-drun: "Applications:";
-    drub-display-format: "{icon} {name}";
+    display-run: "Run:";
+    display-emoji: "Emoji:";
+    display-window: "Windows:";
     show-icons: true;
     icon-theme: "WhiteSur-dark";
     modi: "window,drun,run,emoji";
@@ -11,44 +13,52 @@ configuration {
 @theme "/dev/null"
 
 * {
-    bg: #22283155;
-    fg: #eeeeee;
-    blue: #00adb5;
-    gray: #393e46;
+    background : #0D000069;
+    foreground : #d5c7ac;
+    accent1    : #0e3523;
+    accent2    : #402401;
+    accent3    : #801817;
+    accent4    : #869aa4;
+    accent5    : #26130D;
 
-    background-color: @bg;
+    background-color: @background;
+    spacing: 0;
 }
 
 // the search input text
 entry {
-    text-color: @fg;
-    margin: 10 0;
+    text-color: @foreground;
+    padding: 10;
 }
 
 // where it says "Applications"
 prompt {
-    text-color: @fg;
-    margin: 10 10;
+    text-color: @foreground;
+    padding: 10;
 }
 
 // All ekements' text
 element {
-    text-color: @fg;
-    padding: 5 0;
+    text-color: @foreground;
+    background-color: #00000000;
+    padding: 10;
 }
 
 element-text {
     text-color: inherit;
     vertical-align: 0.5;
+    background-color: inherit;
 }
 
 element-icon {
     size: 30;
     padding: 0 10;
+    background-color: inherit;
 }
 
 element selected {
-    text-color: @blue;
+    text-color: @accent5;
+    background-color: @accent4;
 }
 
 listview {
@@ -58,5 +68,5 @@ listview {
 window {
     border-radius: 10;
     border: 1px;
-    border-color: @blue;
+    border-color: @accent4;
 }

@@ -3,6 +3,7 @@ discord
 kitty
 neovim
 obs-studio
+qbittorrent
 slack-desktop
 thunar
 thunderbird

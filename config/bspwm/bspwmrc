@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 nitrogen --restore
 pkill picom
-pkill polybar; polybar -l warning &
+pkill polybar; polybar bspwm -l warning & disown
 sh $HOME/dotfiles/scripts/mouseAndTouchpad.sh
 sh $HOME/dotfiles/scripts/keyboard.sh
 pkill dunst; dunst &
