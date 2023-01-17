@@ -1,5 +1,7 @@
 acpi
 clipmenu
+cronie
+dunst
 fd
 ffmpegthumbnailer
 gnome-keyring
@@ -15,3 +17,5 @@ noto-fonts-emoji
 polybar
 ripgrep
 scrot
+thunar-archive-plugin
+xclip
