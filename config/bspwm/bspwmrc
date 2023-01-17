@@ -3,17 +3,17 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 nitrogen --restore
+lxappearance &
 pkill picom
 pkill polybar; polybar bspwm -l warning & disown
 sh $HOME/dotfiles/scripts/mouseAndTouchpad.sh
 sh $HOME/dotfiles/scripts/keyboard.sh
 pkill dunst; dunst &
+killall lxappearance;
 picom -b
-/usr/bin/emacs --daemon &
 if ! (ps aux | grep "thunderbird" | grep -v "grep"); then thunderbird& fi # start thunderbird if not already
 export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
 clipmenud & # run clipmenu daemon
-export _JAVA_AWT_WM_NONREPARENTING=1
 
 bspc monitor -d term files web code music discord slack zoom mail misc
 

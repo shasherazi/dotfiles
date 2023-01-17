@@ -1,10 +1,12 @@
 google-chrome
 discord
 kitty
+lxappearance
 neovim
 obs-studio
 qbittorrent
 slack-desktop
+spotify
 thunar
 thunderbird
 visual-studio-code-bin
