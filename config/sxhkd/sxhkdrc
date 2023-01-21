@@ -4,16 +4,16 @@
 
 # terminal emulator
 super + Return
-	kitty
+	alacritty
 
 # program launcher
 super + @space
-  j4-dmenu-desktop --dmenu="dmenu -i -p 'Apps: '"  --usage-log=$HOME/.cache/j4-dmenu-desktop.log
+  j4-dmenu-desktop --no-generic --dmenu="dmenu -i -p 'Apps: '"  --usage-log=$HOME/.cache/j4-dmenu-desktop.log
   # dmenu_run -fn "JetBrains Mono NF"
   # rofi -show drun
 
 super + e
-  rofi -show emoji
+  dmenu-emoji | dmenu -i -l 10 | awk '\{print $1\}' | tr -d '\n' | xclip -selection clipboard
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -21,7 +21,7 @@ super + Escape
 
 # thunar
 super + n
-	thunar
+  pcmanfm
 
 # browser
 super + b

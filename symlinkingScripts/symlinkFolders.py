@@ -33,6 +33,7 @@ destinations = [
     ".icons",
     ".themes",
     "scripts",
+    ".config/alacritty",
     ".config/bspwm",
     ".config/dmenu",
     ".config/dunst",
@@ -47,12 +48,14 @@ destinations = [
     ".config/sxhkd",
     ".config/qtile",
     ".config/zathura",
+    ".zsh_plugins",
 ]
 
 sources = [
     "assets/.icons",
     "assets/.themes",
     "scripts",
+    "config/alacritty",
     "config/bspwm",
     "config/dmenu",
     "config/dunst",
@@ -67,6 +70,7 @@ sources = [
     "config/sxhkd",
     "config/qtile",
     "config/zathura",
+    "config/zsh/.zsh_plugins",
 ]
 
 
