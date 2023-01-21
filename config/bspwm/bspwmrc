@@ -2,6 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+nm-applet &
 nitrogen --restore
 lxappearance &
 pkill picom
@@ -28,7 +29,7 @@ bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
 bspc rule -a Google-chrome desktop=web follow=on
-bspc rule -a Thunar desktop=files follow=on
+bspc rule -a Pcmanfm desktop=files follow=on
 bspc rule -a Code desktop=code follow=on
 bspc rule -a Spotify desktop=music follow=on
 bspc rule -a discord desktop=discord follow=on
