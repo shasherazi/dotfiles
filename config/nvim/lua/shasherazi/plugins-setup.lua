@@ -1,8 +1,8 @@
 local ensure_packer = function()
   local fn = vim.fn
-  local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
+  local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
   if fn.empty(fn.glob(install_path)) > 0 then
-    fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
+    fn.system({ 'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path })
     vim.cmd [[packadd packer.nvim]]
     return true
   end
@@ -18,72 +18,59 @@ vim.cmd([[
   augroup end
 ]])
 
-local status, packer = pcall(require, "packer")
-if not status then
-  return
-end
+return require('packer').startup(function(use)
+  use 'wbthomason/packer.nvim'
 
-return packer.startup(function(use)
-  use("wbthomason/packer.nvim")
+  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
-  -- plenary plugin which is a dependency for many others
-  use("nvim-lua/plenary.nvim")
+  use {
+    'VonHeikemen/lsp-zero.nvim',
+    branch = 'v1.x',
+    requires = {
+      -- LSP Support
+      { 'neovim/nvim-lspconfig' }, -- Required
+      { 'williamboman/mason.nvim' }, -- Optional
+      { 'williamboman/mason-lspconfig.nvim' }, -- Optional
 
-  -- colorscheme
-  use ("ellisonleao/gruvbox.nvim")
+      -- Autocompletion
+      { 'hrsh7th/nvim-cmp' }, -- Required
+      { 'hrsh7th/cmp-nvim-lsp' }, -- Required
+      { 'hrsh7th/cmp-buffer' }, -- Optional
+      { 'hrsh7th/cmp-path' }, -- Optional
+      { 'saadparwaiz1/cmp_luasnip' }, -- Optional
+      { 'hrsh7th/cmp-nvim-lua' }, -- Optional
 
-  -- commenting with gc
-  use("numToStr/Comment.nvim")
+      -- Snippets
+      { 'L3MON4D3/LuaSnip' }, -- Required
+      { 'rafamadriz/friendly-snippets' }, -- Optional
+    }
 
-  -- file explorer
-  use("nvim-tree/nvim-tree.lua")
+  }
 
-  -- discord presence
-  use("andweeb/presence.nvim")
+  use 'folke/tokyonight.nvim'
+  use "terrortylor/nvim-comment"
 
-  -- web dev icons
-  use("nvim-tree/nvim-web-devicons")
+  use({
+    "RRethy/vim-hexokinase",
+    run = "make hexokinase",
+    setup = function()
+      vim.g.Hexokinase_highlighters = { "backgroundfull" }
+    end,
+  })
 
-  -- lualine
-  use("nvim-lualine/lualine.nvim")
+  use "windwp/nvim-autopairs"
+  use "nvim-lua/plenary.nvim"
 
-  -- nvim treesitter, does something
-  use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.x',
+    requires = { { 'nvim-lua/plenary.nvim' } }
+  }
 
-  -- telescope for fuzzy finding
-  use({'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }) -- dependency
-  use({"nvim-telescope/telescope.nvim", branch = "0.1.x"})
-
-  -- autocompletion
-  use("hrsh7th/nvim-cmp") -- completion plugin
-  use("hrsh7th/cmp-buffer") -- source for text in buffer
-  use("hrsh7th/cmp-path") -- source for file system paths
-
-  -- snippets
-  use("L3MON4D3/LuaSnip") -- snippet engine
-  use("saadparwaiz1/cmp_luasnip") -- for autocompletion
-  use("rafamadriz/friendly-snippets") -- useful snippets
-
-  -- managing & installing lsp servers, linters & formatters
-  use("williamboman/mason.nvim") -- in charge of managing lsp servers, linters & formatters
-  use("williamboman/mason-lspconfig.nvim") -- bridges gap b/w mason & lspconfig
-
-  -- configuring lsp servers
-  use("neovim/nvim-lspconfig") -- easily configure language servers
-  use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
-  use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
-  use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
-
-  -- gitsigns
-  use("lewis6991/gitsigns.nvim")
-
-  -- good looking tabs
-  use('romgrk/barbar.nvim')
-
-  -- terminal
-  use("akinsho/toggleterm.nvim")
+  use { "nvim-telescope/telescope-file-browser.nvim" }
+  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+  use 'nvim-tree/nvim-web-devicons'
 
   if packer_bootstrap then
-    require("packer").sync()
+    require('packer').sync()
   end
 end)

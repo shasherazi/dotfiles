@@ -3,7 +3,6 @@ vim.g.mapleader = " "
 local k = vim.keymap
 
 k.set("n", "<leader>nh", ":nohl<CR>") -- clear search highlights
-k.set("n", "x", '"_x')
 
 k.set("n", "<A><Up>", "ddkP") -- move line up
 k.set("n", "<A><Down>", "ddp") -- move line down
@@ -25,16 +24,13 @@ k.set("n", "<leader>tx", "<Cmd>BufferClose<CR>")  -- close current tab
 k.set("n", "H", "gT") -- go to next tab
 k.set("n", "L", "gt") -- go to previous tab
 
-k.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
-
-k.set("n", "<leader>tv", ":ToggleTerm direction=vertical<CR>") -- toggle terminal in vertical pane
-k.set("n", "<leader>th", ":ToggleTerm direction=horizontal<CR>") -- toggle terminal in horizontal pane
-k.set("n", "<leader>tf", ":ToggleTerm direction=float<CR>") -- toggle terminal in float pane
-
+k.set("n", "<C-I>", ":LspZeroFormat<CR>") -- format code
 
 -- telescope
 k.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
 k.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string in current working directory as you type
 k.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find string under cursor in current working directory
-k.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
+-- k.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
 k.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
+k.set("n", "<leader>fb", "<cmd>Telescope file_browser<cr>") -- open file browser
+
