@@ -10,6 +10,12 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 unsetopt beep
+setopt HIST_SAVE_NO_DUPS
+setopt AUTO_LIST
+autoload -Uz compinit; compinit
+zstyle ':completion:*' menu select
+zstyle ':completion:*' verbose yes
+zstyle ':completion:*' completer _extensions _complete _approximate
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
