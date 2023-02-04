@@ -1,7 +1,7 @@
 discord
 firefox
 google-chrome
-alactritty
+alacritty
 lxappearance
 neovim
 obs-studio
