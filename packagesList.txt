@@ -44,5 +44,5 @@ sxhkd
 tumbler
 xarchiver
 xclip
-zaread
+zaread-git
 zip
