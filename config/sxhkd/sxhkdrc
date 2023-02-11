@@ -81,7 +81,7 @@ super + bracket{left,right}
 
 # focus the last node/desktop
 super + {grave,Tab}
-	bspc {node,desktop} -f last
+	bspc {node,desktop} -f last && echo $(wmctrl -d | grep '*' | awk '\{print $1\}') >> /tmp/currentWorkspace
 
 # focus the older or newer node in the focus history
 super + {o,i}
@@ -91,7 +91,7 @@ super + {o,i}
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+	bspc {desktop -f,node -d} '^{1-9,10}' && echo $(wmctrl -d | grep '*' | awk '\{print $1\}') >> /tmp/currentWorkspace
 
 #
 # preselect
