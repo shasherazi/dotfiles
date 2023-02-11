@@ -4,6 +4,7 @@ google-chrome
 alacritty
 lxappearance
 neovim
+nomacs
 obs-studio
 qbittorrent
 slack-desktop

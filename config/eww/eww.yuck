@@ -1,15 +1,54 @@
+(include "./widgets/time.yuck")
+(include "./widgets/workspaces.yuck")
+
+(defwidget mainBar []
+  (box
+    :class "main"
+    (leftSide)
+    (center)
+    (rightSide)
+  )
+)
+
+(defwidget rightSide []
+  (box
+    :class "right"
+    :halign "end"
+    (battery)
+  )
+)
+
+(defwidget leftSide []
+  (box
+    :class "left"
+    :halign "start"
+    (workspaces)
+  )
+)
+
+(defwidget center []
+  (box
+    :class "center"
+    :halign "baseline"
+    (timeWidget)
+  )
+)
+
+(defwidget battery []
+  (box
+    :class "battery"
+    "${EWW_BATTERY.BAT0.capacity}%"
+  )
+)
+
 (defwindow bar
+  :class "bar"
   :monitor 0
   :geometry (geometry :x "0%"
     :width "100%"
-    :height "30px"
+    :height "32px"
   :anchor "top center")
   :stacking "bg"
-  :reserve (struts :distance "40px" :side "top")
-  :windowtype "dock"
   :wm-ignore true
-time)
-
-(defpoll time :interval "1s"
-  'date +%H:%M'
+  (mainBar)
 )

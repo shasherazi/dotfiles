@@ -1,0 +1,10 @@
+(defwidget workspaces []
+  (box :class "workspaces"
+    :halign "start"
+    currentWorkspace
+  )
+)
+
+(deflisten currentWorkspace
+  "tail -F /tmp/currentWorkspace"
+)
