@@ -1,5 +1,6 @@
 acpi
 archlinux-keyring
+bat
 blueman
 bluez
 bluez-utils
@@ -8,6 +9,7 @@ clipmenu
 cronie
 dbus-python
 dmenu-emoji
+docx2txt
 dunst
 fd
 ffmpegthumbnailer
@@ -16,11 +18,13 @@ hacksaw
 htop
 highlight
 imagemagick
+intel-media-driver
 j4-dmenu-desktop
 jq
 jre-openjdk
 libreoffice-fresh
 libsecret
+lynx
 mediainfo
 nitrogen
 neofetch
@@ -34,8 +38,10 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 p7zip
+perl-image-exiftool
 picom
 polybar
+poppler
 power-profiles-daemon
 python-pip
 ripgrep
@@ -44,6 +50,10 @@ rofi-emoji
 scrot
 sxhkd
 tumbler
+transmission-cli
+ueberzug
+unrar
+unzip
 wmctrl
 xarchiver
 xclip
