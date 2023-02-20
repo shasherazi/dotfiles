@@ -20,12 +20,18 @@ destinations = [
     ".zshrc",
     ".p10k.zsh",
     ".local/share/applications/google-chrome.desktop",
+    ".local/share/applications/WhatsApp.desktop",
+    ".config/chromium-flags.conf",
+    ".local/bin/lfub",
 ]
 
 sources = [
     "config/zsh/.zshrc",
     "config/zsh/.p10k.zsh",
     "config/applications/google-chrome.desktop",
+    "config/applications/WhatsApp.desktop",
+    "config/chromium-flags.conf",
+    ".local/bin/lfub",
 ]
 
 for zippped in zip(sources, destinations):

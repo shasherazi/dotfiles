@@ -29,11 +29,13 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias vim="nvim"
+alias lf="lfub"
 
 # file shortcuts
 alias bsp="nvim ~/.config/bspwm/bspwmrc"
 alias dots="nvim ~/dotfiles/"
 alias dun="nvim ~/.config/dunst/dunstrc"
+alias kit="nvim ~/.config/kitty/kitty.conf"
 alias pic="nvim ~/.config/picom/picom.conf"
 alias pol="nvim ~/.config/polybar/config.ini"
 alias rof="nvim ~/.config/rofi/config.rasi"
@@ -56,3 +58,9 @@ source ~/.zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# pnpm
+export PNPM_HOME="/home/shasherazi/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
+# pnpm end

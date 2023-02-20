@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=WhatsApp
+Exec=/opt/whatsapp/WhatsAppWeb
+Icon=/opt/whatsapp/resources/app/icon.png
+Terminal=false
+StartupWMClass=WhatsApp
+Categories=Network;InstantMessaging;
+MimeType=x-scheme-handler/whatsapp;
