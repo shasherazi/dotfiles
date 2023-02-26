@@ -1,0 +1,3 @@
+[submodule "config/dmenu"]
+	path = config/dmenu
+	url = git@github.com:shasherazi/dmenu.git
