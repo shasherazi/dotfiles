@@ -19,13 +19,20 @@ super + e
 super + Escape
 	pkill -USR1 -x sxhkd
 
-# thunar
+# file manager
 super + n
   pcmanfm
+
+super + l
+  kitty --class lfub -e lfub
 
 # browser
 super + b
 	chromium
+
+# bookmarks
+super + shift + b
+    ~/scripts/launchers/bookmarks.sh
 
 #
 # bspwm hotkeys

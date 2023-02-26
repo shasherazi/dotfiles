@@ -37,6 +37,7 @@ bspc rule -a Code desktop=code follow=on
 bspc rule -a Spotify desktop=music follow=on
 bspc rule -a discord desktop=discord follow=on
 bspc rule -a thunderbird desktop=mail follow=on
+bspc rule -a lfub desktop=files follow=on
 bspc rule -a zoom desktop=zoom follow=on
 bspc rule -a Slack desktop=slack follow=on
 bspc rule -a Screenkey manage=off

@@ -53,8 +53,9 @@ export EDITOR="/usr/bin/nvim"
 # plugins
 source ~/.zsh_plugins/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.zsh_plugins/sudo-plugin/sudo.plugin.zsh
-source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh_plugins/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
