@@ -1,7 +1,4 @@
-darkmatter     = #0D0000 background
-bogart         = #d5c7ac foreground
-camouflage     = #3B4014
-blackenedBrown = #402401
-italianRoast   = #26130D
-faluRed        = #801817
-weldonBlue     = #869aa4
+darkmatter     = #1a1b26 background
+bogart         = #a9b1d6 foreground
+accent1        = #414868
+accent2        = #f7768e
