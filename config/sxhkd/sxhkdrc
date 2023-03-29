@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	alacritty
 
 # program launcher
 super + @space
@@ -23,16 +23,17 @@ super + Escape
 super + n
   pcmanfm
 
-super + l
-  kitty --class lfub -e lfub
-
 # browser
 super + b
-	chromium
+	firefox
 
 # bookmarks
 super + shift + b
     ~/scripts/launchers/bookmarks.sh
+
+# last notification from stack
+super + shift + h
+    dunstctl history-pop
 
 #
 # bspwm hotkeys
@@ -75,20 +76,16 @@ super + ctrl + {m,x,y,z}
 #
 
 # focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
-
-# focus the next/previous window in the current desktop
-super + {_,shift + }c
-	bspc node -f {next,prev}.local.!hidden.window
+super + {h,j,k,l}
+	bspc node -f {west,south,north,east}
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last && echo $(wmctrl -d | grep '*' | awk '\{print $1\}') >> /tmp/currentWorkspace
+super + Tab
+	bspc desktop -f last
 
 # focus the older or newer node in the focus history
 super + {o,i}
@@ -98,7 +95,7 @@ super + {o,i}
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}' && echo $(wmctrl -d | grep '*' | awk '\{print $1\}') >> /tmp/currentWorkspace
+	bspc {desktop -f,node -d} '^{1-9,10}'
 
 #
 # preselect
