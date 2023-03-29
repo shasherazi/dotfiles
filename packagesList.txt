@@ -5,6 +5,7 @@ blueman
 bluez
 bluez-utils
 bspwm
+clang
 clipmenu
 cronie
 dbus-python
