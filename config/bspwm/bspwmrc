@@ -4,18 +4,15 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 nm-applet &
 nitrogen --restore
-lxappearance &
 pkill picom
 pkill polybar; polybar bspwm -l warning & disown
 sh $HOME/dotfiles/scripts/mouseAndTouchpad.sh
 sh $HOME/dotfiles/scripts/keyboard.sh
 pkill dunst; dunst &
-killall lxappearance;
 picom -b
 if ! (ps aux | grep "thunderbird" | grep -v "grep"); then thunderbird& fi # start thunderbird if not already
 export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
 clipmenud & # run clipmenu daemon
-keepassxc &
 
 bspc monitor -d term files web code music discord slack zoom mail misc
 
@@ -36,6 +33,7 @@ bspc rule -a Pcmanfm desktop=files follow=on
 bspc rule -a Code desktop=code follow=on
 bspc rule -a Spotify desktop=music follow=on
 bspc rule -a discord desktop=discord follow=on
+bspc rule -a Element desktop=discord follow=on
 bspc rule -a thunderbird desktop=mail follow=on
 bspc rule -a lfub desktop=files follow=on
 bspc rule -a zoom desktop=zoom follow=on
