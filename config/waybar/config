@@ -1,0 +1,128 @@
+{
+  "height": 30,
+  "spacing": 10,
+  "layer": "top",
+  "modules-left": [
+    "wlr/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "memory",
+    "cpu",
+    "temperature",
+    "pulseaudio",
+    "network",
+    "battery",
+    "tray"
+  ],
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
+  },
+  "battery": {
+    "bat": "BAT0",
+    "interval": 5,
+    "states": {
+      "warning": 50,
+      "critical": 20
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% 󰂄",
+    "format-time": "{H}h {M}min",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ]
+  },
+  "clock": {
+    "format": "{:%H:%M}",
+    "interval": 60,
+    "format-alt": "{:%A, %B %d, %Y (%R)}",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "days": "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  },
+  "wlr/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10"
+    },
+    "on-click": "activate",
+    "active-only": true
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-icons": {
+      "headphone": " ",
+      "default": [
+        " ",
+        " "
+      ]
+    },
+    "scroll-step": 1,
+    "ignored-sinks": [
+      "Easy Effects Sink"
+    ]
+  },
+  "cpu": {
+    "interval": 5,
+    "format": " {usage}%",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "max-length": 10
+  },
+  "network": {
+    "interface": "wlp2s0",
+    "interval": 5,
+    "format": "{ifname}",
+    "format-wifi": " ",
+    "format-ethernet": " ",
+    "format-disconnected": "󰤭 ",
+    "tooltip-format": "{ifname} via {gwaddr}  ",
+    "tooltip-format-wifi": "{essid}\n{signalStrength}% strength\n{ipaddr}\n{bandwidthDownBytes} 󰇚 {bandwidthUpBytes} 󰕒",
+    "tooltip-format-ethernet": "{ifname}  ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
+  "temperature": {
+    "thermal-zone": 8,
+    "format": "{temperatureC}°C "
+  }
+}

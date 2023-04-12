@@ -2,6 +2,8 @@ local servers = {
   "lua_ls",
   "ruby_ls",
   "clangd",
+  "jsonls",
+  "pylsp",
 }
 
 local settings = {

@@ -61,11 +61,12 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
 
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
-  use "p00f/nvim-ts-rainbow"  -- rainbow brackets
+  use "p00f/nvim-ts-rainbow"   -- rainbow brackets
 
-  use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
+  use "windwp/nvim-autopairs"  -- Autopairs, integrates with both cmp and treesitter
 
-  use "github/copilot.vim"    -- github copilot
+  use "zbirenbaum/copilot.lua" -- github copilot
+  use({ "jonahgoldwastaken/copilot-status.nvim" })
 
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use 'JoosepAlviste/nvim-ts-context-commentstring'
@@ -75,7 +76,10 @@ return packer.startup(function(use)
 
   -- nvim tree
   use 'kyazdani42/nvim-web-devicons'
-  use 'DaikyXendo/nvim-material-icon'
+  --[[ use { ]]
+  --[[   'yamatsum/nvim-nonicons', ]]
+  --[[   requires = { 'kyazdani42/nvim-web-devicons' } ]]
+  --[[ } ]]
   use 'kyazdani42/nvim-tree.lua'
 
   -- bufferline
@@ -102,6 +106,12 @@ return packer.startup(function(use)
 
   -- whichkey
   use "folke/which-key.nvim"
+
+  -- autosave
+  use "Pocco81/auto-save.nvim"
+
+  -- color preview
+  use 'norcalli/nvim-colorizer.lua'
 
   if packer_bootstrap then
     require('packer').sync()

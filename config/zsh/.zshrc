@@ -50,6 +50,8 @@ alias zshconfig="nivm ~/.zshrc"
 # environment variables
 export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
+export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin"
+export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 # export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
 # export _JAVA_AWT_WM_NONREPARENTING=1 # makes jetbrains IDEs work
 

@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
+  ["auto-save.nvim"] = {
+    loaded = true,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
+    url = "https://github.com/Pocco81/auto-save.nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -124,10 +129,15 @@ _G.packer_plugins = {
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["copilot.vim"] = {
+  ["copilot-status.nvim"] = {
     loaded = true,
-    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/copilot-status.nvim",
+    url = "https://github.com/jonahgoldwastaken/copilot-status.nvim"
+  },
+  ["copilot.lua"] = {
+    loaded = true,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/copilot.lua",
+    url = "https://github.com/zbirenbaum/copilot.lua"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -179,15 +189,15 @@ _G.packer_plugins = {
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-material-icon"] = {
-    loaded = true,
-    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/nvim-material-icon",
-    url = "https://github.com/DaikyXendo/nvim-material-icon"
   },
   ["nvim-tree.lua"] = {
     loaded = true,

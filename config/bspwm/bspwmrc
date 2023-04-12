@@ -6,12 +6,12 @@ nm-applet &
 nitrogen --restore
 pkill picom
 pkill polybar; polybar bspwm -l warning & disown
-sh $HOME/dotfiles/scripts/mouseAndTouchpad.sh
-sh $HOME/dotfiles/scripts/keyboard.sh
+sh $HOME/dotfiles/scripts/inputDevicesConfig.sh
 pkill dunst; dunst &
 picom -b
 if ! (ps aux | grep "thunderbird" | grep -v "grep"); then thunderbird& fi # start thunderbird if not already
 export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
+export $(dbus-launch)
 clipmenud & # run clipmenu daemon
 
 bspc monitor -d term files web code music discord slack zoom mail misc

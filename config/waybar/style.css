@@ -1,0 +1,30 @@
+* {
+  font-family: "JetBrains Mono NF", sans-serif;
+  font-size: 16px;
+}
+
+window#waybar {
+  background-color: rgba(0,0,0,0);
+}
+
+#clock {
+  color: #f7768e;
+  /* background-color: #24283b; */
+  padding: 0px 10px 0px 10px;
+}
+
+#battery.discharging {
+  color: #f7768e;
+}
+
+#battery.charging {
+  color: #9ece6a;
+}
+
+#pulseaudio.muted {
+  color: #f7768e;
+}
+
+#workspaces button.active {
+  color: #9ece6a;
+}
