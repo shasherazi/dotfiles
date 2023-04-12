@@ -2,14 +2,14 @@ discord
 firefox
 google-chrome
 alacritty
-lxappearance
+lxappearance - LATER X
 neovim
 nomacs
 obs-studio
+pcmanfm
 qbittorrent
 slack-desktop
 spotify
-pcmanfm
 thunderbird
 visual-studio-code-bin
 vlc

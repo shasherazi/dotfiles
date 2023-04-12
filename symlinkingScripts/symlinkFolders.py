@@ -38,6 +38,7 @@ destinations = [
     ".config/dmenu",
     ".config/dunst",
     ".config/eww",
+    ".config/hypr",
     ".config/kitty",
     ".config/lf",
     ".config/neofetch",
@@ -48,6 +49,8 @@ destinations = [
     ".config/rofi",
     ".config/sxhkd",
     ".config/qtile",
+    ".config/waybar",
+    ".config/wofi",
     ".config/zathura",
     ".zsh_plugins",
 ]
@@ -61,6 +64,7 @@ sources = [
     "config/dmenu",
     "config/dunst",
     "config/eww",
+    "config/hypr",
     "config/kitty",
     "config/lf",
     "config/neofetch",
@@ -71,6 +75,8 @@ sources = [
     "config/rofi",
     "config/sxhkd",
     "config/qtile",
+    "config/waybar",
+    "config/wofi",
     "config/zathura",
     "config/zsh/.zsh_plugins",
 ]
