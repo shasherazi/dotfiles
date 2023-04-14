@@ -1,0 +1,14 @@
+[
+  {
+    "name": "hyprland",
+    "reason": "window manager"
+  },
+  {
+    "name": "waybar",
+    "reason": "status bar"
+  },
+  {
+    "name": "wofi",
+    "reason": "application launcher"
+  }
+]
