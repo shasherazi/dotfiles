@@ -89,8 +89,9 @@ return packer.startup(function(use)
   -- lualne
   use 'nvim-lualine/lualine.nvim'
 
-  -- toggleterm
+  -- terminal
   use "akinsho/toggleterm.nvim"
+  use "numToStr/FTerm.nvim"
 
   -- impatient
   use 'lewis6991/impatient.nvim'
@@ -100,6 +101,12 @@ return packer.startup(function(use)
 
   -- greeter
   use 'goolord/alpha-nvim'
+  use 'willothy/veil.nvim'
+  use {
+    'glepnir/dashboard-nvim',
+    event = 'VimEnter',
+    requires = { 'nvim-tree/nvim-web-devicons' }
+  }
 
   -- discord rich presence
   use 'andweeb/presence.nvim'

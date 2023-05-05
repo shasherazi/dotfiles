@@ -25,7 +25,7 @@ super + n
 
 # browser
 super + b
-	firefox
+  chromium
 
 # bookmarks
 super + shift + b
@@ -152,10 +152,10 @@ shift + XF86AudioLowerVolume
 
 # Brightness keys
 XF86MonBrightnessUp
-	xbacklight -inc 5
+	brightnessctl set +5%
 
 XF86MonBrightnessDown
-	xbacklight -dec 5
+	brightnessctl set 5%-
 
 # Screenshot a selection
 Print

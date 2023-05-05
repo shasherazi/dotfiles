@@ -32,29 +32,32 @@ alias la="ls -la"
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
-alias vim="nvim"
+alias vim="$EDITOR"
+alias nvim="$EDITOR"
 alias lf="lfub"
 
-# file shortcuts
-alias bsp="nvim ~/.config/bspwm/bspwmrc"
-alias dots="nvim ~/dotfiles/"
-alias dun="nvim ~/.config/dunst/dunstrc"
-alias kit="nvim ~/.config/kitty/kitty.conf"
-alias pic="nvim ~/.config/picom/picom.conf"
-alias pol="nvim ~/.config/polybar/config.ini"
-alias rof="nvim ~/.config/rofi/config.rasi"
-alias sxh="nvim ~/.config/sxhkd/sxhkdrc"
-alias zat="nvim ~/.config/zathura/zathurarc"
-alias zshconfig="nivm ~/.zshrc"
-
 # environment variables
-export VISUAL="/usr/bin/nvim"
-export EDITOR="/usr/bin/nvim"
+export VISUAL="/usr/bin/neovide"
+export EDITOR="/usr/bin/neovide"
 export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin"
 export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
+export $(dbus-launch)
 # export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
 # export _JAVA_AWT_WM_NONREPARENTING=1 # makes jetbrains IDEs work
 
+# file shortcuts
+alias bsp="$EDITOR ~/.config/bspwm/bspwmrc && exit"
+alias dots="$EDITOR ~/dotfiles/ && exit"
+alias dun="$EDITOR ~/.config/dunst/dunstrc && exit"
+alias hyp="$EDITOR ~/.config/hypr/hyprland.conf && exit"
+alias kit="$EDITOR ~/.config/kitty/kitty.conf && exit"
+alias pic="$EDITOR ~/.config/picom/picom.conf && exit"
+alias pol="$EDITOR ~/.config/polybar/config.ini && exit"
+alias rof="$EDITOR ~/.config/rofi/config.rasi && exit"
+alias sxh="$EDITOR ~/.config/sxhkd/sxhkdrc && exit"
+alias way="$EDITOR ~/.config/waybar/config && exit"
+alias zat="$EDITOR ~/.config/zathura/zathurarc && exit"
+alias zshconfig="$EDITOR ~/.zshrc && exit"
 
 # plugins
 source ~/.zsh_plugins/powerlevel10k/powerlevel10k.zsh-theme

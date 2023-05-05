@@ -19,22 +19,6 @@ local filetype = {
   icon = nil,
 }
 
-local function os_icon()
-  local icons = {
-    unix = '', -- e712
-    dos = '', -- e70f
-    mac = '' -- e711
-  }
-  if vim.fn.has('mac') == 1 then
-    return icons.mac
-  elseif vim.fn.has('win32') == 1 then
-    return icons.dos
-  else
-    return icons.unix
-  end
-end
-
-
 local branch = {
   "branch",
   icons_enabled = true,
@@ -45,25 +29,20 @@ local spaces = function()
   return "spaces: " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
 end
 
-local copilot_status = function()
-  return require("copilot_status").status_string
-  -- so? how do i get it to work? 
-end
-
 lualine.setup({
   options = {
     icons_enabled = true,
     theme = "auto",
     component_separators = { left = "", right = "" },
     section_separators = { left = "", right = "" },
-    disabled_filetypes = { "alpha", "dashboard", "NvimTree", "Outline" },
+    disabled_filetypes = { "alpha", "dashboard", "NvimTree", "Outline", "veil" },
     always_divide_middle = true,
   },
   sections = {
     lualine_a = { branch, diagnostics },
     lualine_b = { "mode" },
     lualine_c = {},
-    lualine_x = { spaces, "encoding", os_icon, filetype },
+    lualine_x = { spaces, "encoding", filetype },
     lualine_y = { require("copilot_status").status_string },
     lualine_z = {},
   },

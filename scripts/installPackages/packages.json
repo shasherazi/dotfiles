@@ -36,8 +36,16 @@
     "reason": "for firefox"
   },
   {
+    "name": "gnome-keyring",
+    "reason": "for storing passwords"
+  },
+  {
     "name": "htop",
     "reason": "for monitoring system resources (i open it when things work slowly to kill that one little piece of shit process thats eating all my cpu power 🖕)"
+  },
+  {
+    "name": "keepassxc",
+    "reason": "password manager"
   },
   {
     "name": "kitty",
@@ -116,7 +124,7 @@
     "reason": "for listening to lofi girl for \"focus\""
   },
   {
-    "name": "thunderird",
+    "name": "thunderbird",
     "reason": "dont like having a tab open for mail(so now i keep an app open for mail)"
   },
   {
@@ -126,6 +134,10 @@
   {
     "name": "unzip",
     "reason": "for extracting zip files"
+  },
+  {
+    "name": "v4l2loopback-dkms",
+    "reason": "for obs virtual camera"
   },
   {
     "name": "visual-studio-code-bin",
@@ -146,6 +158,10 @@
   {
     "name": "zathura",
     "reason": "for reading pdfs"
+  },
+  {
+    "name": "zathura-pdf-poppler",
+    "reason": "for reading pdfs in zathura"
   },
   {
     "name": "zip",

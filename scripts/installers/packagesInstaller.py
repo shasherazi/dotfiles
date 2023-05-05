@@ -13,8 +13,9 @@ def install_packages_from_json(category):
         packages = ""
         print("Packages to install: ")
         for package in data:
-            print(package["name"], end=" ")
+            print(package["name"], end=" ", flush=True)
             packages += package["name"] + " "
+    print()
     os.system("yay -Syu --needed " + packages)
 
 

@@ -4,13 +4,12 @@
 }
 
 window#waybar {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #clock {
   color: #f7768e;
   /* background-color: #24283b; */
-  padding: 0px 10px 0px 10px;
 }
 
 #battery.discharging {
@@ -25,6 +24,36 @@ window#waybar {
   color: #f7768e;
 }
 
+#workspaces button {
+  padding: 2px;
+  background-color: #16161e;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
 #workspaces button.active {
   color: #9ece6a;
+}
+
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+}
+
+.modules-center {
+  background-color: #16161e;
+  margin-top: 5px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.modules-right {
+  background-color: #16161e;
+  margin-top: 5px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+tooltip {
+  background-color: #16161e;
 }

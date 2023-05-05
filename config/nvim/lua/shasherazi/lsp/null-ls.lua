@@ -17,5 +17,6 @@ null_ls.setup({
     formatting.rubocop,
     formatting.black,
     diagnostics.flake8,
+    formatting.clang_format,
   },
 })

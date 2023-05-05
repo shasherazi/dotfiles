@@ -3,7 +3,7 @@
 `modkey` is the `Windows  ` key <br>
 terminal is `alacritty` <br>
 browser is `chromium` <br>
-file manager is `pcmanfm` <br>
+file manager is `thunar` <br>
 
 - # navigation
 
