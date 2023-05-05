@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["FTerm.nvim"] = {
+    loaded = true,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/FTerm.nvim",
+    url = "https://github.com/numToStr/FTerm.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -138,6 +143,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/copilot.lua",
     url = "https://github.com/zbirenbaum/copilot.lua"
+  },
+  ["dashboard-nvim"] = {
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/opt/dashboard-nvim",
+    url = "https://github.com/glepnir/dashboard-nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -254,6 +266,11 @@ _G.packer_plugins = {
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["veil.nvim"] = {
+    loaded = true,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/veil.nvim",
+    url = "https://github.com/willothy/veil.nvim"
+  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/vim-bbye",
@@ -267,6 +284,13 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+vim.cmd [[augroup packer_load_aucmds]]
+vim.cmd [[au!]]
+  -- Event lazy-loads
+time([[Defining lazy-load event autocommands]], true)
+vim.cmd [[au VimEnter * ++once lua require("packer.load")({'dashboard-nvim'}, { event = "VimEnter *" }, _G.packer_plugins)]]
+time([[Defining lazy-load event autocommands]], false)
+vim.cmd("augroup END")
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

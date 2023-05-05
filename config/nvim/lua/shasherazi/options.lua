@@ -34,6 +34,7 @@ o.wrap = false                            -- display lines as one long line
 o.scrolloff = 8                           -- is one of my fav
 o.sidescrolloff = 8
 o.signcolumn = "yes"
+o.guifont = "JetBrainsMono Nerd Font:h10"
 
 o.shortmess:append "c"
 

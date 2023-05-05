@@ -1,9 +1,11 @@
 local servers = {
   "lua_ls",
-  "ruby_ls",
+  "solargraph",
   "clangd",
   "jsonls",
   "pylsp",
+  "sqlls",
+  "tsserver",
 }
 
 local settings = {

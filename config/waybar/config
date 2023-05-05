@@ -1,7 +1,9 @@
 {
-  "height": 30,
+  "height": 33,
   "spacing": 10,
   "layer": "top",
+  "margin-left": 5,
+  "margin-right": 5,
   "modules-left": [
     "wlr/workspaces"
   ],
@@ -11,10 +13,9 @@
   "modules-right": [
     "memory",
     "cpu",
-    "temperature",
     "pulseaudio",
-    "network",
     "battery",
+    "network",
     "tray"
   ],
   "tray": {
@@ -67,20 +68,13 @@
     }
   },
   "wlr/workspaces": {
-    "format": "{icon}",
+    "format": "{name}",
     "format-icons": {
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5",
-      "6": "6",
-      "7": "7",
-      "8": "8",
-      "9": "9",
-      "10": "10"
+      "default": "",
+      "active": ""
     },
     "on-click": "activate",
+    "sort-by-number": true,
     "active-only": true
   },
   "pulseaudio": {
@@ -109,7 +103,7 @@
     "max-length": 10
   },
   "network": {
-    "interface": "wlp2s0",
+    "interface": "wlan0",
     "interval": 5,
     "format": "{ifname}",
     "format-wifi": " ",
@@ -120,9 +114,5 @@
     "tooltip-format-ethernet": "{ifname}  ",
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50
-  },
-  "temperature": {
-    "thermal-zone": 8,
-    "format": "{temperatureC}°C "
   }
 }

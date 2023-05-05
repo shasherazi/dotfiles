@@ -1,0 +1,24 @@
+swaylock \
+	--screenshots \
+	--clock \
+	--indicator \
+  --datestr "%A, %B %-d" \
+	--indicator-radius 100 \
+  --ignore-empty-password \
+	--indicator-thickness 7 \
+  --indicator-caps-lock \
+	--effect-blur 9x9 \
+	--ring-color 414868 \
+  --ring-clear-color a9b1d6 \
+  --ring-ver-color 9ece6a \
+  --ring-wrong-color ff0000 \
+	--key-hl-color d5d6db \
+	--line-color 00000000 \
+	--inside-color a9b1d6 \
+  --inside-ver-color 9ece6a \
+  --inside-wrong-color ff5370 \
+  --inside-clear-color d5d6db \
+  --text-color 1a1b26 \
+  --text-clear-color 1a1b26 \
+	--separator-color 00000000 \
+  --font-size 24 \
