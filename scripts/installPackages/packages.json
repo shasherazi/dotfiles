@@ -40,6 +40,10 @@
     "reason": "for storing passwords"
   },
   {
+    "name": "gvfs-mtp",
+    "reason": "for mounting my phone"
+  },
+  {
     "name": "htop",
     "reason": "for monitoring system resources (i open it when things work slowly to kill that one little piece of shit process thats eating all my cpu power 🖕)"
   },
@@ -50,6 +54,14 @@
   {
     "name": "kitty",
     "reason": "backup terminal"
+  },
+  {
+    "name": "lazygit",
+    "reason": "git in neovim"
+  },
+  {
+    "name": "mpv",
+    "reason": "for watching videos"
   },
   {
     "name": "neofetch",
@@ -96,7 +108,7 @@
     "reason": "for recording my screen"
   },
   {
-    "name": "pcmanfm",
+    "name": "thunar",
     "reason": "file manager (havent made the switch to lf yet)"
   },
   {
@@ -116,6 +128,10 @@
     "reason": "for faster file finds for telescope in neovim"
   },
   {
+    "name": "ruby",
+    "reason": "ruby on rails"
+  },
+  {
     "name": "slack-desktop",
     "reason": "coz boomers wont use discord"
   },
@@ -126,6 +142,10 @@
   {
     "name": "thunderbird",
     "reason": "dont like having a tab open for mail(so now i keep an app open for mail)"
+  },
+  {
+    "name": "udiskie",
+    "reason": "for automounting usb drives"
   },
   {
     "name": "unrar",

@@ -16,7 +16,7 @@ def install_packages_from_json(category):
             print(package["name"], end=" ", flush=True)
             packages += package["name"] + " "
     print()
-    os.system("yay -Syu --needed " + packages)
+    os.system("paru -Syu --needed " + packages)
 
 
 if "-h" in sys.argv or "--help" in sys.argv:

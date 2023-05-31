@@ -21,7 +21,7 @@ super + Escape
 
 # file manager
 super + n
-  pcmanfm
+ thunar 
 
 # browser
 super + b
