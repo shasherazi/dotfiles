@@ -3,6 +3,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 nm-applet &
+# sh ~/scripts/runIfNotAlreadyRunning.sh $(udiskie -t)&
 nitrogen --restore
 pkill picom
 pkill polybar; polybar bspwm -l warning & disown

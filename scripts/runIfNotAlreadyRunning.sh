@@ -2,6 +2,8 @@
 
 command=$1
 
-if ! pgrep -u $USER $command >/dev/null 2>&1; then
-    exec $command
+echo $command
+
+if ! pidof -x $(basename $command) > /dev/null; then
+    $command &
 fi
