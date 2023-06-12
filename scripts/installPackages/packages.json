@@ -36,6 +36,10 @@
     "reason": "for firefox"
   },
   {
+    "name": "flake8",
+    "reason": "for linting python code"
+  },
+  {
     "name": "gnome-keyring",
     "reason": "for storing passwords"
   },
@@ -106,6 +110,10 @@
   {
     "name": "obs-studio",
     "reason": "for recording my screen"
+  },
+  {
+    "name": "python-black",
+    "reason": "for formatting python code"
   },
   {
     "name": "thunar",
