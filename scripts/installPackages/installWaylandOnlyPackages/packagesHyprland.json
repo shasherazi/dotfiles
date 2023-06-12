@@ -8,7 +8,7 @@
     "reason": "window manager"
   },
   {
-    "name": "waybar-git",
+    "name": "waybar-hyprland",
     "reason": "status bar"
   },
   {
@@ -16,7 +16,7 @@
     "reason": "application launcher"
   },
   {
-    "name": "swaybg",
+    "name": "swww",
     "reason": "wallpaper"
   },
   {
