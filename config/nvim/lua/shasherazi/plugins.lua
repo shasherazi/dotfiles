@@ -120,6 +120,9 @@ return packer.startup(function(use)
   -- color preview
   use 'norcalli/nvim-colorizer.lua'
 
+  -- folds
+  use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
+
   if packer_bootstrap then
     require('packer').sync()
   end

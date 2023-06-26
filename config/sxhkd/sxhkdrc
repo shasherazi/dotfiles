@@ -25,7 +25,7 @@ super + n
 
 # browser
 super + b
-  google-chrome-stable
+  brave
 
 # bookmarks
 super + shift + b
