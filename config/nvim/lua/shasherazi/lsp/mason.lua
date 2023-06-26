@@ -3,9 +3,10 @@ local servers = {
   "solargraph",
   "clangd",
   "jsonls",
-  "pylsp",
+  "pyright",
   "sqlls",
   "tsserver",
+  "yamlls",
 }
 
 local settings = {

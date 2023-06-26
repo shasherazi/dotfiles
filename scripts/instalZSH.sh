@@ -6,3 +6,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh_plugins/zsh-au
 
 # zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh_plugins/zsh-syntax-highlighting
+
+# change shell to zsh
+chsh -s $(which zsh) $(whoami)

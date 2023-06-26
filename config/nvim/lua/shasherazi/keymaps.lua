@@ -76,3 +76,7 @@ keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- formatting
 keymap("n", "<leader>=", ":Format<cr>", opts)
+
+-- ufo
+vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
+vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)

@@ -8,6 +8,10 @@
     "reason": "for ./scripts/batteryAlmostFull.sh"
   },
   {
+    "name": "brightnessctl",
+    "reason": "for brightness control"
+  },
+  {
     "name": "clang",
     "reason": "for occasional C/C++ compiling when i dont wanna use gcc/g++"
   },

@@ -6,9 +6,5 @@
   {
     "name": "slurp",
     "reason": "for region selection"
-  },
-  {
-    "name": "brightnessctl",
-    "reason": "for brightness control"
   }
 ]

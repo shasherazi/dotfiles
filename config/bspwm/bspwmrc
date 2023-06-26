@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 nm-applet &
 # sh ~/scripts/runIfNotAlreadyRunning.sh $(udiskie -t)&
-nitrogen --restore
+nitrogen --set-zoom-fill --random
 pkill picom
 pkill polybar; polybar bspwm -l warning & disown
 sh $HOME/dotfiles/scripts/inputDevicesConfig.sh
@@ -28,13 +28,15 @@ bspc config gapless_monocle      true
 
 bspc config focus_follows_pointer true
 
-bspc rule -a Google-chrome desktop=3 follow=on
 bspc rule -a Alacritty state=floating
+bspc rule -a Google-chrome desktop=3 follow=on
 bspc rule -a Chromium desktop=3 follow=on
+bspc rule -a Brave-browser desktop=3 follow=on
 bspc rule -a firefox desktop=3 follow=on
 bspc rule -a Pcmanfm desktop=2 follow=on
+bspc rule -a Thunar desktop=2 follow=on
 bspc rule -a Code desktop=4 follow=on
-bspc rule -a Spotify desktop=6 follow=on
+bspc rule -a Spotify desktop=5 follow=on
 bspc rule -a discord desktop=6 follow=on
 bspc rule -a Element desktop=6 follow=on
 bspc rule -a thunderbird desktop=9 follow=on
