@@ -186,6 +186,11 @@ _G.packer_plugins = {
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["mini.files"] = {
+    loaded = true,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/mini.files",
+    url = "https://github.com/echasnovski/mini.files"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -261,6 +266,13 @@ _G.packer_plugins = {
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/promise-async",
     url = "https://github.com/kevinhwang91/promise-async"
   },
+  ["tailwindcss-colors.nvim"] = {
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/opt/tailwindcss-colors.nvim",
+    url = "https://github.com/themaxmarchuk/tailwindcss-colors.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -294,6 +306,34 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+local module_lazy_loads = {
+  ["^tailwindcss%-colors"] = "tailwindcss-colors.nvim"
+}
+local lazy_load_called = {['packer.load'] = true}
+local function lazy_load_module(module_name)
+  local to_load = {}
+  if lazy_load_called[module_name] then return nil end
+  lazy_load_called[module_name] = true
+  for module_pat, plugin_name in pairs(module_lazy_loads) do
+    if not _G.packer_plugins[plugin_name].loaded and string.match(module_name, module_pat) then
+      to_load[#to_load + 1] = plugin_name
+    end
+  end
+
+  if #to_load > 0 then
+    require('packer.load')(to_load, {module = module_name}, _G.packer_plugins)
+    local loaded_mod = package.loaded[module_name]
+    if loaded_mod then
+      return function(modname) return loaded_mod end
+    end
+  end
+end
+
+if not vim.g.packer_custom_loader_enabled then
+  table.insert(package.loaders, 1, lazy_load_module)
+  vim.g.packer_custom_loader_enabled = true
+end
+
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Event lazy-loads
