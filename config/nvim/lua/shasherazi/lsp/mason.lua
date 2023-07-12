@@ -5,6 +5,7 @@ local servers = {
   "jsonls",
   "pyright",
   "sqlls",
+  "tailwindcss",
   "tsserver",
   "yamlls",
 }

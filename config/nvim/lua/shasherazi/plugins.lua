@@ -81,6 +81,7 @@ return packer.startup(function(use)
   --[[   requires = { 'kyazdani42/nvim-web-devicons' } ]]
   --[[ } ]]
   use 'kyazdani42/nvim-tree.lua'
+  use 'echasnovski/mini.files'
 
   -- bufferline
   use "akinsho/bufferline.nvim"
@@ -122,6 +123,10 @@ return packer.startup(function(use)
 
   -- folds
   use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
+
+  -- tailwindcss colors
+  use { "themaxmarchuk/tailwindcss-colors.nvim",
+    module = "tailwindcss-colors" }
 
   if packer_bootstrap then
     require('packer').sync()

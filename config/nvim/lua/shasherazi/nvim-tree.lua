@@ -122,8 +122,11 @@ nvim_tree.setup {
   },
   git = {
     enable = true,
-    ignore = true,
+    ignore = false,
     timeout = 500,
+  },
+  filters = {
+    custom = { '^.git$' }
   },
   view = {
     width = 35,
