@@ -26,7 +26,7 @@ bindkey -e
 # environment variables
 export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
-export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin"
+export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin:/home/shasherazi/.dotnet/tools"
 # export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 export $(dbus-launch)
 # export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud

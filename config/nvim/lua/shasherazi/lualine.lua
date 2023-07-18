@@ -41,10 +41,10 @@ lualine.setup({
   sections = {
     lualine_a = { branch, diagnostics },
     lualine_b = { "mode" },
-    lualine_c = {},
-    lualine_x = { spaces, "encoding", filetype },
-    lualine_y = { require("copilot_status").status_string },
-    lualine_z = {},
+    lualine_c = { "filename" },
+    lualine_x = { spaces, require("copilot_status").status_string },
+    lualine_y = { filetype },
+    lualine_z = { 'location', 'progress' },
   },
   inactive_sections = {
     lualine_a = {},

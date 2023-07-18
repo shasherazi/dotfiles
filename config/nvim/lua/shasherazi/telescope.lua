@@ -62,7 +62,7 @@ telescope.setup {
   },
   pickers = {
     find_files = { hidden = true },
-    git_commits={},
+    git_commits = {},
     -- Default configuration for builtin pickers goes here:
     -- picker_name = {
     --   picker_config_key = value,
@@ -71,11 +71,7 @@ telescope.setup {
     -- Now the picker_config_key will be applied every time you call this
     -- builtin picker
   },
-  extensions = {
-    -- Your extension configuration goes here:
-    -- extension_name = {
-    --   extension_config_key = value,
-    -- }
-    -- please take a look at the readme of the extension you want to configure
-  },
+  extensions = {}
 }
+
+telescope.load_extension "fzf"

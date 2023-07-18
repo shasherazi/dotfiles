@@ -24,3 +24,4 @@ require("shasherazi.alpha")
 require('shasherazi.whichkey')
 require("shasherazi.copilot")
 require("shasherazi.colorizer")
+

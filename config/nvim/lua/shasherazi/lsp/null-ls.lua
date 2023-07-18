@@ -21,5 +21,6 @@ null_ls.setup({
     diagnostics.flake8,
     formatting.clang_format,
     code_actions.gitsigns,
+    formatting.csharpier,
   },
 })

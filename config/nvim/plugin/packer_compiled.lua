@@ -273,6 +273,11 @@ _G.packer_plugins = {
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/opt/tailwindcss-colors.nvim",
     url = "https://github.com/themaxmarchuk/tailwindcss-colors.nvim"
   },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/shasherazi/.local/share/nvim/site/pack/packer/start/telescope.nvim",
