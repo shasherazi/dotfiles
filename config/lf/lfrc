@@ -29,6 +29,11 @@ set cleaner ~/.config/lf/cleaner
 set previewer ~/.config/lf/scope
 set drawbox true
 
+# set previewer ctpv
+# set cleaner ctpvclear
+# &ctpv -s $id
+# &ctpvquit $id
+
 # use enter for shell commands
 map <enter> shell
 
@@ -72,7 +77,7 @@ cmd trash %set -f; mv $fx ~/.trash
 # }}
 
 # use '<delete>' key for either 'trash' or 'delete' command
-# map <delete> trash
+map <delete> trash
 # map <delete> delete
 
 # extract the current file with the right command

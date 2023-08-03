@@ -2,6 +2,12 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+# some flatpak issue
+systemctl --user import-environment DISPLAY XAUTHORITY
+if command -v dbus-update-activation-environment >/dev/null 2>&1; then
+   dbus-update-activation-environment DISPLAY XAUTHORITY
+fi
+
 nm-applet &
 # sh ~/scripts/runIfNotAlreadyRunning.sh $(udiskie -t)&
 nitrogen --set-zoom-fill --random
@@ -32,6 +38,7 @@ bspc rule -a Alacritty state=floating
 bspc rule -a Google-chrome desktop=3 follow=on
 bspc rule -a Chromium desktop=3 follow=on
 bspc rule -a Brave-browser desktop=3 follow=on
+bspc rule -a Vivaldi-stable desktop=3 follow=on
 bspc rule -a firefox desktop=3 follow=on
 bspc rule -a Pcmanfm desktop=2 follow=on
 bspc rule -a Thunar desktop=2 follow=on
@@ -40,7 +47,7 @@ bspc rule -a Spotify desktop=5 follow=on
 bspc rule -a discord desktop=6 follow=on
 bspc rule -a Element desktop=6 follow=on
 bspc rule -a thunderbird desktop=9 follow=on
-bspc rule -a lfub desktop=2 follow=on
+bspc rule -a lf desktop=2 follow=on
 bspc rule -a zoom desktop=8 follow=on
 bspc rule -a Slack desktop=7 follow=on
 bspc rule -a Screenkey manage=off

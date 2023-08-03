@@ -19,9 +19,13 @@ super + e
 super + Escape
 	pkill -USR1 -x sxhkd
 
-# file manager
+# gui file manager
 super + n
- thunar 
+  thunar 
+
+# terminal file manager
+super + l
+  alacritty --class "lf" -e zsh -ic lf
 
 # browser
 super + b

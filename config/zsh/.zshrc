@@ -24,9 +24,13 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 # environment variables
+export XDG_CONFIG_HOME="${HOME}/.config"
+export XDG_CACHE_HOME="${HOME}/.cache"
+export XDG_DATA_HOME="${HOME}/.local/share"
+export XDG_STATE_HOME="${HOME}/.local/state"
 export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
-export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin:/home/shasherazi/.dotnet/tools"
+export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin:/home/shasherazi/.rvm/bin"
 # export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 export $(dbus-launch)
 # export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
@@ -66,8 +70,6 @@ source ~/.zsh_plugins/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source ~/.rvm/scripts/rvm
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
