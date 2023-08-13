@@ -1,138 +1,88 @@
-local ensure_packer = function()
-  local fn = vim.fn
-  local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
-  if fn.empty(fn.glob(install_path)) > 0 then
-    fn.system({ 'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path })
-    vim.cmd [[packadd packer.nvim]]
-    return true
-  end
-  return false
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
 end
-
-local packer_bootstrap = ensure_packer()
-
-vim.cmd([[
-  augroup packer_user_config
-    autocmd!
-    autocmd BufWritePost plugins.lua source <afile> | PackerSync
-  augroup end
-]])
+vim.opt.rtp:prepend(lazypath)
 
 -- Use a protected call so we don't error out on first use
-local status_ok, packer = pcall(require, "packer")
+local status_ok, lazy = pcall(require, "lazy")
 if not status_ok then
   return
 end
 
--- Have packer use a popup window
-packer.init {
-  display = {
-    open_fn = function()
-      return require("packer.util").float { border = "rounded" }
-    end,
-  },
-}
+lazy.setup({
+  'nvim-lua/plenary.nvim', -- plugins need it or smth
 
-return packer.startup(function(use)
-  use 'wbthomason/packer.nvim' -- packer itself
+  -- lsp zero
+  {
+    'VonHeikemen/lsp-zero.nvim',
+    branch = 'v2.x',
+    dependencies = {
+      -- LSP Support
+      { 'neovim/nvim-lspconfig' },             -- Required
+      { 'williamboman/mason.nvim' },           -- Optional
+      { 'williamboman/mason-lspconfig.nvim' }, -- Optional
 
-  use "nvim-lua/plenary.nvim"  -- Useful lua functions used ny lots of plugins
-  use 'folke/tokyonight.nvim'  -- colorscheme
-
-  -- cmp plugins
-  use "hrsh7th/nvim-cmp"         -- The completion plugin
-  use "hrsh7th/cmp-buffer"       -- buffer completions
-  use "hrsh7th/cmp-path"         -- path completions
-  use "hrsh7th/cmp-cmdline"      -- cmdline completions
-  use "saadparwaiz1/cmp_luasnip" -- snippet completions
-  use "hrsh7th/cmp-nvim-lsp"
-  use "hrsh7th/cmp-nvim-lua"
-
-  -- snippets
-  use "L3MON4D3/LuaSnip"             --snippet engine
-  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
-
-  -- LSP
-  use "neovim/nvim-lspconfig"             -- enable LSP
-  use "williamboman/mason.nvim"           -- simple to use language server installer
-  use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
-  use 'jose-elias-alvarez/null-ls.nvim'   -- LSP diagnostics and code actions
-
-  use { "nvim-telescope/telescope.nvim",
-    requires = {
-      { "nvim-telescope/telescope-fzf-native.nvim", run = "make" },
+      -- Autocompletion
+      { 'hrsh7th/nvim-cmp' },     -- Required
+      { 'hrsh7th/cmp-nvim-lsp' }, -- Required
+      { 'L3MON4D3/LuaSnip' },     -- Required
     }
-  }
+  },
 
-  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
-  use "p00f/nvim-ts-rainbow"   -- rainbow brackets
+  -- lazy.nvim
+  {
+    "folke/noice.nvim",
+    event = "VeryLazy",
+    opts = {
+      -- add any options here
+    },
+    dependencies = {
+      -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+      "MunifTanjim/nui.nvim",
+      -- OPTIONAL:
+      --   `nvim-notify` is only needed, if you want to use the notification view.
+      --   If not available, we use `mini` as the fallback
+      "rcarriga/nvim-notify",
+    }
+  },
 
-  use "windwp/nvim-autopairs"  -- Autopairs, integrates with both cmp and treesitter
+  -- telescope
+  {
+    'nvim-telescope/telescope.nvim',
+    tag = '0.1.2',
+    dependencies = { 'nvim-lua/plenary.nvim' }
+  },
 
-  use "zbirenbaum/copilot.lua" -- github copilot
-  use({ "jonahgoldwastaken/copilot-status.nvim" })
+  -- mini
+  { 'echasnovski/mini.comment',  version = false },
+  { 'echasnovski/mini.move',     version = false },
+  { 'echasnovski/mini.pairs',    version = false },
+  { 'uchaunovski/mini.surround', version = false },
 
-  use "numToStr/Comment.nvim" -- Easily comment stuff
-  use 'JoosepAlviste/nvim-ts-context-commentstring'
+  -- colorschemes
+  'folke/tokyonight.nvim',
 
-  -- Git
-  use "lewis6991/gitsigns.nvim"
-
-  -- nvim tree
-  use 'kyazdani42/nvim-web-devicons'
-  --[[ use { ]]
-  --[[   'yamatsum/nvim-nonicons', ]]
-  --[[   requires = { 'kyazdani42/nvim-web-devicons' } ]]
-  --[[ } ]]
-  use 'kyazdani42/nvim-tree.lua'
-  use 'echasnovski/mini.files'
-
-  -- bufferline
-  use "akinsho/bufferline.nvim"
-  use "moll/vim-bbye"
-
-  -- lualne
-  use 'nvim-lualine/lualine.nvim'
-
-  -- terminal
-  use "akinsho/toggleterm.nvim"
-  use "numToStr/FTerm.nvim"
-
-  -- impatient
-  use 'lewis6991/impatient.nvim'
-
-  -- indentline
-  use "lukas-reineke/indent-blankline.nvim"
-
-  -- greeter
-  use 'goolord/alpha-nvim'
-  use 'willothy/veil.nvim'
-  use {
-    'glepnir/dashboard-nvim',
-    event = 'VimEnter',
-    requires = { 'nvim-tree/nvim-web-devicons' }
-  }
-
-  -- discord rich presence
-  use 'andweeb/presence.nvim'
-
-  -- whichkey
-  use "folke/which-key.nvim"
-
-  -- autosave
-  use "Pocco81/auto-save.nvim"
-
-  -- color preview
-  use 'norcalli/nvim-colorizer.lua'
-
-  -- folds
-  use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
-
-  -- tailwindcss colors
-  use { "themaxmarchuk/tailwindcss-colors.nvim",
-    module = "tailwindcss-colors" }
-
-  if packer_bootstrap then
-    require('packer').sync()
-  end
-end)
+  -- misc
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    dependencies = {
+      "JoosepAlviste/nvim-ts-context-commentstring",
+    },
+  },
+  "numToStr/FTerm.nvim",
+  'andweeb/presence.nvim',
+  "folke/which-key.nvim",
+  "Pocco81/auto-save.nvim",
+  'lewis6991/gitsigns.nvim',
+  'github/copilot.vim',
+  'tpope/vim-fugitive',
+})
