@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 
 DOTFILES_PATH = os.path.expanduser("~/dotfiles")
@@ -41,6 +43,7 @@ destinations = [
     ".config/hypr",
     ".config/kitty",
     ".config/lf",
+    ".config/mutt",
     ".config/neofetch",
     ".config/nitrogen",
     ".config/nvim",
@@ -48,6 +51,7 @@ destinations = [
     ".config/picom",
     ".config/rofi",
     ".config/sxhkd",
+    ".config/tmux",
     ".config/qtile",
     ".config/waybar",
     ".config/wofi",
@@ -67,6 +71,7 @@ sources = [
     "config/hypr",
     "config/kitty",
     "config/lf",
+    "config/mutt",
     "config/neofetch",
     "config/nitrogen",
     "config/nvim",
@@ -74,6 +79,7 @@ sources = [
     "config/picom",
     "config/rofi",
     "config/sxhkd",
+    "config/tmux",
     "config/qtile",
     "config/waybar",
     "config/wofi",

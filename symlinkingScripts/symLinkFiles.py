@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 
 DOTFILES_PATH = os.path.expanduser("~/dotfiles")

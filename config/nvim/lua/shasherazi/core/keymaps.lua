@@ -1,4 +1,4 @@
-local opts = {}
+local opts = { noremap = true, silent = true }
 local term_opts = {}
 
 -- Shorten function name
