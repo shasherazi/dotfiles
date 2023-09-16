@@ -73,17 +73,18 @@ local opts = {
   mode = "n",     -- NORMAL mode
   prefix = "<leader>",
   buffer = nil,   -- Global mappings. Specify a buffer number for buffer local mappings
-  silent = true,  -- use `silent` when creating keymaps
+  silent = false, -- use `silent` when creating keymaps
   noremap = true, -- use `noremap` when creating keymaps
   nowait = true,  -- use `nowait` when creating keymaps
 }
 
 local mappings = {
   ["b"] = { "<cmd>lua require('telescope.builtin').buffers()<cr>", "Find buffers" },
-  ["c"] = { "<cmd>bd<cr>", "Close buffer" },
-  ["e"] = { "<cmd>Neotree toggle right<cr>", "File explorer" },
+  ["c"] = { "<cmd>bp<bar>sp<bar>bn<bar>bd<cr>", "Close buffer" },
+  ["e"] = { "<cmd>NvimTreeToggle<cr>", "File explorer" },
   ["f"] = { "<cmd>lua require('telescope.builtin').find_files()<cr>", "Find files" },
   ["F"] = { "<cmd>lua require('telescope.builtin').live_grep()<cr>", "Find string" },
+  ["h"] = { "<cmd>noh<cr>", "Clear highlights" },
   ["q"] = { "<cmd>q<cr>", "Quit" },
   ["w"] = { "<cmd>w<cr>", "Write" },
   ["="] = { "<cmd>lua vim.lsp.buf.format()<cr>", "Format buffer" },
@@ -107,17 +108,13 @@ local mappings = {
     r = { "<cmd>lua require 'gitsigns'.reset_hunk()<cr>", "Reset Hunk" },
     R = { "<cmd>lua require 'gitsigns'.reset_buffer()<cr>", "Reset Buffer" },
     s = { "<cmd>lua require 'gitsigns'.stage_hunk()<cr>", "Stage Hunk" },
-    u = {
-      "<cmd>lua require 'gitsigns'.undo_stage_hunk()<cr>",
-      "Undo Stage Hunk",
-    },
+    u = { "<cmd>lua require 'gitsigns'.undo_stage_hunk()<cr>", "Undo Stage Hunk" },
     o = { "<cmd>Telescope git_status<cr>", "Open changed file" },
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
-    c = { "<cmd>Telescope git_commits<cr>", "Checkout commit" },
-    d = {
-      "<cmd>Gitsigns diffthis HEAD<cr>",
-      "Diff",
-    },
+    C = { "<cmd>Telescope git_commits<cr>", "Checkout commit" },
+    d = { "<cmd>Gitsigns diffthis HEAD<cr>", "Diff" },
+    g = { "<cmd>G<cr>5j", "Vim fugitive git status" },
+    c = { "<cmd>G commit<cr>", "Vim fugitive git commit" },
   },
   l = {
     name = "LSP",
@@ -134,7 +131,6 @@ local mappings = {
     S = { "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>", "Workspace Symbols" },
     t = { "<cmd>Telescope treesitter<cr>", "Treesitter Symbols" },
   },
-
 }
 
 which_key.setup(setup)
