@@ -30,7 +30,7 @@ export XDG_DATA_HOME="${HOME}/.local/share"
 export XDG_STATE_HOME="${HOME}/.local/state"
 export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
-export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin:/home/shasherazi/.rvm/bin"
+export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin"
 # export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 export $(dbus-launch)
 # export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
@@ -50,14 +50,17 @@ alias lf="lfub"
 
 # file shortcuts
 alias bsp="$EDITOR ~/.config/bspwm/bspwmrc && exit"
+alias bkm="$EDITOR ~/dotfiles/scripts/launchers/bookmarks.csv && exit"
 alias dots="$EDITOR ~/dotfiles/ && exit"
 alias dun="$EDITOR ~/.config/dunst/dunstrc && exit"
+alias gam="$EDITOR ~/.config/gammastep/config.ini && exit"
 alias hyp="$EDITOR ~/.config/hypr/hyprland.conf && exit"
 alias kit="$EDITOR ~/.config/kitty/kitty.conf && exit"
 alias pic="$EDITOR ~/.config/picom/picom.conf && exit"
 alias pol="$EDITOR ~/.config/polybar/config.ini && exit"
 alias rof="$EDITOR ~/.config/rofi/config.rasi && exit"
 alias sxh="$EDITOR ~/.config/sxhkd/sxhkdrc && exit"
+alias tmx="$EDITOR ~/.config/tmux/tmux.conf && exit"
 alias way="$EDITOR ~/.config/waybar/config && exit"
 alias zat="$EDITOR ~/.config/zathura/zathurarc && exit"
 alias zrc="$EDITOR ~/.zshrc && exit"
@@ -69,7 +72,7 @@ source ~/.zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh_plugins/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-source ~/.rvm/scripts/rvm
+eval "$(rbenv init - zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

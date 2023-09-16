@@ -29,7 +29,7 @@ super + l
 
 # browser
 super + b
-  firefox
+  brave
 
 # bookmarks
 super + shift + b

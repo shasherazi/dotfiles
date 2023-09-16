@@ -34,25 +34,40 @@ lazy.setup({
       { 'hrsh7th/nvim-cmp' },     -- Required
       { 'hrsh7th/cmp-nvim-lsp' }, -- Required
       { 'L3MON4D3/LuaSnip' },     -- Required
+      { 'hrsh7th/cmp-path' }
     }
   },
 
   -- lazy.nvim
-  {
-    "folke/noice.nvim",
-    event = "VeryLazy",
-    opts = {
-      -- add any options here
-    },
-    dependencies = {
-      -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
-      "MunifTanjim/nui.nvim",
-      -- OPTIONAL:
-      --   `nvim-notify` is only needed, if you want to use the notification view.
-      --   If not available, we use `mini` as the fallback
-      "rcarriga/nvim-notify",
-    }
-  },
+  -- {
+  --   "folke/noice.nvim",
+  --   opts = function(_, opts)
+  --     local function setOpts()
+  --       if opts.routes == nil then
+  --         opts.routes = {}
+  --         return
+  --       end
+  --     end
+  --     setOpts()
+  --     -- opts = getOpts(opts)
+  --     -- opts = opts or { routes = {} }
+  --     table.insert(opts.routes, {
+  --       filter = {
+  --         event = "notify",
+  --         find = "No information available",
+  --       },
+  --       opts = { skip = true },
+  --     })
+  --   end,
+  --   dependencies = {
+  --     -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+  --     "MunifTanjim/nui.nvim",
+  --     -- OPTIONAL:
+  --     --   `nvim-notify` is only needed, if you want to use the notification view.
+  --     --   If not available, we use `mini` as the fallback
+  --     "rcarriga/nvim-notify",
+  --   }
+  -- },
 
   -- telescope
   {
@@ -65,17 +80,47 @@ lazy.setup({
   { 'echasnovski/mini.comment',  version = false },
   { 'echasnovski/mini.move',     version = false },
   { 'echasnovski/mini.pairs',    version = false },
-  { 'uchaunovski/mini.surround', version = false },
+  { 'echasnovski/mini.surround', version = false },
+  -- { 'echasnovski/mini.indentscope', version = false },
 
   -- colorschemes
   'folke/tokyonight.nvim',
+  'rafamadriz/neon',
+  'marko-cerovac/material.nvim',
+  'nyoom-engineering/oxocarbon.nvim',
+  'sainnhe/edge',
+  'Th3Whit3Wolf/space-nvim',
+  'sainnhe/gruvbox-material',
+  'sainnhe/everforest',
+  'dracula/vim',
+  'rose-pine/neovim',
 
   -- misc
+  {
+    "m4xshen/hardtime.nvim",
+    dependencies = { "MunifTanjim/nui.nvim", "nvim-lua/plenary.nvim" },
+    opts = {}
+  },
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
     dependencies = {
       "JoosepAlviste/nvim-ts-context-commentstring",
+    },
+  },
+  { 'iamcco/markdown-preview.nvim', build = "cd app && yarn install" },
+  { 'akinsho/bufferline.nvim',      version = "*",                   dependencies = 'nvim-tree/nvim-web-devicons' },
+  {
+    "j-hui/fidget.nvim",
+    tag = "legacy",
+    event = "LspAttach",
+  },
+  {
+    "nvim-tree/nvim-tree.lua",
+    version = "*",
+    lazy = false,
+    dependencies = {
+      "nvim-tree/nvim-web-devicons",
     },
   },
   "numToStr/FTerm.nvim",
@@ -85,4 +130,11 @@ lazy.setup({
   'lewis6991/gitsigns.nvim',
   'github/copilot.vim',
   'tpope/vim-fugitive',
+  'jose-elias-alvarez/null-ls.nvim',
+  'famiu/feline.nvim',
+  'NvChad/nvim-colorizer.lua',
+  'nvim-treesitter/nvim-treesitter-context',
+  -- 'is0n/fm-nvim',
+  'alexghergh/nvim-tmux-navigation',
+  'lukas-reineke/indent-blankline.nvim',
 })

@@ -25,8 +25,10 @@ set cursorpreviewfmt "\033[7;2m"
 
 
 # custom sets
-set cleaner ~/.config/lf/cleaner
-set previewer ~/.config/lf/scope
+# set cleaner ~/.config/lf/cleaner
+# set previewer ~/.config/lf/scope
+set cleaner ~/.config/lf/cleaner_kitty
+set previewer ~/.config/lf/previewer_kitty
 set drawbox true
 
 # set previewer ctpv
@@ -111,3 +113,26 @@ cmd zip ${{
     zip -r $1.zip $1
     rm -rf $1
 }}
+
+# create a file/folder based on path
+# TODO: check if file/folder exists
+cmd create %{{
+  set -f
+
+  if [[ $1 == */ ]]; then
+      if [[ -d $1 ]]; then
+          echo "Folder $1 already exists"
+      else
+          mkdir -p $1
+      fi
+  else
+      if [[ -f $1 ]]; then
+          echo "File $1 already exists"
+      else
+          mkdir -p $(dirname $1)
+          touch $1
+      fi
+  fi
+}}
+
+map a push :create<space>

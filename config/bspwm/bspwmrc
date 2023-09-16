@@ -47,7 +47,6 @@ bspc rule -a Spotify desktop=5 follow=on
 bspc rule -a discord desktop=6 follow=on
 bspc rule -a Element desktop=6 follow=on
 bspc rule -a thunderbird desktop=9 follow=on
-bspc rule -a lf desktop=2 follow=on
 bspc rule -a zoom desktop=8 follow=on
 bspc rule -a Slack desktop=7 follow=on
 bspc rule -a Screenkey manage=off

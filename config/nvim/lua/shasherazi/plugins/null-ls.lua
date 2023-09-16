@@ -14,12 +14,12 @@ null_ls.setup({
   debug = false,
   sources = {
     formatting.prettier,
+    formatting.isort,
     formatting.black,
+    formatting.shfmt,
     diagnostics.rubocop,
     formatting.rubocop,
-    formatting.black,
     diagnostics.flake8,
-    formatting.clang_format,
     code_actions.gitsigns,
   },
 })

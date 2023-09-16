@@ -5,7 +5,7 @@
   "margin-left": 5,
   "margin-right": 5,
   "modules-left": [
-    "wlr/workspaces"
+    "hyprland/workspaces"
   ],
   "modules-center": [
     "clock"
@@ -67,15 +67,14 @@
       "on-scroll-down": "shift_down"
     }
   },
-  "wlr/workspaces": {
+  "hyprland/workspaces": {
     "format": "{name}",
     "format-icons": {
       "default": "",
       "active": ""
     },
     "on-click": "activate",
-    "sort-by-number": true,
-    "active-only": true
+    "sort-by-number": true
   },
   "pulseaudio": {
     "format": "{volume}% {icon}",
@@ -103,10 +102,10 @@
     "max-length": 10
   },
   "network": {
-    "interface": "wlan0",
+    "interface": "wlp2s0",
     "interval": 5,
     "format": "{ifname}",
-    "format-wifi": " ",
+    "format-wifi": "󰤨 ",
     "format-ethernet": " ",
     "format-disconnected": "󰤭 ",
     "tooltip-format": "{ifname} via {gwaddr}  ",
