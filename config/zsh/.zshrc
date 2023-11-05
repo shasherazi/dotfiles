@@ -31,6 +31,7 @@ export XDG_STATE_HOME="${HOME}/.local/state"
 export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
 export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin"
+export PATH=~/.npm-global/bin:$PATH
 # export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 export $(dbus-launch)
 # export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
@@ -65,14 +66,17 @@ alias way="$EDITOR ~/.config/waybar/config && exit"
 alias zat="$EDITOR ~/.config/zathura/zathurarc && exit"
 alias zrc="$EDITOR ~/.zshrc && exit"
 
+# tmux
+# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+#     exec tmux new-session -A -s main
+# fi
+
 # plugins
 source ~/.zsh_plugins/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.zsh_plugins/sudo-plugin/sudo.plugin.zsh
 source ~/.zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh_plugins/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-eval "$(rbenv init - zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

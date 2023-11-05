@@ -38,6 +38,11 @@ lazy.setup({
     }
   },
 
+  -- dap
+  { 'mfussenegger/nvim-dap' },
+  { 'rcarriga/nvim-dap-ui' },
+  { 'theHamsta/nvim-dap-virtual-text' },
+
   -- lazy.nvim
   -- {
   --   "folke/noice.nvim",
@@ -108,8 +113,15 @@ lazy.setup({
       "JoosepAlviste/nvim-ts-context-commentstring",
     },
   },
-  { 'iamcco/markdown-preview.nvim', build = "cd app && yarn install" },
-  { 'akinsho/bufferline.nvim',      version = "*",                   dependencies = 'nvim-tree/nvim-web-devicons' },
+  { 'iamcco/markdown-preview.nvim',        build = "cd app && yarn install" },
+  { "lukas-reineke/indent-blankline.nvim", main = "ibl",                                opts = {} },
+  { "nvim-lualine/lualine.nvim",           dependencies = "nvim-tree/nvim-web-devicons" },
+  {
+    'akinsho/bufferline.nvim',
+    version = "*",
+    dependencies =
+    'nvim-tree/nvim-web-devicons'
+  },
   {
     "j-hui/fidget.nvim",
     tag = "legacy",
@@ -121,6 +133,12 @@ lazy.setup({
     lazy = false,
     dependencies = {
       "nvim-tree/nvim-web-devicons",
+    },
+  },
+  {
+    "kevinhwang91/nvim-ufo",
+    dependencies = {
+      "kevinhwang91/promise-async",
     },
   },
   "numToStr/FTerm.nvim",
@@ -136,5 +154,7 @@ lazy.setup({
   'nvim-treesitter/nvim-treesitter-context',
   -- 'is0n/fm-nvim',
   'alexghergh/nvim-tmux-navigation',
-  'lukas-reineke/indent-blankline.nvim',
+  -- 'karb94/neoscroll.nvim',
+  'elkowar/yuck.vim',
+  'windwp/nvim-ts-autotag',
 })

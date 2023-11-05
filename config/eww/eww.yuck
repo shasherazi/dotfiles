@@ -1,5 +1,6 @@
 (include "./widgets/time.yuck")
 (include "./widgets/workspaces.yuck")
+(include "./widgets/battery.yuck")
 
 (defwidget mainBar []
   (box
@@ -34,21 +35,14 @@
   )
 )
 
-(defwidget battery []
-  (box
-    :class "battery"
-    "${EWW_BATTERY.BAT0.capacity}%"
-  )
-)
-
 (defwindow bar
   :class "bar"
   :monitor 0
   :geometry (geometry :x "0%"
+  :y "5px"
     :width "100%"
-    :height "32px"
   :anchor "top center")
-  :stacking "bg"
+  :exclusive true
   :wm-ignore true
   (mainBar)
 )

@@ -3,12 +3,34 @@
 }
 
 /* 
-  --background: #0d0000;
-  --foreground: #d5c7ac;  
+  --background: #16161e;
+  --foreground: #a9b1d6;  
  */
 
-.bar {
-  font-family: 'JetBrains Mono NF';
-  background: #0d0000;
-  color: #d5c7ac;
+.main {
+  font-family: "JetBrains Mono NF";
+  font-size: 16px;
+  color: #a9b1d6;
+  padding: 0 10px;
+}
+
+tooltip {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.left,
+.center,
+.right {
+  background-color: #16161e;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.workspace {
+  padding: 0 9px;
+}
+
+.workspace:hover {
+  color: #f7768e;
 }

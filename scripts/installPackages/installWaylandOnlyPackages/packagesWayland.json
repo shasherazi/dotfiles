@@ -4,6 +4,10 @@
     "reason": "for screenshots"
   },
   {
+    "name":"nwg-look-bin",
+    "reason":"gtk-theme"
+  },
+  {
     "name": "slurp",
     "reason": "for region selection"
   }

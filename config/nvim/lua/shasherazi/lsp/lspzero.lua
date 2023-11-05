@@ -28,6 +28,19 @@ lsp.on_attach(function(client, bufnr)
   end
 end)
 
+lsp.ensure_installed({
+  'lua_ls',
+  'html',
+  'cssls',
+  'tsserver',
+  'eslint',
+  'jsonls',
+  'clangd',
+  'pyright',
+  'tailwindcss',
+  'rust_analyzer'
+})
+
 vim.diagnostic.config({
   source = true
 })
@@ -56,6 +69,17 @@ lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.offsetEncoding = { "utf-16" }
 lspconfig.clangd.setup({ capabilities = capabilities })
+capabilities.textDocument.foldingRange = {
+  dynamicRegistration = false,
+  lineFoldingOnly = true
+}
+local language_servers = require("lspconfig").util.available_servers() -- or list servers manually like {'gopls', 'clangd'}
+for _, ls in ipairs(language_servers) do
+  require('lspconfig')[ls].setup({
+    capabilities = capabilities
+    -- you can add other fields for setting up lsp server in this table
+  })
+end
 
 lsp.setup()
 
@@ -68,11 +92,14 @@ cmp.setup({
     ['<cr>'] = cmp.mapping.confirm({ select = false }),
 
     -- ctrl+space to trigger completion menu
-    ['<c-space>'] = cmp.mapping.complete(),
+    -- ['<c-space>'] = cmp.mapping.complete(),
+    ['<c-n>'] = cmp.mapping.complete(),
 
     -- navigate between snippet placeholder
     ['<c-f>'] = cmp_action.luasnip_jump_forward(),
     ['<c-b>'] = cmp_action.luasnip_jump_backward(),
+    -- ['<Tab>'] = cmp_action.luasnip_supertab(),
+    -- ['<S-Tab>'] = cmp_action.luasnip_shift_supertab(),
   },
   formatting = {
     format = function(entry, vim_item)
