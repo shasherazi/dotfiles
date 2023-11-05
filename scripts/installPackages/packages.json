@@ -8,6 +8,10 @@
     "reason": "for ./scripts/batteryAlmostFull.sh"
   },
   {
+    "name": "brave-bin",
+    "reason": "broswer"
+  },
+  {
     "name": "brightnessctl",
     "reason": "for brightness control"
   },
@@ -86,6 +90,10 @@
   {
     "name": "nodejs",
     "reason": "i write websites"
+  },
+  {
+    "name": "gammastep",
+    "reason": "blue light filter"
   },
   {
     "name": "gthumb",

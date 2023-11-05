@@ -14,7 +14,7 @@ null_ls.setup({
   debug = false,
   sources = {
     formatting.prettier,
-    formatting.isort,
+    formatting.eslint_d,
     formatting.black,
     formatting.shfmt,
     diagnostics.rubocop,

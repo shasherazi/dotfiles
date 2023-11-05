@@ -1,11 +1,18 @@
 (defpoll time
   :interval "1s"
-  'date +"%a, %b %d | %H:%M"'
+  `date +"%H:%M"`
 )
+
+(defpoll date
+  :interval "1s"
+  `date +"%a, %b %d"`
+)
+
 
 (defwidget timeWidget []
   (box
     :class "time"
+    :tooltip date
     time
   )
 )

@@ -4,7 +4,6 @@ set page-padding 1
 set selection-clipboard clipboard
 set recolor true
 set sandbox none
-set smooth-scroll "true"
 
 map u scroll half-up
 map d scroll half-down

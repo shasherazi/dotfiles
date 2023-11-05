@@ -1,8 +1,15 @@
-local status_ok, indent_blankline = pcall(require, "indent_blankline")
+local status_ok, ibl = pcall(require, "ibl")
 if not status_ok then
   return
 end
 
-indent_blankline.setup {
-  show_current_context = true,
-}
+ibl.setup({
+  scope = {
+    enabled = false,
+    include = {
+      node_type = {
+        ['*'] = { '*' }
+      }
+    }
+  },
+})
