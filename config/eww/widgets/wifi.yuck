@@ -1,0 +1,11 @@
+(defpoll wifiName :interval "1s"
+  :initial-value "N/A"
+  "iwgetid -r || echo 'No wifi connected'"
+)
+
+(defwidget wifi []
+  (box :class "wifi"
+    :tooltip "${wifiName}"
+    " "
+  )
+)

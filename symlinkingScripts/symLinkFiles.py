@@ -19,15 +19,19 @@ def symlinkFile(source, destination):
 
 
 destinations = [
-    ".zshrc",
-    ".p10k.zsh",
     ".config/chromium-flags.conf",
+    ".gitconfig",
+    ".local/bin/lfub",
+    ".p10k.zsh",
+    ".zshrc",
 ]
 
 sources = [
-    "config/zsh/.zshrc",
-    "config/zsh/.p10k.zsh",
     "config/chromium-flags.conf",
+    "config/git/.gitconfig",
+    ".local/bin/lfub",
+    "config/zsh/.p10k.zsh",
+    "config/zsh/.zshrc",
 ]
 
 for zippped in zip(sources, destinations):

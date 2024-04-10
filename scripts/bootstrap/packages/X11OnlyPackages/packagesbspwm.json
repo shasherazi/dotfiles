@@ -1,0 +1,10 @@
+[
+  {
+    "name": "bspwm",
+    "reason": "window manager"
+  },
+  {
+    "name": "sxhkd",
+    "reason": "hotkey daemon for bspwm"
+  }
+]

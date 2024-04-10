@@ -36,6 +36,7 @@ export PATH=~/.npm-global/bin:$PATH
 export $(dbus-launch)
 # export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
 export _JAVA_AWT_WM_NONREPARENTING=1 # makes jetbrains IDEs work
+export GPG_TTY=$(tty)
 
 # aliases
 alias ..="cd .."

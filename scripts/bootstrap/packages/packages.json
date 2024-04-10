@@ -1,0 +1,218 @@
+[
+  {
+    "name": "alacritty",
+    "reason": "default terminal"
+  },
+  {
+    "name": "acpi",
+    "reason": "for ./scripts/batteryAlmostFull.sh"
+  },
+  {
+    "name": "brave-bin",
+    "reason": "broswer"
+  },
+  {
+    "name": "brightnessctl",
+    "reason": "for brightness control"
+  },
+  {
+    "name": "clang",
+    "reason": "for occasional C/C++ compiling when i dont wanna use gcc/g++"
+  },
+  {
+    "name": "cronie",
+    "reason": "for cron jobs"
+  },
+  {
+    "name": "chromium",
+    "reason": "for chromium"
+  },
+  {
+    "name": "discord",
+    "reason": "for discord"
+  },
+  {
+    "name": "dunst",
+    "reason": "for notifications (might be X only)"
+  },
+  {
+    "name": "fd",
+    "reason": "for faster file finds for telescope in neovim"
+  },
+  {
+    "name": "firefox",
+    "reason": "for firefox"
+  },
+  {
+    "name": "flake8",
+    "reason": "for linting python code"
+  },
+  {
+    "name": "gnome-keyring",
+    "reason": "for storing passwords"
+  },
+  {
+    "name": "gvfs-mtp",
+    "reason": "for mounting my phone"
+  },
+  {
+    "name": "htop",
+    "reason": "for monitoring system resources (i open it when things work slowly to kill that one little piece of shit process thats eating all my cpu power 🖕)"
+  },
+  {
+    "name": "keepassxc",
+    "reason": "password manager"
+  },
+  {
+    "name": "kitty",
+    "reason": "backup terminal"
+  },
+  {
+    "name": "lazygit",
+    "reason": "git in neovim"
+  },
+  {
+    "name": "mpv",
+    "reason": "for watching videos"
+  },
+  {
+    "name": "neofetch",
+    "reason": "come on, how can i miss neofetch"
+  },
+  {
+    "name": "nano",
+    "reason": "me when i want to edit file as root but my neovim config doesnt work when opening neovim as root and i am too lazy to figure it out"
+  },
+  {
+    "name": "neovim",
+    "reason": "the one true text editor"
+  },
+  {
+    "name": "nodejs",
+    "reason": "i write websites"
+  },
+  {
+    "name": "gammastep",
+    "reason": "blue light filter"
+  },
+  {
+    "name": "gthumb",
+    "reason": "image viewer"
+  },
+  {
+    "name": "npm",
+    "reason": "see above"
+  },
+  {
+    "name": "ntfs-3g",
+    "reason": "for my external drive which is still ntfs for some reason (one day istg i'll stop being lazy and do all the todos in my notion)"
+  },
+  {
+    "name": "noto-fonts",
+    "reason": "good fonts"
+  },
+  {
+    "name": "noto-fonts-cjk",
+    "reason": "good fonts"
+  },
+  {
+    "name": "noto-fonts-emoji",
+    "reason": "good fonts"
+  },
+  {
+    "name": "obs-studio",
+    "reason": "for recording my screen"
+  },
+  {
+    "name": "python-black",
+    "reason": "for formatting python code"
+  },
+  {
+    "name": "thunar",
+    "reason": "file manager (havent made the switch to lf yet)"
+  },
+  {
+    "name": "power-profiles-daemon",
+    "reason": "sometimes i want a quieter cpu"
+  },
+  {
+    "name": "python-pip",
+    "reason": "i'll need this when i eventually start learning ML and data science"
+  },
+  {
+    "name": "qbittorrent",
+    "reason": "for downloading stuff"
+  },
+  {
+    "name": "ripgrep",
+    "reason": "for faster file finds for telescope in neovim"
+  },
+  {
+    "name": "ruby",
+    "reason": "ruby on rails"
+  },
+  {
+    "name": "slack-desktop",
+    "reason": "coz boomers wont use discord"
+  },
+  {
+    "name": "spotify",
+    "reason": "for listening to lofi girl for \"focus\""
+  },
+  {
+    "name": "thunderbird",
+    "reason": "dont like having a tab open for mail(so now i keep an app open for mail)"
+  },
+  {
+    "name": "udiskie",
+    "reason": "for automounting usb drives"
+  },
+  {
+    "name": "unrar",
+    "reason": "god forbid if i ever need to extract a rar file"
+  },
+  {
+    "name": "unzip",
+    "reason": "for extracting zip files"
+  },
+  {
+    "name": "v4l2loopback-dkms",
+    "reason": "for obs virtual camera"
+  },
+  {
+    "name": "visual-studio-code-bin",
+    "reason": "cant move on, yet"
+  },
+  {
+    "name": "vlc",
+    "reason": "for watching videos"
+  },
+  {
+    "name": "xarchiver",
+    "reason": "pcmanfm needs a gui to extract files"
+  },
+  {
+    "name": "xclip",
+    "reason": "for copying to clipboard"
+  },
+  {
+    "name": "zathura",
+    "reason": "for reading pdfs"
+  },
+  {
+    "name": "zathura-pdf-poppler",
+    "reason": "for reading pdfs in zathura"
+  },
+  {
+    "name": "zip",
+    "reason": "for zipping files"
+  },
+  {
+    "name": "zoom",
+    "reason": "boomers wont use discord"
+  },
+  {
+    "name": "zsh",
+    "reason": "too hooked to use bash"
+  }
+]

@@ -4,12 +4,25 @@ if not status_ok then
 end
 
 ibl.setup({
+  indent = { char = "▏" },
   scope = {
-    enabled = false,
-    include = {
-      node_type = {
-        ['*'] = { '*' }
-      }
-    }
+    show_start = false,
+    show_end = false,
+  },
+  exclude = {
+    filetypes = {
+      "help",
+      "alpha",
+      "dashboard",
+      "*oil*",
+      "neo-tree",
+      "Trouble",
+      "lazy",
+      "mason",
+      "notify",
+      "toggleterm",
+      "lazyterm",
+      "asm",
+    },
   },
 })

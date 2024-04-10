@@ -1,0 +1,30 @@
+[
+  {
+    "name": "cliphist",
+    "reason": "clipboard history"
+  },
+  {
+    "name": "hyprland",
+    "reason": "window manager"
+  },
+  {
+    "name": "waybar",
+    "reason": "status bar"
+  },
+  {
+    "name": "wofi",
+    "reason": "application launcher"
+  },
+  {
+    "name": "swww",
+    "reason": "wallpaper"
+  },
+  {
+    "name": "wl-clipboard",
+    "reason": "clipboard"
+  },
+  {
+    "name": "xdg-desktop-portal-hyprland",
+    "reason": "idk, it adds virtual camera to OBS"
+  }
+]

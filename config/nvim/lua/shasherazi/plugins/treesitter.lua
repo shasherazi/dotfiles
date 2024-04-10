@@ -31,10 +31,11 @@ configs.setup {
   autopairs = {
     enable = true,
   },
-  context_commentstring = {
-    enable = true,
-    enable_autocmd = false,
-  },
+  -- it was a breaking change in an update
+  -- context_commentstring = {
+  --   enable = true,
+  --   enable_autocmd = false,
+  -- },
   autotag = {
     enable = true,
   },

@@ -1,0 +1,70 @@
+{
+  "browsers": [
+    {
+      "name": "Firefox",
+      "package_name": "firefox",
+      "description": "the Firefox browser"
+    },
+    {
+      "name": "Brave",
+      "package_name": "brave-bin",
+      "description": "the Brave browser"
+    },
+    {
+      "name": "Vivaldi",
+      "package_name": "vivaldi",
+      "description": "the Vivaldi browser"
+    }
+  ],
+  "dev": [
+    {
+      "name": "neovim",
+      "package_name": "neovim",
+      "description": "the neovim text editor"
+    },
+    {
+      "name": "tmux",
+      "package_name": "tmux",
+      "description": "the tmux terminal multiplexer"
+    }
+  ],
+  "socials": [
+    {
+      "name": "Discord",
+      "package_name": "webcord-bin",
+      "description": "the Discord client"
+    },
+    {
+      "name": "Slack",
+      "package_name": "slack-desktop",
+      "description": "the Slack client"
+    },
+    {
+      "name": "Zoom",
+      "package_name": "zoom",
+      "description": "the Zoom client"
+    },
+    {
+      "name": "Telegram",
+      "package_name": "telegram-desktop",
+      "description": "the Telegram client"
+    }
+  ],
+  "miscellaneous": [
+    {
+      "name": "Obsidian",
+      "package_name": "obsidian",
+      "description": "the Obsidian note-taking app"
+    },
+    {
+      "name": "Spotify",
+      "package_name": "spotify",
+      "description": "the Spotify client"
+    },
+    {
+      "name": "KeepassXC",
+      "package_name": "keepassxc",
+      "description": "the KeepassXC password manager"
+    }
+  ]
+}

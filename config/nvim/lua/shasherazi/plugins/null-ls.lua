@@ -15,11 +15,11 @@ null_ls.setup({
   sources = {
     formatting.prettier,
     formatting.eslint_d,
-    formatting.black,
+    -- formatting.black,
     formatting.shfmt,
     diagnostics.rubocop,
     formatting.rubocop,
-    diagnostics.flake8,
+    -- diagnostics.flake8,
     code_actions.gitsigns,
   },
 })

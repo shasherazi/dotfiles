@@ -31,9 +31,13 @@ lazy.setup({
       { 'williamboman/mason-lspconfig.nvim' }, -- Optional
 
       -- Autocompletion
-      { 'hrsh7th/nvim-cmp' },     -- Required
-      { 'hrsh7th/cmp-nvim-lsp' }, -- Required
-      { 'L3MON4D3/LuaSnip' },     -- Required
+      { 'hrsh7th/nvim-cmp' },           -- Required
+      { 'hrsh7th/cmp-nvim-lsp' },       -- Required
+      {
+        "L3MON4D3/LuaSnip",             -- follow latest release.
+        version = "v2.*",               -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+        build = "make install_jsregexp" -- install jsregexp (optional!).
+      },
       { 'hrsh7th/cmp-path' }
     }
   },
@@ -90,7 +94,6 @@ lazy.setup({
 
   -- colorschemes
   'folke/tokyonight.nvim',
-  'rafamadriz/neon',
   'marko-cerovac/material.nvim',
   'nyoom-engineering/oxocarbon.nvim',
   'sainnhe/edge',
@@ -114,8 +117,9 @@ lazy.setup({
     },
   },
   { 'iamcco/markdown-preview.nvim',        build = "cd app && yarn install" },
-  { "lukas-reineke/indent-blankline.nvim", main = "ibl",                                opts = {} },
-  { "nvim-lualine/lualine.nvim",           dependencies = "nvim-tree/nvim-web-devicons" },
+  { "lukas-reineke/indent-blankline.nvim", main = "ibl",                    opts = {} },
+  'nvimdev/indentmini.nvim',
+  { "nvim-lualine/lualine.nvim", dependencies = "nvim-tree/nvim-web-devicons" },
   {
     'akinsho/bufferline.nvim',
     version = "*",
@@ -141,6 +145,10 @@ lazy.setup({
       "kevinhwang91/promise-async",
     },
   },
+  {
+    'stevearc/conform.nvim',
+    opts = {},
+  },
   "numToStr/FTerm.nvim",
   'andweeb/presence.nvim',
   "folke/which-key.nvim",
@@ -149,6 +157,7 @@ lazy.setup({
   'github/copilot.vim',
   'tpope/vim-fugitive',
   'jose-elias-alvarez/null-ls.nvim',
+  'mfussenegger/nvim-lint',
   'famiu/feline.nvim',
   'NvChad/nvim-colorizer.lua',
   'nvim-treesitter/nvim-treesitter-context',
