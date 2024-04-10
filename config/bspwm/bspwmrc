@@ -20,6 +20,7 @@ if ! (ps aux | grep "thunderbird" | grep -v "grep"); then thunderbird& fi # star
 export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
 export $(dbus-launch)
 clipmenud & # run clipmenu daemon
+gammastep & # run gammastep
 
 # bspc monitor -d term files web code music discord slack zoom mail misc
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10

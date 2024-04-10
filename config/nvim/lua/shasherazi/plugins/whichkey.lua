@@ -87,7 +87,7 @@ local mappings = {
   ["h"] = { "<cmd>noh<cr>", "Clear highlights" },
   ["q"] = { "<cmd>q<cr>", "Quit" },
   ["w"] = { "<cmd>w<cr>", "Write" },
-  ["="] = { "<cmd>lua vim.lsp.buf.format({ timeout_ms = 2000 })<cr>", "Format buffer" },
+  ["="] = { "<cmd>lua require('conform').format({ lsp_fallback = true })<cr>", "Format buffer" },
   s = {
     name = "Search",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },

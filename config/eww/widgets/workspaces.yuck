@@ -1,16 +1,17 @@
 (defwidget workspaces []
   (box :class "workspaces"
     (for workspace in workspaces
-      (button :class "workspace"
+      (button :class "workspace ${currentWorkspace == workspace ? 'current' : ''}"
         :halign "start"
         :onclick "hyprctl dispatch workspace ${workspace}"
       workspace)
     ))
 )
 
-; (deflisten currentWorkspace
-;   "/home/shasherazi/.config/eww/scripts/hyprCurrentWorkspace.sh"
-; )
+(deflisten currentWorkspace
+  :initial "1"
+  "/home/shasherazi/.config/eww/scripts/hyprCurrentWorkspace.sh"
+)
 
 (deflisten workspaces
   :initial "[1,2,3,4,5,6,7,8,9,10]"

@@ -1,5 +1,6 @@
 (include "./widgets/time.yuck")
 (include "./widgets/workspaces.yuck")
+(include "./widgets/wifi.yuck")
 (include "./widgets/battery.yuck")
 
 (defwidget mainBar []
@@ -15,6 +16,7 @@
   (box
     :class "right"
     :halign "end"
+    (wifi)
     (battery)
   )
 )
@@ -39,7 +41,7 @@
   :class "bar"
   :monitor 0
   :geometry (geometry :x "0%"
-  :y "5px"
+    :y "5px"
     :width "100%"
   :anchor "top center")
   :exclusive true

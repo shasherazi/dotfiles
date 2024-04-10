@@ -6,8 +6,8 @@
 
 (defwidget battery []
   (box
-    :class "battery"
+    :class "battery ${EWW_BATTERY.BAT0.status == 'Charging' ? 'battery-charging' : ''}"
     :tooltip "${eta}"
-    "${EWW_BATTERY.BAT0.capacity}%"
+    "${EWW_BATTERY.BAT0.capacity}% ${EWW_BATTERY.BAT0.status == 'Charging' ? '󰂄' : '󰁹'}"
   )
 )
