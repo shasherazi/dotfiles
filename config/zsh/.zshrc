@@ -13,9 +13,14 @@ bindkey "^[[3~" delete-char
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
+HISTDUP=erase
 unsetopt beep
 setopt HIST_SAVE_NO_DUPS
 setopt AUTO_LIST
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
 autoload -Uz compinit; compinit
 zstyle ':completion:*' menu select
 zstyle ':completion:*' verbose yes
