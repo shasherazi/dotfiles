@@ -1,0 +1,307 @@
+{
+  "base": [
+    {
+      "name": "alacritty",
+      "reason": "default terminal"
+    },
+    {
+      "name": "acpi",
+      "reason": "for ./scripts/batteryAlmostFull.sh"
+    },
+    {
+      "name": "brave-bin",
+      "reason": "browser"
+    },
+    {
+      "name": "brightnessctl",
+      "reason": "for brightness control"
+    },
+    {
+      "name": "clang",
+      "reason": "for occasional C/C++ compiling when I don't wanna use gcc/g++"
+    },
+    {
+      "name": "cronie",
+      "reason": "for cron jobs"
+    },
+    {
+      "name": "chromium",
+      "reason": "for chromium"
+    },
+    {
+      "name": "discord",
+      "reason": "for discord"
+    },
+    {
+      "name": "dunst",
+      "reason": "for notifications (might be X only)"
+    },
+    {
+      "name": "fd",
+      "reason": "for faster file finds for telescope in neovim"
+    },
+    {
+      "name": "firefox",
+      "reason": "for firefox"
+    },
+    {
+      "name": "flake8",
+      "reason": "for linting python code"
+    },
+    {
+      "name": "gnome-keyring",
+      "reason": "for storing passwords"
+    },
+    {
+      "name": "gvfs-mtp",
+      "reason": "for mounting my phone"
+    },
+    {
+      "name": "htop",
+      "reason": "for monitoring system resources"
+    },
+    {
+      "name": "keepassxc",
+      "reason": "password manager"
+    },
+    {
+      "name": "kitty",
+      "reason": "backup terminal"
+    },
+    {
+      "name": "lazygit",
+      "reason": "git in neovim"
+    },
+    {
+      "name": "mpv",
+      "reason": "for watching videos"
+    },
+    {
+      "name": "neofetch",
+      "reason": "system info viewer"
+    },
+    {
+      "name": "nano",
+      "reason": "backup text editor"
+    },
+    {
+      "name": "neovim",
+      "reason": "primary text editor"
+    },
+    {
+      "name": "nodejs",
+      "reason": "web development"
+    },
+    {
+      "name": "gammastep",
+      "reason": "blue light filter"
+    },
+    {
+      "name": "gthumb",
+      "reason": "image viewer"
+    },
+    {
+      "name": "npm",
+      "reason": "Node.js package manager"
+    },
+    {
+      "name": "ntfs-3g",
+      "reason": "NTFS drive support"
+    },
+    {
+      "name": "noto-fonts",
+      "reason": "default fonts"
+    },
+    {
+      "name": "noto-fonts-cjk",
+      "reason": "fonts for CJK languages"
+    },
+    {
+      "name": "noto-fonts-emoji",
+      "reason": "emoji fonts"
+    },
+    {
+      "name": "obs-studio",
+      "reason": "screen recording"
+    },
+    {
+      "name": "python-black",
+      "reason": "Python code formatter"
+    },
+    {
+      "name": "thunar",
+      "reason": "file manager"
+    },
+    {
+      "name": "power-profiles-daemon",
+      "reason": "CPU power profiles"
+    },
+    {
+      "name": "python-pip",
+      "reason": "Python package installer"
+    },
+    {
+      "name": "qbittorrent",
+      "reason": "torrent client"
+    },
+    {
+      "name": "ripgrep",
+      "reason": "file search utility"
+    },
+    {
+      "name": "ruby",
+      "reason": "Ruby programming language"
+    },
+    {
+      "name": "slack-desktop",
+      "reason": "work communication"
+    },
+    {
+      "name": "spotify",
+      "reason": "music streaming"
+    },
+    {
+      "name": "thunderbird",
+      "reason": "email client"
+    },
+    {
+      "name": "udiskie",
+      "reason": "auto-mounting USB drives"
+    },
+    {
+      "name": "unrar",
+      "reason": "RAR file extraction"
+    },
+    {
+      "name": "unzip",
+      "reason": "ZIP file extraction"
+    },
+    {
+      "name": "v4l2loopback-dkms",
+      "reason": "OBS virtual camera"
+    },
+    {
+      "name": "visual-studio-code-bin",
+      "reason": "code editor"
+    },
+    {
+      "name": "vlc",
+      "reason": "video player"
+    },
+    {
+      "name": "xarchiver",
+      "reason": "file archiver"
+    },
+    {
+      "name": "xclip",
+      "reason": "clipboard manager"
+    },
+    {
+      "name": "zathura",
+      "reason": "PDF reader"
+    },
+    {
+      "name": "zathura-pdf-poppler",
+      "reason": "PDF reader plugin"
+    },
+    {
+      "name": "zip",
+      "reason": "file compression"
+    },
+    {
+      "name": "zoom",
+      "reason": "video conferencing"
+    },
+    {
+      "name": "zsh",
+      "reason": "shell"
+    }
+  ],
+  "xorg": {
+    "packages": [
+      {
+        "name": "lxappearance",
+        "reason": "GTK theme manager"
+      },
+      {
+        "name": "clipmenu",
+        "reason": "clipboard manager"
+      },
+      {
+        "name": "dmenu-emoji",
+        "reason": "emoji selector"
+      },
+      {
+        "name": "hacksaw",
+        "reason": "screenshot tool"
+      },
+      {
+        "name": "j4-dmenu-desktop",
+        "reason": "desktop launcher"
+      },
+      {
+        "name": "nitrogen",
+        "reason": "wallpaper manager"
+      },
+      {
+        "name": "network-manager-applet",
+        "reason": "network manager"
+      },
+      {
+        "name": "picom",
+        "reason": "compositor"
+      },
+      {
+        "name": "polybar",
+        "reason": "status bar"
+      },
+      {
+        "name": "scrot",
+        "reason": "screenshot tool"
+      }
+    ],
+    "bspwm": [
+      {
+        "name": "bspwm",
+        "reason": "window manager"
+      },
+      {
+        "name": "sxhkd",
+        "reason": "hotkey daemon"
+      }
+    ]
+  },
+  "wayland": {
+    "packages": [],
+    "hyprland": [
+      {
+        "name": "cliphist",
+        "reason": "clipboard history"
+      },
+      {
+        "name": "hyprland",
+        "reason": "window manager"
+      },
+      {
+        "name": "waybar",
+        "reason": "status bar"
+      },
+      {
+        "name": "wofi",
+        "reason": "application launcher"
+      },
+      {
+        "name": "swww",
+        "reason": "wallpaper manager"
+      },
+      {
+        "name": "wl-clipboard",
+        "reason": "clipboard manager"
+      },
+      {
+        "name": "xdg-desktop-portal-hyprland",
+        "reason": "OBS integration"
+      }
+    ]
+  }
+}

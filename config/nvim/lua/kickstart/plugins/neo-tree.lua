@@ -18,6 +18,10 @@ return {
     },
     window = {
       position = 'right',
+      mappings = {
+        ['h'] = 'close_node',
+        ['l'] = 'open',
+      },
     },
     default_component_configs = {
       indent = {

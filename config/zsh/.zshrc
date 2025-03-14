@@ -35,7 +35,9 @@ export XDG_DATA_HOME="${HOME}/.local/share"
 export XDG_STATE_HOME="${HOME}/.local/state"
 export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
-export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.0.0/bin:/home/shasherazi/.local/bin"
+export PATH="$PATH:/home/shasherazi/.local/bin"
+export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.3.0/bin"
+export PATH=~/.cargo/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 # export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 export $(dbus-launch)
@@ -48,12 +50,17 @@ alias ..="cd .."
 alias ls="ls --color=auto"
 alias ll="ls -l"
 alias la="ls -la"
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
+alias mkdir="mkdir -p"
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias vim="$EDITOR"
 alias nvim="$EDITOR"
 alias lf="lfub"
+alias yay="yay --color=always --noconfirm"
 
 # file shortcuts
 alias bsp="$EDITOR ~/.config/bspwm/bspwmrc && exit"

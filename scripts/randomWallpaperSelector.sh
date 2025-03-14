@@ -8,6 +8,7 @@ elif [ "$XDG_SESSION_TYPE" = "wayland" ]; then
 	# Set a random wallpaper using swaybg with a transition step
 	wallpaper=$(find ~/wallpapers -type f -printf "%p\n" | shuf -n 1)
 	swww img "$wallpaper" --transition-step 50
+	dunstify -t 3000 -r 1337 "Wallpaper changed to $wallpaper"
 else
 	echo "Unsupported desktop environment: $XDG_SESSION_TYPE"
 fi
