@@ -61,11 +61,20 @@ o.inccommand = 'split'
 o.cursorline = true
 
 o.scrolloff = 10 -- Minimal number of screen lines to keep above and below the cursor.
+o.sidescrolloff = 5 -- Minimal number of screen columns to keep to the left and right of the cursor.
 
 o.smartindent = true -- make indenting smarter again
 o.relativenumber = true -- set relative numbered lines
 o.wrap = false -- display lines as one long line
 o.expandtab = true -- convert tabs to spaces
+o.shiftwidth = 2 -- set the number of spaces inserted for each indentation
+o.tabstop = 2 -- set the number of spaces a tab counts for
 o.termguicolors = true -- set term gui colors most terminals support this
+o.foldmethod = 'expr' -- set foldmethod to expr
+o.foldexpr = 'v:lua.vim.treesitter.foldexpr()' -- set foldexpr to treesitter foldexpr
+o.foldcolumn = '0' -- set foldcolumn to auto
+o.foldtext = ''
+o.foldlevel = 99 -- open all folds by default
+o.foldnestmax = 5 -- don't fold more than 5 levels
 
 -- vim: ts=2 sts=2 sw=2 et

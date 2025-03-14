@@ -88,7 +88,7 @@ k.set('n', '[B', '<cmd>BufferLineMovePrev<CR>', { desc = 'Move buffer prev' })
 k.set('n', ']B', '<cmd>BufferLineMoveNext<CR>', { desc = 'Move buffer next' })
 
 -- git
-k.set('n', '<leader>gg', "<cmd>lua require 'lvim.core.terminal'.lazygit_toggle()<cr>", { desc = 'Lazygit' })
+k.set('n', '<leader>gg', "<cmd>G<cr>4j", { desc = 'Vim Fugitive' })
 k.set('n', '<leader>gj', "<cmd>lua require 'gitsigns'.nav_hunk('next', {navigation_message = false})<cr>", { desc = 'Next Hunk' })
 k.set('n', '<leader>gk', "<cmd>lua require 'gitsigns'.nav_hunk('prev', {navigation_message = false})<cr>", { desc = 'Prev Hunk' })
 k.set('n', '<leader>gl', "<cmd>lua require 'gitsigns'.blame_line()<cr>", { desc = 'Blame' })
@@ -149,7 +149,12 @@ k.set('n', '<leader>st', '<cmd>Telescope live_grep<cr>', { desc = 'Text' })
 k.set('n', '<leader>sk', '<cmd>Telescope keymaps<cr>', { desc = 'Keymaps' })
 k.set('n', '<leader>sC', '<cmd>Telescope commands<cr>', { desc = 'Commands' })
 k.set('n', '<leader>sl', '<cmd>Telescope resume<cr>', { desc = 'Resume Last Search' })
-k.set('n', '<leader>sp', "<cmd>lua require('telescope.builtin').colorscheme({enable_preview = true})<cr>", { desc = 'Colorscheme with Preview' })
+k.set(
+  'n',
+  '<leader>sp',
+  "<cmd>lua require('telescope.builtin').colorscheme(require('telescope.themes').get_ivy({enable_preview = true, layout_config = { height = 0.3 }}))<cr>",
+  { desc = 'Colorscheme with Preview' }
+)
 k.set('n', '<leader>s/', function()
   require('telescope.builtin').live_grep {
     grep_open_files = true,
