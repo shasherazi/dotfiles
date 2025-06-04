@@ -21,7 +21,6 @@ def symlinkFile(source, destination):
 destinations = [
     ".config/chromium-flags.conf",
     ".gitconfig",
-    ".local/bin/lfub",
     ".p10k.zsh",
     ".zshrc",
 ]
@@ -29,7 +28,6 @@ destinations = [
 sources = [
     "config/chromium-flags.conf",
     "config/git/.gitconfig",
-    ".local/bin/lfub",
     "config/zsh/.p10k.zsh",
     "config/zsh/.zshrc",
 ]

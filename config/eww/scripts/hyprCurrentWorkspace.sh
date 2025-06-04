@@ -1,6 +1,14 @@
 #!/bin/sh
 
-hyprctl monitors -j | jq '.[] | select(.focused) | .activeWorkspace.id'
+# Function to get and output the current volume
+get_volume() {
+    wpctl get-volume @DEFAULT_SINK@ | awk '{print int($2 * 100)}'
+}
 
-socat -u UNIX-CONNECT:/tmp/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock - |
-	stdbuf -o0 awk -F '>>|,' -e '/^workspace>>/ {print $2}' -e '/^focusedmon>>/ {print $3}'
+# Output initial volume
+get_volume
+
+# Monitor for volume changes using pactl subscribe
+pactl subscribe | grep --line-buffered "change" | grep --line-buffered "sink" | while read -r _; do
+    get_volume
+done

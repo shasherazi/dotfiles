@@ -2,305 +2,689 @@
   "base": [
     {
       "name": "alacritty",
-      "reason": "default terminal"
+      "reason": "default terminal",
+      "category": [
+        "terminal"
+      ]
     },
     {
       "name": "acpi",
-      "reason": "for ./scripts/batteryAlmostFull.sh"
+      "reason": "for ./scripts/batteryAlmostFull.sh",
+      "category": [
+        "system",
+        "utilities"
+      ]
+    },
+    {
+      "name": "bc",
+      "reason": "for volume script",
+      "category": [
+        "system",
+        "utilities"
+      ]
     },
     {
       "name": "brave-bin",
-      "reason": "browser"
+      "reason": "browser",
+      "category": [
+        "browser"
+      ]
     },
     {
       "name": "brightnessctl",
-      "reason": "for brightness control"
+      "reason": "for brightness control",
+      "category": [
+        "system",
+        "utilities"
+      ]
     },
     {
       "name": "clang",
-      "reason": "for occasional C/C++ compiling when I don't wanna use gcc/g++"
+      "reason": "for occasional C/C++ compiling when I don't wanna use gcc/g++",
+      "category": [
+        "development",
+        "compiler"
+      ]
     },
     {
       "name": "cronie",
-      "reason": "for cron jobs"
+      "reason": "for cron jobs",
+      "category": [
+        "system",
+        "utilities"
+      ]
     },
     {
       "name": "chromium",
-      "reason": "for chromium"
+      "reason": "for chromium",
+      "category": [
+        "browser"
+      ]
     },
     {
       "name": "discord",
-      "reason": "for discord"
+      "reason": "for discord",
+      "category": [
+        "communication",
+        "social"
+      ]
     },
     {
       "name": "dunst",
-      "reason": "for notifications (might be X only)"
+      "reason": "for notifications (might be X only)",
+      "category": [
+        "system",
+        "notifications"
+      ]
     },
     {
       "name": "fd",
-      "reason": "for faster file finds for telescope in neovim"
+      "reason": "for faster file finds for telescope in neovim",
+      "category": [
+        "utilities",
+        "development"
+      ]
     },
     {
       "name": "firefox",
-      "reason": "for firefox"
+      "reason": "for firefox",
+      "category": [
+        "browser"
+      ]
     },
     {
       "name": "flake8",
-      "reason": "for linting python code"
+      "reason": "for linting python code",
+      "category": [
+        "development",
+        "linter"
+      ]
+    },
+    {
+      "name": "floorp-bin",
+      "reason": "another browser",
+      "category": [
+        "browser"
+      ]
     },
     {
       "name": "gnome-keyring",
-      "reason": "for storing passwords"
+      "reason": "for storing passwords",
+      "category": [
+        "security",
+        "utilities"
+      ]
     },
     {
       "name": "gvfs-mtp",
-      "reason": "for mounting my phone"
+      "reason": "for mounting my phone",
+      "category": [
+        "system",
+        "file-management"
+      ]
     },
     {
       "name": "htop",
-      "reason": "for monitoring system resources"
+      "reason": "for monitoring system resources",
+      "category": [
+        "system",
+        "monitoring"
+      ]
     },
     {
       "name": "keepassxc",
-      "reason": "password manager"
+      "reason": "password manager",
+      "category": [
+        "security",
+        "utilities"
+      ]
     },
     {
       "name": "kitty",
-      "reason": "backup terminal"
+      "reason": "backup terminal",
+      "category": [
+        "terminal"
+      ]
     },
     {
       "name": "lazygit",
-      "reason": "git in neovim"
+      "reason": "git in neovim",
+      "category": [
+        "development",
+        "version-control"
+      ]
     },
     {
       "name": "mpv",
-      "reason": "for watching videos"
+      "reason": "for watching videos",
+      "category": [
+        "media",
+        "video"
+      ]
     },
     {
       "name": "neofetch",
-      "reason": "system info viewer"
+      "reason": "system info viewer",
+      "category": [
+        "system",
+        "utilities"
+      ]
     },
     {
       "name": "nano",
-      "reason": "backup text editor"
+      "reason": "backup text editor",
+      "category": [
+        "editor"
+      ]
     },
     {
       "name": "neovim",
-      "reason": "primary text editor"
+      "reason": "primary text editor",
+      "category": [
+        "editor",
+        "development"
+      ]
     },
     {
       "name": "nodejs",
-      "reason": "web development"
+      "reason": "web development",
+      "category": [
+        "development",
+        "programming-language"
+      ]
     },
     {
       "name": "gammastep",
-      "reason": "blue light filter"
+      "reason": "blue light filter",
+      "category": [
+        "utilities",
+        "health"
+      ]
     },
     {
       "name": "gthumb",
-      "reason": "image viewer"
+      "reason": "image viewer",
+      "category": [
+        "media",
+        "image"
+      ]
+    },
+    {
+      "name": "less",
+      "reason": "for viewing git log",
+      "category": [
+        "utilities",
+        "text-viewer"
+      ]
     },
     {
       "name": "npm",
-      "reason": "Node.js package manager"
+      "reason": "Node.js package manager",
+      "category": [
+        "development",
+        "package-manager"
+      ]
     },
     {
       "name": "ntfs-3g",
-      "reason": "NTFS drive support"
+      "reason": "NTFS drive support",
+      "category": [
+        "system",
+        "file-system"
+      ]
     },
     {
       "name": "noto-fonts",
-      "reason": "default fonts"
+      "reason": "default fonts",
+      "category": [
+        "fonts"
+      ]
     },
     {
       "name": "noto-fonts-cjk",
-      "reason": "fonts for CJK languages"
+      "reason": "fonts for CJK languages",
+      "category": [
+        "fonts"
+      ]
     },
     {
       "name": "noto-fonts-emoji",
-      "reason": "emoji fonts"
+      "reason": "emoji fonts",
+      "category": [
+        "fonts"
+      ]
+    },
+    {
+      "name": "nwg-look",
+      "reason": "gtk theme manager",
+      "category": [
+        "appearance",
+        "customization"
+      ]
     },
     {
       "name": "obs-studio",
-      "reason": "screen recording"
+      "reason": "screen recording",
+      "category": [
+        "media",
+        "recording"
+      ]
+    },
+    {
+      "name": "okular",
+      "reason": "PDF reader",
+      "category": [
+        "document",
+        "reader"
+      ]
     },
     {
       "name": "python-black",
-      "reason": "Python code formatter"
+      "reason": "Python code formatter",
+      "category": [
+        "development",
+        "formatter"
+      ]
     },
     {
       "name": "thunar",
-      "reason": "file manager"
+      "reason": "file manager",
+      "category": [
+        "file-management"
+      ]
+    },
+    {
+      "name": "pcmanfm",
+      "reason": "file manager",
+      "category": [
+        "file-management"
+      ]
     },
     {
       "name": "power-profiles-daemon",
-      "reason": "CPU power profiles"
+      "reason": "CPU power profiles",
+      "category": [
+        "system",
+        "power-management"
+      ]
     },
     {
       "name": "python-pip",
-      "reason": "Python package installer"
+      "reason": "Python package installer",
+      "category": [
+        "development",
+        "package-manager"
+      ]
     },
     {
       "name": "qbittorrent",
-      "reason": "torrent client"
+      "reason": "torrent client",
+      "category": [
+        "internet",
+        "download"
+      ]
     },
     {
       "name": "ripgrep",
-      "reason": "file search utility"
+      "reason": "file search utility",
+      "category": [
+        "utilities",
+        "search"
+      ]
     },
     {
       "name": "ruby",
-      "reason": "Ruby programming language"
+      "reason": "Ruby programming language",
+      "category": [
+        "development",
+        "programming-language"
+      ]
     },
     {
       "name": "slack-desktop",
-      "reason": "work communication"
+      "reason": "work communication",
+      "category": [
+        "communication",
+        "productivity"
+      ]
     },
     {
       "name": "spotify",
-      "reason": "music streaming"
+      "reason": "music streaming",
+      "category": [
+        "media",
+        "music"
+      ]
+    },
+    {
+      "name": "strawberry",
+      "reason": "fruity music player",
+      "category": [
+        "media",
+        "music"
+      ]
+    },
+    {
+      "name": "syncthing",
+      "reason": "syncing across devices",
+      "category": [
+        "utilities"
+      ]
     },
     {
       "name": "thunderbird",
-      "reason": "email client"
+      "reason": "email client",
+      "category": [
+        "communication",
+        "email"
+      ]
     },
     {
       "name": "udiskie",
-      "reason": "auto-mounting USB drives"
+      "reason": "auto-mounting USB drives",
+      "category": [
+        "system",
+        "file-management"
+      ]
     },
     {
       "name": "unrar",
-      "reason": "RAR file extraction"
+      "reason": "RAR file extraction",
+      "category": [
+        "utilities",
+        "archive"
+      ]
     },
     {
       "name": "unzip",
-      "reason": "ZIP file extraction"
+      "reason": "ZIP file extraction",
+      "category": [
+        "utilities",
+        "archive"
+      ]
     },
     {
       "name": "v4l2loopback-dkms",
-      "reason": "OBS virtual camera"
+      "reason": "OBS virtual camera",
+      "category": [
+        "system",
+        "media"
+      ]
+    },
+    {
+      "name": "vesktop",
+      "reason": "discord alternative",
+      "category": [
+        "communication",
+        "social"
+      ]
     },
     {
       "name": "visual-studio-code-bin",
-      "reason": "code editor"
+      "reason": "code editor",
+      "category": [
+        "editor",
+        "development"
+      ]
     },
     {
       "name": "vlc",
-      "reason": "video player"
+      "reason": "video player",
+      "category": [
+        "media",
+        "video"
+      ]
     },
     {
       "name": "xarchiver",
-      "reason": "file archiver"
+      "reason": "file archiver",
+      "category": [
+        "utilities",
+        "archive"
+      ]
     },
     {
       "name": "xclip",
-      "reason": "clipboard manager"
+      "reason": "clipboard manager",
+      "category": [
+        "utilities",
+        "system"
+      ]
     },
     {
       "name": "zathura",
-      "reason": "PDF reader"
+      "reason": "PDF reader",
+      "category": [
+        "document",
+        "reader"
+      ]
     },
     {
       "name": "zathura-pdf-poppler",
-      "reason": "PDF reader plugin"
+      "reason": "PDF reader plugin",
+      "category": [
+        "document",
+        "reader"
+      ]
     },
     {
       "name": "zip",
-      "reason": "file compression"
+      "reason": "file compression",
+      "category": [
+        "utilities",
+        "archive"
+      ]
     },
     {
       "name": "zoom",
-      "reason": "video conferencing"
+      "reason": "video conferencing",
+      "category": [
+        "communication",
+        "productivity"
+      ]
     },
     {
       "name": "zsh",
-      "reason": "shell"
+      "reason": "shell",
+      "category": [
+        "terminal",
+        "shell"
+      ]
     }
   ],
   "xorg": {
     "packages": [
       {
         "name": "lxappearance",
-        "reason": "GTK theme manager"
+        "reason": "GTK theme manager",
+        "category": [
+          "appearance",
+          "customization"
+        ]
       },
       {
         "name": "clipmenu",
-        "reason": "clipboard manager"
+        "reason": "clipboard manager",
+        "category": [
+          "utilities",
+          "productivity"
+        ]
       },
       {
         "name": "dmenu-emoji",
-        "reason": "emoji selector"
+        "reason": "emoji selector",
+        "category": [
+          "utilities",
+          "input"
+        ]
       },
       {
         "name": "hacksaw",
-        "reason": "screenshot tool"
+        "reason": "screenshot tool",
+        "category": [
+          "utilities",
+          "screenshot"
+        ]
       },
       {
         "name": "j4-dmenu-desktop",
-        "reason": "desktop launcher"
+        "reason": "desktop launcher",
+        "category": [
+          "utilities",
+          "launcher"
+        ]
       },
       {
         "name": "nitrogen",
-        "reason": "wallpaper manager"
+        "reason": "wallpaper manager",
+        "category": [
+          "appearance",
+          "customization"
+        ]
       },
       {
         "name": "network-manager-applet",
-        "reason": "network manager"
+        "reason": "network manager",
+        "category": [
+          "system",
+          "network"
+        ]
       },
       {
         "name": "picom",
-        "reason": "compositor"
+        "reason": "compositor",
+        "category": [
+          "system",
+          "display"
+        ]
       },
       {
         "name": "polybar",
-        "reason": "status bar"
+        "reason": "status bar",
+        "category": [
+          "system",
+          "desktop"
+        ]
       },
       {
         "name": "scrot",
-        "reason": "screenshot tool"
+        "reason": "screenshot tool",
+        "category": [
+          "utilities",
+          "screenshot"
+        ]
       }
     ],
     "bspwm": [
       {
         "name": "bspwm",
-        "reason": "window manager"
+        "reason": "window manager",
+        "category": [
+          "system",
+          "window-manager"
+        ]
       },
       {
         "name": "sxhkd",
-        "reason": "hotkey daemon"
+        "reason": "hotkey daemon",
+        "category": [
+          "system",
+          "input"
+        ]
       }
     ]
   },
   "wayland": {
-    "packages": [],
+    "packages": [
+      {
+        "name": "grim",
+        "reason": "screenshot tool for wayland",
+        "category": [
+          "screenshot",
+          "utilities"
+        ]
+      },
+      {
+        "name": "slurp",
+        "reason": "screenshot tool for wayland",
+        "category": [
+          "screenshot",
+          "utilities"
+        ]
+      }
+    ],
     "hyprland": [
       {
         "name": "cliphist",
-        "reason": "clipboard history"
+        "reason": "clipboard history",
+        "category": [
+          "utilities",
+          "productivity"
+        ]
       },
       {
         "name": "hyprland",
-        "reason": "window manager"
+        "reason": "window manager",
+        "category": [
+          "system",
+          "window-manager"
+        ]
+      },
+      {
+        "name": "hyprlock",
+        "reason": "hyperland lock screen",
+        "category": [
+          "system",
+          "security"
+        ]
+      },
+      {
+        "name": "hypridle",
+        "reason": "idle detection",
+        "category": [
+          "system",
+          "input"
+        ]
       },
       {
         "name": "waybar",
-        "reason": "status bar"
+        "reason": "status bar",
+        "category": [
+          "system",
+          "desktop"
+        ]
       },
       {
-        "name": "wofi",
-        "reason": "application launcher"
+        "name": "rofi-wayland",
+        "reason": "application launcher",
+        "category": [
+          "utilities",
+          "launcher"
+        ]
       },
       {
         "name": "swww",
-        "reason": "wallpaper manager"
+        "reason": "wallpaper manager",
+        "category": [
+          "appearance",
+          "customization"
+        ]
       },
       {
         "name": "wl-clipboard",
-        "reason": "clipboard manager"
+        "reason": "clipboard manager",
+        "category": [
+          "utilities",
+          "productivity"
+        ]
       },
       {
         "name": "xdg-desktop-portal-hyprland",
-        "reason": "OBS integration"
+        "reason": "OBS integration",
+        "category": [
+          "system",
+          "integration"
+        ]
       }
     ]
   }
