@@ -5,7 +5,7 @@ configuration {
     display-window: "Windows:";
     show-icons: true;
     icon-theme: "WhiteSur-dark";
-    modi: "window,drun,run,emoji";
+    modi: "window,drun,run";
 }
 
 
@@ -13,14 +13,18 @@ configuration {
 @theme "/dev/null"
 
 * {
-    background : #0D000069;
-    foreground : #d5c7ac;
-    accent1    : #0e3523;
-    accent2    : #402401;
-    accent3    : #801817;
-    accent4    : #869aa4;
-    accent5    : #26130D;
-
+    background : #1F1F28;
+    foreground : #DCD7BA;
+    red: #C34043;
+    red-bright: #E82424;
+    green: #76946A;
+    green-bright: #98BB6C;
+    blue: #7E9CD8;
+    blue-bright: #7FB4CA;
+    purple: #957FB8;
+    purple-bright: #938AA9;
+    selection-fg: #C8C093;
+    selection-bg: #2D4F67;
     background-color: @background;
     spacing: 0;
 }
@@ -40,7 +44,7 @@ prompt {
 // All ekements' text
 element {
     text-color: @foreground;
-    background-color: #00000000;
+    background-color: @background;
     padding: 10;
 }
 
@@ -57,8 +61,8 @@ element-icon {
 }
 
 element selected {
-    text-color: @accent5;
-    background-color: @accent4;
+    text-color: @selection-fg;
+    background-color: @selection-bg;
 }
 
 listview {
@@ -66,7 +70,9 @@ listview {
 }
 
 window {
-    border-radius: 10;
+    border-radius: 0;
     border: 1px;
-    border-color: @accent4;
+    border-color: @purple;
+    padding: 0 0 10 0;
+    background-color: @background;
 }

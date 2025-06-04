@@ -1,42 +1,50 @@
+@define-color color-bg #1f1f28;
+@define-color color-text #dcd7ba;
+@define-color color-red #e82424;
+@define-color color-green #98bb6c;
+
 * {
   font-family: "JetBrains Mono NF", sans-serif;
   font-size: 16px;
 }
 
 window#waybar {
-  background-color: rgba(0, 0, 0, 0);
-  color: #a9b1d6;
+  background-color: @color-bg;
+  border-radius: 10px;
+  color: @color-text;
 }
 
 #clock {
-  color: #f7768e;
-  /* background-color: #24283b; */
+  color: @color-red;
+  font-family: "Oxanium ExtraLight ExtraBold", serif;
+}
+
+#battery {
+  padding-bottom: 10px;
 }
 
 #battery.discharging {
-  color: #f7768e;
+  color: @color-red;
 }
 
 #battery.charging {
-  color: #9ece6a;
+  color: @color-green;
 }
 
 #pulseaudio.muted {
-  color: #f7768e;
+  color: @color-red;
+}
+
+#workspaces {
+  padding-top: 5px;
 }
 
 #workspaces button {
-  padding: 2px;
-  background-color: #16161e;
   margin-top: 5px;
-  margin-right: 7px;
-  padding: 0 5px;
-  color: #a9b1d6;
-  border-radius: 7px;
 }
 
 #workspaces button.active {
-  color: #9ece6a;
+  color: @color-green;
 }
 
 #workspaces button:hover {
@@ -44,23 +52,20 @@ window#waybar {
   text-shadow: inherit;
   background: none;
   border-color: transparent;
-  background-color: #16161e;
 }
 
 .modules-center {
-  background-color: #16161e;
   margin-top: 5px;
   padding: 0 10px;
   border-radius: 10px;
 }
 
 .modules-right {
-  background-color: #16161e;
   margin-top: 5px;
   padding: 0 10px;
   border-radius: 10px;
 }
 
 tooltip {
-  background-color: #16161e;
+  background-color: @color-bg;
 }

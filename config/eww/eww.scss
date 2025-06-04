@@ -9,7 +9,7 @@
 
 .main {
   font-family: "JetBrains Mono NF";
-  font-size: 16px;
+  font-size: 15px;
   color: #a9b1d6;
   padding: 0 10px;
 }
@@ -27,8 +27,8 @@ tooltip {
   border-radius: 10px;
 }
 
-.workspace {
-  padding: 0 9px;
+.currentWorkspace {
+  padding: 0 5px;
 }
 
 .workspace:hover {
@@ -37,6 +37,22 @@ tooltip {
 
 .current {
   color: #9ece6a;
+}
+
+.date {
+  padding-left: 10px;
+}
+
+scale trough {
+  background-color: red;
+  border-radius: 2px;
+  min-height: 5px;
+  min-width: 50px;
+}
+
+scale trough highlight {
+  background-color: blue;
+  border-radius: 2px;
 }
 
 .battery-charging {

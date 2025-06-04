@@ -24,6 +24,14 @@ vim.schedule(function()
   o.clipboard = 'unnamedplus'
 end)
 
+-- always show diagnostic source
+vim.diagnostic.config {
+  float = {
+    source = true,
+    border = 'single',
+  },
+}
+
 -- Enable break indent
 o.breakindent = true
 

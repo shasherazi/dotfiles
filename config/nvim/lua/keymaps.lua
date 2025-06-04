@@ -9,6 +9,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+local ui = require 'custom.utils.ui'
 local k = vim.keymap
 
 -- [[ Basic Keymaps ]]
@@ -72,7 +73,8 @@ k.set('n', '<leader>q', '<cmd>confirm q<CR>', { desc = 'Quit' })
 k.set('n', '<leader>w', '<cmd>w!<CR>', { desc = 'Save' })
 
 -- bufferline
-k.set('n', '<leader>c', '<cmd>bdelete<CR>', { desc = 'Close buffer' })
+-- k.set('n', '<leader>c', '<cmd>bdelete<CR>', { desc = 'Close buffer' })
+k.set('n', '<leader>c', ui.bufremove, { desc = 'Close buffer' })
 k.set('n', '<leader>bp', '<cmd>BufferLineTogglePin<CR>', { desc = 'Toggle Pin' })
 k.set('n', '<leader>bP', '<cmd>BufferLineGroupClose ungrouped<CR>', { desc = 'Delete Non-Pinned Buffers' })
 k.set('n', '<leader>bo', '<cmd>BufferLineCloseOthers<CR>', { desc = 'Delete Other Buffers' })
@@ -88,7 +90,7 @@ k.set('n', '[B', '<cmd>BufferLineMovePrev<CR>', { desc = 'Move buffer prev' })
 k.set('n', ']B', '<cmd>BufferLineMoveNext<CR>', { desc = 'Move buffer next' })
 
 -- git
-k.set('n', '<leader>gg', "<cmd>G<cr>4j", { desc = 'Vim Fugitive' })
+k.set('n', '<leader>gg', '<cmd>G<cr>4j', { desc = 'Vim Fugitive' })
 k.set('n', '<leader>gj', "<cmd>lua require 'gitsigns'.nav_hunk('next', {navigation_message = false})<cr>", { desc = 'Next Hunk' })
 k.set('n', '<leader>gk', "<cmd>lua require 'gitsigns'.nav_hunk('prev', {navigation_message = false})<cr>", { desc = 'Prev Hunk' })
 k.set('n', '<leader>gl', "<cmd>lua require 'gitsigns'.blame_line()<cr>", { desc = 'Blame' })

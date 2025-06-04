@@ -1,8 +1,12 @@
 [user]
-	signingkey = 070CD2E048F6CD4E
+	signingkey = DA98F6B17ACE6A75BD380A2FEC5CDC0C90EF08B6
 	name = shasherazi
 	email = hassanrandomz@gmail.com
 [commit]
 	gpgsign = true
 [init]
   defaultBranch = main
+[tag]
+	gpgSign = true
+[core]
+	autocrlf = input

@@ -2,6 +2,7 @@
 (include "./widgets/workspaces.yuck")
 (include "./widgets/wifi.yuck")
 (include "./widgets/battery.yuck")
+(include "./widgets/volume.yuck")
 
 (defwidget mainBar []
   (box
@@ -16,6 +17,7 @@
   (box
     :class "right"
     :halign "end"
+    (volume)
     (wifi)
     (battery)
   )
@@ -32,7 +34,7 @@
 (defwidget center []
   (box
     :class "center"
-    :halign "baseline"
+    :halign "center"
     (timeWidget)
   )
 )
@@ -44,7 +46,9 @@
     :y "5px"
     :width "100%"
   :anchor "top center")
+  :stacking "bottom"
   :exclusive true
+  :focusable false
   :wm-ignore true
   (mainBar)
 )

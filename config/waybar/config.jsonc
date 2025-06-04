@@ -1,9 +1,8 @@
 {
-  "height": 33,
   "spacing": 10,
   "layer": "top",
-  "margin-left": 5,
-  "margin-right": 5,
+  "position": "right",
+  "margin": "5 5 5 0",
   "modules-left": [
     "hyprland/workspaces"
   ],
@@ -11,12 +10,10 @@
     "clock"
   ],
   "modules-right": [
-    "memory",
-    "cpu",
+    "tray",
     "pulseaudio",
-    "battery",
     "network",
-    "tray"
+    "battery"
   ],
   "tray": {
     "icon-size": 21,
@@ -29,8 +26,7 @@
       "warning": 50,
       "critical": 20
     },
-    "format": "{capacity}% {icon}",
-    "format-charging": "{capacity}% 󰂄",
+    "format": "{icon}",
     "format-time": "{H}h {M}min",
     "format-icons": [
       " ",
@@ -38,12 +34,19 @@
       " ",
       " ",
       " "
-    ]
+    ],
+    "format-charging": "󰁹󱐋",
+    // "format-charging-icons": [
+    //   "󰁺󱐋",
+    //   "󰁼󱐋",
+    //   "󰁾󱐋",
+    //   "󰂀󱐋",
+    //   "󰁹󱐋"
+    // ],
+    "tooltip-format": "Current percentage: {capacity}%\n{timeTo}"
   },
   "clock": {
-    "format": "{:%H:%M}",
-    "interval": 60,
-    "format-alt": "{:%A, %B %d, %Y (%R)}",
+    "format": "{:%H\n%M}",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "calendar": {
       "mode": "month",
@@ -65,7 +68,8 @@
       "on-click-backward": "tz_down",
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
-    }
+    },
+    "justify": "center"
   },
   "hyprland/workspaces": {
     "format": "{name}",
@@ -74,15 +78,14 @@
       "active": ""
     },
     "on-click": "activate",
-    "sort-by-number": true
+    "sort-by-number": true,
+    "justify": "center"
   },
   "pulseaudio": {
-    "format": "{volume}% {icon}",
-    "format-bluetooth": "{volume}% {icon}",
+    "format": "{volume}\n{icon}",
+    "format-bluetooth": "{volume}\n󰂯",
     "format-icons": {
       "headphone": "󰋋 ",
-      "hands-free": "",
-      "headset": "",
       "phone": "",
       "portable": "",
       "car": "",
@@ -91,6 +94,7 @@
         ""
       ]
     },
+    "justify": "center",
     "scroll-step": 1,
     "ignored-sinks": [
       "Easy Effects Sink"
@@ -117,6 +121,7 @@
     "tooltip-format-wifi": "{essid}\n{signalStrength}% strength\n{ipaddr}\n{bandwidthDownBytes} 󰇚 {bandwidthUpBytes} 󰕒",
     "tooltip-format-ethernet": "{ifname}  ",
     "tooltip-format-disconnected": "Disconnected",
+    "justify": "center",
     "max-length": 50
   }
 }

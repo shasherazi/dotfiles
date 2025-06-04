@@ -1,0 +1,11 @@
+(deflisten volume
+  :initial 0
+  "./scripts/volume.sh"
+)
+
+(defwidget volume []
+  (box
+    :class "volume"
+    "󰕾 ${volume}% "
+  )
+)
