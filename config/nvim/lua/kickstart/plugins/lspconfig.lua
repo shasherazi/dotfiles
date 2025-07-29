@@ -164,13 +164,13 @@ return {
       })
 
       -- Change diagnostic symbols in the sign column (gutter)
-      -- if vim.g.have_nerd_font then
-      --   local signs = { Error = '', Warn = '', Hint = '', Info = '' }
-      --   for type, icon in pairs(signs) do
-      --     local hl = 'DiagnosticSign' .. type
-      --     vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = hl })
-      --   end
-      -- end
+      if vim.g.have_nerd_font then
+        local signs = { Error = '', Warn = '', Hint = '', Info = '' }
+        for type, icon in pairs(signs) do
+          local hl = 'DiagnosticSign' .. type
+          vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = hl })
+        end
+      end
 
       -- LSP servers and clients are able to communicate to each other what features they support.
       --  By default, Neovim doesn't support everything that is in the LSP specification.
@@ -179,6 +179,9 @@ return {
       local capabilities = vim.lsp.protocol.make_client_capabilities()
       capabilities = vim.tbl_deep_extend('force', capabilities, require('cmp_nvim_lsp').default_capabilities())
 
+      local arduino_capabilities = vim.deepcopy(capabilities)
+      arduino_capabilities.textDocument.semanticTokens = nil
+      arduino_capabilities.workspace.semanticTokens = nil
       -- Enable the following language servers
       --  Feel free to add/remove any LSPs that you want here. They will automatically be installed.
       --
@@ -216,6 +219,20 @@ return {
             },
           },
         },
+        arduino_language_server = {
+          cmd = {
+            'arduino-language-server',
+            '-cli-config',
+            '/home/shasherazi/.arduino15/arduino-cli.yaml',
+            '-fqbn',
+            'arduino:avr:nano:cpu=atmega328old',
+            '-cli',
+            '/usr/bin/arduino-cli',
+            '-clangd',
+            '/home/shasherazi/.local/share/nvim/mason/bin/clangd',
+          },
+          capabilities = arduino_capabilities,
+        },
       }
 
       -- Ensure the servers and tools above are installed
@@ -238,13 +255,14 @@ return {
         handlers = {
           function(server_name)
             local server = servers[server_name] or {}
-            -- This handles overriding only values explicitly passed
-            -- by the server configuration above. Useful when disabling
-            -- certain features of an LSP (for example, turning off formatting for ts_ls)
-            server.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
+            if not server.capabilities then
+              server.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
+            end
             require('lspconfig')[server_name].setup(server)
           end,
         },
+        ensure_installed = {},
+        automatic_installation = {},
       }
     end,
   },

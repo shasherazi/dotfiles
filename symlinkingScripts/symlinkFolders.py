@@ -18,19 +18,6 @@ def symlink(source, destination):
     print(f"Symlinking {source} to {destination}")
     os.symlink(source, destination)
 
-
-# run this to copy from system to dotfiles
-# def copyFromDestination(source, destination):
-#     source = os.path.join(os.path.expanduser("~"), source)
-#     destination = os.path.join(DOTFILES_PATH, destination)
-#     print(f"Copying {source} to {destination}")
-
-#     if not os.path.exists(destination):
-#         os.makedirs(destination)
-
-#     os.system(f"cp -r {source} {destination}")
-
-
 destinations = [
     ".icons",
     ".themes",
@@ -44,13 +31,16 @@ destinations = [
     ".config/hypr",
     ".config/kitty",
     ".config/lf",
+    ".config/mpd",
     ".config/mutt",
     ".config/nitrogen",
     ".config/nvim",
     ".config/polybar",
     ".config/picom",
+    ".config/rmpc",
     ".config/rofi",
     ".config/sxhkd",
+    ".config/systemd",
     ".config/tmux",
     ".config/qtile",
     ".config/waybar",
@@ -72,13 +62,16 @@ sources = [
     "config/hypr",
     "config/kitty",
     "config/lf",
+    "config/mpd",
     "config/mutt",
     "config/nitrogen",
     "config/nvim",
     "config/polybar",
     "config/picom",
+    "config/rmpc",
     "config/rofi",
     "config/sxhkd",
+    "config/systemd",
     "config/tmux",
     "config/qtile",
     "config/waybar",

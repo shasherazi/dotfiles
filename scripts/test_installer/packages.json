@@ -155,19 +155,19 @@
       ]
     },
     {
+      "name": "mpd",
+      "reason": "for music playback",
+      "category": [
+        "media",
+        "music"
+      ]
+    },
+    {
       "name": "mpv",
       "reason": "for watching videos",
       "category": [
         "media",
         "video"
-      ]
-    },
-    {
-      "name": "neofetch",
-      "reason": "system info viewer",
-      "category": [
-        "system",
-        "utilities"
       ]
     },
     {
@@ -263,6 +263,14 @@
       ]
     },
     {
+      "name": "obsidian",
+      "reason": "note taking",
+      "category": [
+        "productivity",
+        "note-taking"
+      ]
+    },
+    {
       "name": "obs-studio",
       "reason": "screen recording",
       "category": [
@@ -301,6 +309,14 @@
       ]
     },
     {
+      "name": "pfetch",
+      "reason": "system info viewer",
+      "category": [
+        "system",
+        "utilities"
+      ]
+    },
+    {
       "name": "power-profiles-daemon",
       "reason": "CPU power profiles",
       "category": [
@@ -330,6 +346,14 @@
       "category": [
         "utilities",
         "search"
+      ]
+    },
+    {
+      "name": "rmpc",
+      "reason": "terminal music player",
+      "category": [
+        "media",
+        "music"
       ]
     },
     {
@@ -441,14 +465,6 @@
       "category": [
         "utilities",
         "archive"
-      ]
-    },
-    {
-      "name": "xclip",
-      "reason": "clipboard manager",
-      "category": [
-        "utilities",
-        "system"
       ]
     },
     {
@@ -573,7 +589,15 @@
           "utilities",
           "screenshot"
         ]
-      }
+      },
+    {
+      "name": "xclip",
+      "reason": "clipboard manager",
+      "category": [
+        "utilities",
+        "system"
+      ]
+    }
     ],
     "bspwm": [
       {
@@ -663,7 +687,7 @@
         ]
       },
       {
-        "name": "swww",
+        "name": "hyprpaper",
         "reason": "wallpaper manager",
         "category": [
           "appearance",

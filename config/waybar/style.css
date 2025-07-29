@@ -10,13 +10,13 @@
 
 window#waybar {
   background-color: @color-bg;
-  border-radius: 10px;
+  border-radius: 0px;
   color: @color-text;
 }
 
 #clock {
   color: @color-red;
-  font-family: "Oxanium ExtraLight ExtraBold", serif;
+  font-family: "Oxanium ExtraLight ExtraBold", sans-serif;
 }
 
 #battery {

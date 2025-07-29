@@ -75,40 +75,40 @@ return {
             end,
           },
         },
-        sorting = {
-          priority_weight = 2,
-          comparators = {
-            -- Prioritize by kind number
-            function(entry1, entry2)
-              local kind_order = {
-                [cmp.lsp.CompletionItemKind.Keyword] = 1,
-                [cmp.lsp.CompletionItemKind.Variable] = 2,
-                [cmp.lsp.CompletionItemKind.Field] = 3,
-                [cmp.lsp.CompletionItemKind.Property] = 4,
-                [cmp.lsp.CompletionItemKind.Method] = 5,
-                [cmp.lsp.CompletionItemKind.Function] = 6,
-                [cmp.lsp.CompletionItemKind.Text] = 7,
-                [cmp.lsp.CompletionItemKind.Snippet] = 8,
-              }
-
-              local kind1 = kind_order[entry1:get_kind()] or 99
-              local kind2 = kind_order[entry2:get_kind()] or 99
-
-              if kind1 ~= kind2 then
-                return kind1 < kind2
-              end
-            end,
-            -- fallback comparators
-            cmp.config.compare.offset,
-            cmp.config.compare.exact,
-            cmp.config.compare.score,
-            cmp.config.compare.recently_used,
-            cmp.config.compare.kind,
-            cmp.config.compare.sort_text,
-            cmp.config.compare.length,
-            cmp.config.compare.order,
-          },
-        },
+        -- sorting = {
+        --   priority_weight = 2,
+        --   comparators = {
+        --     -- Prioritize by kind number
+        --     function(entry1, entry2)
+        --       local kind_order = {
+        --         [cmp.lsp.CompletionItemKind.Keyword] = 1,
+        --         [cmp.lsp.CompletionItemKind.Variable] = 2,
+        --         [cmp.lsp.CompletionItemKind.Field] = 3,
+        --         [cmp.lsp.CompletionItemKind.Property] = 4,
+        --         [cmp.lsp.CompletionItemKind.Method] = 5,
+        --         [cmp.lsp.CompletionItemKind.Function] = 6,
+        --         [cmp.lsp.CompletionItemKind.Text] = 7,
+        --         [cmp.lsp.CompletionItemKind.Snippet] = 8,
+        --       }
+        --
+        --       local kind1 = kind_order[entry1:get_kind()] or 99
+        --       local kind2 = kind_order[entry2:get_kind()] or 99
+        --
+        --       if kind1 ~= kind2 then
+        --         return kind1 < kind2
+        --       end
+        --     end,
+        --     -- fallback comparators
+        --     cmp.config.compare.offset,
+        --     cmp.config.compare.exact,
+        --     cmp.config.compare.score,
+        --     cmp.config.compare.recently_used,
+        --     cmp.config.compare.kind,
+        --     cmp.config.compare.sort_text,
+        --     cmp.config.compare.length,
+        --     cmp.config.compare.order,
+        --   },
+        -- },
 
         -- For an understanding of why these mappings were
         -- chosen, you will need to read `:help ins-completion`
