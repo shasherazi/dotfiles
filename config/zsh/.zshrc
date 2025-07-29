@@ -1,26 +1,12 @@
 # startup ascii
-STARTUP_IMAGE="$HOME/dotfiles/assets/startup/images/kanagawa.png"
-GAP=5
-kitten icat --clear --place 20x20@3x1 --align left "$STARTUP_IMAGE"
-
-for i in {1..$GAP}; do
-  echo "\n"
-done
-# echo "
-#     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⠶⠞⠛⠛⠉⠉⠉⠉⠉⠙⠛⢦⠀⠀⠀⠀
-#     ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠞⠉⠀⠀⠀⠆⠀⠀⠀⠀⠀⠀⠀⠀⠐⢹⠀⠀⠀
-#     ⠀⠀⠀⠀⠀⠀⢠⡾⠋⠀⠀⠀⠀⢀⣀⣤⣤⠴⠶⠶⠶⠶⠶⡶⡾⠀⠀⠀⠀
-#     ⠀⠀⠀⠀⠀⣴⠋⠀⠀⢀⡴⠾⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⣼⠁⠀⠀⠀⠀⠀
-#     ⠀⠀⠀⢀⡼⠁⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠃⠀⠀You forgot something...
-#     ⠀⠀⢀⡼⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡇⠀⠀⠀⠀⠀⠀⠀
-#     ⠀⠀⣼⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀
-#     ⠀⢠⡇⠀⠀⠀⠀⠀⠀⠀⠀⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀
-#     ⠀⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣆⠀⠀⠀⠀⠀⠀⠀⢀⡇⠀⣰⣏🧠⣀⣀
-#     ⠀⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣆⠀⠀⠀⠀⠀⠀⢸⡇⣠⠏⠉⠛⠛⠋⠁
-#     ⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⡄⠀⠀⠀⠀⠀⢸⣿⠋⠀⠀⠀⠀⠀⠀
-#     ⢸⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀⠀⠀⣼⡇⠀⠀⠀⠀⠀⠀⠀
-#     ⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡀⠀⠀⣼⠃⣧⠀⠀⠀⠀⠀⠀⠀
-# "
+# STARTUP_IMAGE="$HOME/dotfiles/assets/startup/images/kanagawa.png"
+# GAP=5
+# kitten icat --clear --place 20x20@3x1 --align left "$STARTUP_IMAGE"
+#
+# for i in {1..$GAP}; do
+#   echo "\n"
+# done
+fortune | cowsay
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -30,6 +16,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # shortcuts idk
+bindkey -e
 bindkey "^[[3~" delete-char
 
 # Lines configured by zsh-newuser-install
@@ -48,7 +35,6 @@ autoload -Uz compinit; compinit
 zstyle ':completion:*' menu select
 zstyle ':completion:*' verbose yes
 zstyle ':completion:*' completer _extensions _complete _approximate
-bindkey -e
 # End of lines configured by zsh-newuser-install
 
 # environment variables
@@ -63,9 +49,7 @@ export ANDROID_HOME=${HOME}/Android/Sdk
 export PATH=${ANDROID_HOME}/tools:${PATH}
 export PATH=${ANDROID_HOME}/emulator:${PATH}
 export PATH=${ANDROID_HOME}/platform-tools:${PATH}
-export PATH="$PATH:/home/shasherazi/.local/bin"
-export PATH="$PATH:/home/shasherazi/.local/share/gem/ruby/3.3.0/bin"
-export PATH="$PATH:/home/shasherazi/.dotnet/tools"
+export PATH="$PATH:${HOME}/.local/bin"
 export PATH=~/.cargo/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 
@@ -90,7 +74,6 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias vim="$EDITOR"
 alias nvim="$EDITOR"
-alias lf="lfub"
 
 # file shortcuts
 alias bsp="$EDITOR ~/.config/bspwm/bspwmrc && exit"
@@ -108,11 +91,6 @@ alias tmx="$EDITOR ~/.config/tmux/tmux.conf && exit"
 alias way="$EDITOR ~/.config/waybar/config.jsonc && exit"
 alias zat="$EDITOR ~/.config/zathura/zathurarc && exit"
 alias zrc="$EDITOR ~/.zshrc && exit"
-
-# tmux
-# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-#     exec tmux new-session -A -s main
-# fi
 
 # plugins
 source ~/.zsh_plugins/powerlevel10k/powerlevel10k.zsh-theme

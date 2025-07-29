@@ -2,7 +2,7 @@
   "spacing": 10,
   "layer": "top",
   "position": "right",
-  "margin": "5 5 5 0",
+  "margin": "0",
   "modules-left": [
     "hyprland/workspaces"
   ],
@@ -12,7 +12,9 @@
   "modules-right": [
     "tray",
     "pulseaudio",
-    "network",
+    "network#wifi",
+    "network#ethernet",
+    "network#tethering",
     "battery"
   ],
   "tray": {
@@ -110,18 +112,38 @@
     "format": " {}%",
     "max-length": 10
   },
-  "network": {
-    "interface": "wlp2s0",
+  "network#wifi": {
+    "interface": "wlp*",
     "interval": 5,
     "format": "{ifname}",
     "format-wifi": "󰤨 ",
-    "format-ethernet": " ",
-    "format-disconnected": "󰤭 ",
-    "tooltip-format": "{ifname} via {gwaddr}  ",
+    "format-disconnected": "",
     "tooltip-format-wifi": "{essid}\n{signalStrength}% strength\n{ipaddr}\n{bandwidthDownBytes} 󰇚 {bandwidthUpBytes} 󰕒",
-    "tooltip-format-ethernet": "{ifname}  ",
-    "tooltip-format-disconnected": "Disconnected",
+    "tooltip-format-disconnected": "{ifname} disconnected",
+    "justify": "center",
+    "max-length": 50
+  },
+  "network#ethernet": {
+    "interface": "enp*",
+    "interval": 5,
+    "format": "{ifname}",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "",
+    "tooltip-format-ethernet": "{ifname} connected\n{ipaddr}\n{bandwidthDownBytes} 󰇚 {bandwidthUpBytes} 󰕒",
+    "tooltip-format-disconnected": "{ifname} disconnected",
+    "justify": "center",
+    "max-length": 50
+  },
+  "network#tethering": {
+    "interface": "enp0s2*",
+    "interval": 5,
+    "format": "{ifname}",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "",
+    "tooltip-format-ethernet": "{ifname} connected\n{ipaddr}\n{bandwidthDownBytes} 󰇚 {bandwidthUpBytes} 󰕒",
+    "tooltip-format-disconnected": "{ifname} disconnected",
     "justify": "center",
     "max-length": 50
   }
+
 }

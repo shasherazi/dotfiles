@@ -3,6 +3,7 @@
 (include "./widgets/wifi.yuck")
 (include "./widgets/battery.yuck")
 (include "./widgets/volume.yuck")
+(include "./widgets/qr.yuck")
 
 (defwidget mainBar []
   (box
@@ -51,4 +52,15 @@
   :focusable false
   :wm-ignore true
   (mainBar)
+)
+
+(defvar qr_text "")
+(defvar qr_ascii "Enter text and press Enter or click Generate")
+
+(defwindow qr_input
+  :geometry (geometry :x "20%" :y "10%" :width "400px" :height "400px")
+  :monitor 0
+  :stacking "overlay"
+  :focusable true
+  (qr)
 )

@@ -73,7 +73,7 @@ o.sidescrolloff = 5 -- Minimal number of screen columns to keep to the left and 
 
 o.smartindent = true -- make indenting smarter again
 o.relativenumber = true -- set relative numbered lines
-o.wrap = false -- display lines as one long line
+o.wrap = true -- display lines as one long line or wrap them
 o.expandtab = true -- convert tabs to spaces
 o.shiftwidth = 2 -- set the number of spaces inserted for each indentation
 o.tabstop = 2 -- set the number of spaces a tab counts for
