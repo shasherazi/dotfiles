@@ -51,7 +51,6 @@ export PATH=${ANDROID_HOME}/emulator:${PATH}
 export PATH=${ANDROID_HOME}/platform-tools:${PATH}
 export PATH="$PATH:${HOME}/.local/bin"
 export PATH=~/.cargo/bin:$PATH
-export PATH=~/.npm-global/bin:$PATH
 
 export npm_config_prefix="$HOME/.local"
 # export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
@@ -78,7 +77,6 @@ alias nvim="$EDITOR"
 # file shortcuts
 alias bsp="$EDITOR ~/.config/bspwm/bspwmrc && exit"
 alias bkm="$EDITOR ~/dotfiles/scripts/launchers/bookmarks.csv && exit"
-alias dots="$EDITOR ~/dotfiles/ && exit"
 alias dun="$EDITOR ~/.config/dunst/dunstrc && exit"
 alias gam="$EDITOR ~/.config/gammastep/config.ini && exit"
 alias hyp="$EDITOR ~/.config/hypr/hyprland.conf && exit"

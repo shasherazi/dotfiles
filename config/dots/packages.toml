@@ -1,14 +1,98 @@
 [[packages]]
-name = "alacritty"
-reason = "backup terminal"
-category = "base"
-tags = ["system"]
+name = "7zip"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "calibre"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "cowsay"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "foliate"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "fortune-mod-off"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "gwenview"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "jq"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "kvantum"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "libreoffice-still"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "openssh"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "qt6ct"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "stremio"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "tree"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "unzip"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
 
 [[packages]]
 name = "acpi"
 reason = "for ~/dotfiles/scripts/batteryAlmostFull.sh"
 category = "base"
 tags = ["scripts"]
+
+[[packages]]
+name = "alacritty"
+reason = "backup terminal"
+category = "base"
+tags = ["system"]
 
 [[packages]]
 name = "brightnessctl"
@@ -53,6 +137,18 @@ category = "base"
 tags = ["browser"]
 
 [[packages]]
+name = "gammastep"
+reason = "blue light filter"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "gthumb"
+reason = "image viewer"
+category = "base"
+tags = ["media"]
+
+[[packages]]
 name = "keepassxc"
 reason = "password manager"
 category = "base"
@@ -69,6 +165,12 @@ name = "lazygit"
 reason = "git gui"
 category = "base"
 tags = ["dev"]
+
+[[packages]]
+name = "less"
+reason = "for viewing git log"
+category = "base"
+tags = ["system"]
 
 [[packages]]
 name = "mpd"
@@ -107,36 +209,6 @@ category = "base"
 tags = ["dev"]
 
 [[packages]]
-name = "gammastep"
-reason = "blue light filter"
-category = "base"
-tags = ["system"]
-
-[[packages]]
-name = "gthumb"
-reason = "image viewer"
-category = "base"
-tags = ["media"]
-
-[[packages]]
-name = "less"
-reason = "for viewing git log"
-category = "base"
-tags = ["system"]
-
-[[packages]]
-name = "npm"
-reason = "Node.js package manager"
-category = "base"
-tags = ["dev"]
-
-[[packages]]
-name = "ntfs-3g"
-reason = "NTFS drive support"
-category = "base"
-tags = ["system"]
-
-[[packages]]
 name = "noto-fonts"
 reason = "default fonts"
 category = "base"
@@ -155,16 +227,22 @@ category = "base"
 tags = ["fonts"]
 
 [[packages]]
+name = "npm"
+reason = "Node.js package manager"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "ntfs-3g"
+reason = "NTFS drive support"
+category = "base"
+tags = ["system"]
+
+[[packages]]
 name = "nwg-look"
 reason = "gtk theme manager"
 category = "base"
 tags = ["ui"]
-
-[[packages]]
-name = "obsidian"
-reason = "note taking"
-category = "base"
-tags = ["docs"]
 
 [[packages]]
 name = "obs-studio"
@@ -173,16 +251,16 @@ category = "base"
 tags = ["media"]
 
 [[packages]]
-name = "okular"
-reason = "PDF reader"
+name = "obsidian"
+reason = "note taking"
 category = "base"
 tags = ["docs"]
 
 [[packages]]
-name = "thunar"
-reason = "file manager"
+name = "okular"
+reason = "PDF reader"
 category = "base"
-tags = ["files"]
+tags = ["docs"]
 
 [[packages]]
 name = "pcmanfm"
@@ -233,6 +311,12 @@ category = "base"
 tags = ["system"]
 
 [[packages]]
+name = "thunar"
+reason = "file manager"
+category = "base"
+tags = ["files"]
+
+[[packages]]
 name = "vencord"
 reason = "for discord, but better"
 category = "base"
@@ -275,6 +359,36 @@ category = "base"
 tags = ["system"]
 
 [[packages]]
+name = "hypridle"
+reason = "hyprland idle detection, for lockscreen trigger"
+category = "hyprland"
+tags = ["system"]
+
+[[packages]]
+name = "hyprland"
+reason = "hyprland window manager"
+category = "hyprland"
+tags = ["system"]
+
+[[packages]]
+name = "hyprlock"
+reason = "hyprland lockscreen"
+category = "hyprland"
+tags = ["security"]
+
+[[packages]]
+name = "hyprpaper"
+reason = "hyprland wallpaper manager"
+category = "hyprland"
+tags = ["system"]
+
+[[packages]]
+name = "xdg-desktop-portal-hyprland"
+reason = "xdg desktop portal for hyprland (idk what it does)"
+category = "hyprland"
+tags = ["system"]
+
+[[packages]]
 name = "cliphist"
 reason = "for clipboard history"
 category = "wayland"
@@ -308,34 +422,4 @@ tags = ["system"]
 name = "wl-clipboard"
 reason = "for clipboard management in wayland"
 category = "wayland"
-tags = ["system"]
-
-[[packages]]
-name = "hyprland"
-reason = "hyprland window manager"
-category = "hyprland"
-tags = ["system"]
-
-[[packages]]
-name = "hyprlock"
-reason = "hyprland lockscreen"
-category = "hyprland"
-tags = ["security"]
-
-[[packages]]
-name = "hypridle"
-reason = "hyprland idle detection, for lockscreen trigger"
-category = "hyprland"
-tags = ["system"]
-
-[[packages]]
-name = "hyprpaper"
-reason = "hyprland wallpaper manager"
-category = "hyprland"
-tags = ["system"]
-
-[[packages]]
-name = "xdg-desktop-portal-hyprland"
-reason = "xdg desktop portal for hyprland (idk what it does)"
-category = "hyprland"
 tags = ["system"]

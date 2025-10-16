@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Default wallpaper directory if not set
-WALLPAPER_DIR=${WALLPAPER_DIR:-/files/wallpapers}
+WALLPAPER_DIR=/home/shasherazi/wallpapers
 
 # Check if running on Xorg or Wayland
 if [ "$XDG_SESSION_TYPE" = "x11" ]; then

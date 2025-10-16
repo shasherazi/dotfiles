@@ -1,7 +1,14 @@
-@define-color color-bg #1f1f28;
-@define-color color-text #dcd7ba;
-@define-color color-red #e82424;
-@define-color color-green #98bb6c;
+@define-color color-bg #282828;
+@define-color color-bg-alt #3C3836;
+@define-color color-text #EBDBB2;
+@define-color color-text-alt #D5C4A1;
+@define-color color-text-alter #BDAE93;
+@define-color color-accent1 #B8BB26;
+@define-color color-accent1-alt #98971A;
+@define-color color-accent2 #FB4934;
+@define-color color-accent2-alt #CC241D;
+@define-color color-accent3 #FE8019;
+@define-color color-accent3-alt #D65D0E;
 
 * {
   font-family: "JetBrains Mono NF", sans-serif;
@@ -15,55 +22,78 @@ window#waybar {
 }
 
 #clock {
-  color: @color-red;
-  font-family: "Oxanium ExtraLight ExtraBold", sans-serif;
+  color: @color-accent1;
+  background-color: @color-bg-alt;
+  font-family: "Oxanium ExtraBold", sans-serif;
+  font-size: 18px;
+  padding: 8px 0;
+  padding-top: 12px;
+  border-radius: 5px;
 }
 
 #battery {
-  padding-bottom: 10px;
+  margin-bottom: 5px;
+  background-color: @color-bg-alt;
+  padding: 5px 0px;
+  border-radius: 5px;
 }
 
 #battery.discharging {
-  color: @color-red;
+  color: @color-text;
 }
 
 #battery.charging {
-  color: @color-green;
+  color: @color-accent1-alt;
+  background-color: @color-text;
 }
 
 #pulseaudio.muted {
-  color: @color-red;
+  color: @color-text;
+  background-color: @color-accent2-alt;
+}
+
+#pulseaudio {
+  background-color: @color-bg-alt;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+
+#network {
+  background-color: @color-bg-alt;
+  padding: 5px 0px;
 }
 
 #workspaces {
-  padding-top: 5px;
+  padding: 5px;
 }
 
 #workspaces button {
-  margin-top: 5px;
+  margin-top: 3px;
+  padding: 3px 0px;
+  color: @color-bg-alt;
+  background-color: @color-text-alt;
 }
 
 #workspaces button.active {
-  color: @color-green;
+  color: @color-bg;
+  background-color: @color-accent3-alt;
+  padding: 10px 10px;
 }
 
-#workspaces button:hover {
+#workspaces button:hover:not(.active) {
   box-shadow: inherit;
   text-shadow: inherit;
-  background: none;
-  border-color: transparent;
+  color: @color-accent3;
+  background-color: @color-bg;
 }
 
 .modules-center {
-  margin-top: 5px;
-  padding: 0 10px;
-  border-radius: 10px;
+  padding: 0 5px;
 }
 
 .modules-right {
-  margin-top: 5px;
-  padding: 0 10px;
-  border-radius: 10px;
+  padding: 0 5px;
+  border-radius: 0px;
 }
 
 tooltip {
