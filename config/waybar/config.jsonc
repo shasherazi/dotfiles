@@ -1,8 +1,8 @@
 {
-  "spacing": 10,
+  "spacing": 5,
   "layer": "top",
   "position": "right",
-  "margin": "0",
+  "margin": "7 7 7 0",
   "modules-left": [
     "hyprland/workspaces"
   ],
@@ -87,14 +87,16 @@
     "format": "{volume}\n{icon}",
     "format-bluetooth": "{volume}\n󰂯",
     "format-icons": {
-      "headphone": "󰋋 ",
+      "headphone": "󰋋",
+      "headphone-muted": "󰟎",
       "phone": "",
       "portable": "",
       "car": "",
       "default": [
         "",
         ""
-      ]
+      ],
+      "default-muted": "󰖁"
     },
     "justify": "center",
     "scroll-step": 1,
@@ -114,7 +116,7 @@
   },
   "network#wifi": {
     "interface": "wlp*",
-    "interval": 5,
+    "interval": 1,
     "format": "{ifname}",
     "format-wifi": "󰤨 ",
     "format-disconnected": "",

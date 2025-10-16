@@ -34,6 +34,11 @@ destination = ".config/dmenu"
 type = "dir"
 
 [[symlinks]]
+source = "config/dots"
+destination = ".config/dots"
+type = "dir"
+
+[[symlinks]]
 source = "config/dunst"
 destination = ".config/dunst"
 type = "dir"
