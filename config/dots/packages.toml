@@ -125,6 +125,12 @@ category = "base"
 tags = ["system"]
 
 [[packages]]
+name = "evince"
+reason = "PDF reader"
+category = "base"
+tags = ["docs"]
+
+[[packages]]
 name = "fd"
 reason = "for faster file finds for telescope in neovim"
 category = "base"
@@ -253,12 +259,6 @@ tags = ["media"]
 [[packages]]
 name = "obsidian"
 reason = "note taking"
-category = "base"
-tags = ["docs"]
-
-[[packages]]
-name = "okular"
-reason = "PDF reader"
 category = "base"
 tags = ["docs"]
 
