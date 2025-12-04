@@ -4,6 +4,7 @@
     keepassxc
     qucs-s
     steam-run
+    kdePackages.filelight
   ];
 }
 
