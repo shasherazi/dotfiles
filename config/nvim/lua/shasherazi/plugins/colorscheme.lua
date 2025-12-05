@@ -1,0 +1,21 @@
+return {
+  {
+    'arcticicestudio/nord-vim',
+    'bluz71/vim-nightfly-colors',
+    'catppuccin/nvim',
+    'EdenEast/nightfox.nvim',
+    'folke/tokyonight.nvim',
+    'marko-cerovac/material.nvim',
+    'mhartington/oceanic-next',
+    'navarasu/onedark.nvim',
+    'nyoom-engineering/oxocarbon.nvim',
+    'projekt0n/github-nvim-theme',
+    'rebelot/kanagawa.nvim',
+    'rmehri01/onenord.nvim',
+    'rose-pine/neovim',
+    'sainnhe/gruvbox-material',
+    'sainnhe/everforest',
+    'shaunsingh/nord.nvim',
+    'tiagovla/tokyodark.nvim',
+  },
+}

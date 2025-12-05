@@ -4,4 +4,3 @@
     nerd-fonts.jetbrains-mono
   ];
 }
-

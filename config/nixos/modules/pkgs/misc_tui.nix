@@ -4,6 +4,6 @@
     cowsay
     fastfetch
     fortune
+    lazygit
   ];
 }
-

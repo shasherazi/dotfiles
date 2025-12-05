@@ -9,6 +9,7 @@
     ./media.nix
     ./misc_gui.nix
     ./misc_tui.nix
+    ./neovim.nix
     ./terminal.nix
     ./utils.nix
   ];
