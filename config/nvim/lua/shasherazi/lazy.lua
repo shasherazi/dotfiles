@@ -20,7 +20,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     { import = "shasherazi.plugins" },
-    { import = "shasherazi.plugins.lsp" },
   },
   checker = {
     enabled = true,

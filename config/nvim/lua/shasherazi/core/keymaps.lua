@@ -68,3 +68,11 @@ k.set('n', 'H', '<cmd>bprevious<CR>', { desc = 'Previous buffer' })
 k.set('n', '<leader>bl', '<cmd>ls<CR>', { desc = 'List buffers' })
 k.set('n', '<leader>bc', '<cmd>%bd|e#|bd#<CR>', { desc = 'Close all buffers except current' })
 
+-- todo-comments
+vim.keymap.set("n", "]t", function()
+  require("todo-comments").jump_next()
+end, { desc = "Next todo comment" })
+
+vim.keymap.set("n", "[t", function()
+  require("todo-comments").jump_prev()
+end, { desc = "Previous todo comment" })

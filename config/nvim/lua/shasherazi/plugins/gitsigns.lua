@@ -10,6 +10,7 @@ return {
         changedelete = { text = '▎' },
         untracked = { text = '▎' },
       },
+
       signs_staged = {
         add = { text = '▎' },
         change = { text = '▎' },
@@ -17,6 +18,11 @@ return {
         topdelete = { text = '' },
         changedelete = { text = '▎' },
       },
+
+      preview_config = {
+        border = 'rounded',
+      },
+
       on_attach = function(bufnr)
         local gitsigns = require 'gitsigns'
 
@@ -72,4 +78,3 @@ return {
     },
   },
 }
-

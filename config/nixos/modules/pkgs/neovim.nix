@@ -14,5 +14,6 @@
     stylua
     ty
     typescript-language-server
+    vtsls
   ];
 }

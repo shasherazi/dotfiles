@@ -6,6 +6,10 @@ return {
     local treesitter = require('nvim-treesitter.configs')
     treesitter.setup({
       auto_install = true,
+      ensure_installed = {},
+      sync_install = false,
+      ignore_install = {},
+      modules = {},
 
       highlight = {
         enable = true,
@@ -28,4 +32,3 @@ return {
     })
   end
 }
-

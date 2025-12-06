@@ -3,8 +3,22 @@ return {
   event = { "BufReadPre", "BufNewFile" },
   dependencies = {
     "hrsh7th/cmp-nvim-lsp",
+    "mason-org/mason.nvim",
   },
   config = function()
+    local mason = require("mason")
+
+    mason.setup({
+      ui = {
+        border = "rounded",
+        icons = {
+          package_installed = "✓",
+          package_pending = "➜",
+          package_uninstalled = "✗"
+        },
+      },
+    })
+
     local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
     --    Key:   The server name (e.g., 'lua_ls', 'nixd', 'clangd')
@@ -18,15 +32,12 @@ return {
       -- pyright = {},
 
       clangd = {},
-      ts_ls = {},
+      -- ts_ls = {},
+      vtsls = {},
       lua_ls = {
         settings = {
           Lua = {
-            runtime = { version = "LuaJIT" },
-            workspace = {
-              checkThirdParty = false,
-              library = { vim.env.VIMRUNTIME },
-            },
+            workspace = { checkThirdParty = false, },
             telemetry = { enable = false },
           },
         },
@@ -44,7 +55,6 @@ return {
       vim.lsp.enable(name)
     end
 
-    -- 3. Keymaps (Standard LspAttach config)
     vim.api.nvim_create_autocmd("LspAttach", {
       group = vim.api.nvim_create_augroup("UserLspKeymaps", { clear = true }),
       callback = function(ev)
@@ -66,13 +76,14 @@ return {
         vim.keymap.set("n", "gi", "<cmd>Telescope lsp_implementations<CR>", opts)
 
         opts.desc = "LSP: References"
-        vim.keymap.set("n", "gR", "<cmd>Telescope lsp_references<CR>", opts)
+        vim.keymap.set("n", "gr", "<cmd>Telescope lsp_references<CR>", opts)
 
         opts.desc = "LSP: Code action"
         vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts)
 
         opts.desc = "LSP: Rename"
-        vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
+        vim.keymap.set("n", "<leader>rn", function() return ":IncRename " .. vim.fn.expand("<cword>") end,
+          { expr = true, buffer = ev.buf, desc = "LSP: Rename" })
 
         opts.desc = "Diagnostics: Buffer"
         vim.keymap.set("n", "<leader>D", "<cmd>Telescope diagnostics bufnr=0<CR>", opts)
@@ -84,10 +95,40 @@ return {
         vim.keymap.set("n", "<leader>rs", "<cmd>LspRestart<CR>", opts)
 
         vim.keymap.set("i", "<C-h>", vim.lsp.buf.signature_help, opts)
+
+        local client = vim.lsp.get_client_by_id(ev.data.client_id)
+        if client and client:supports_method(vim.lsp.protocol.Methods.textDocument_documentHighlight, ev.buf) then
+          local highlight_augroup = vim.api.nvim_create_augroup("LspDocumentHighlight", { clear = false })
+
+          vim.api.nvim_create_autocmd({ "CursorHold" }, {
+            buffer = ev.buf,
+            group = highlight_augroup,
+            callback = vim.lsp.buf.document_highlight
+          })
+
+          vim.api.nvim_create_autocmd({ "CursorMoved", "CursorMovedI", "BufLeave" }, {
+            buffer = ev.buf,
+            group = highlight_augroup,
+            callback = vim.lsp.buf.clear_references
+          })
+        end
+
+        if client and client:supports_method(vim.lsp.protocol.Methods.textDocument_inlayHint, ev.buf) then
+          vim.lsp.inlay_hint.enable()
+
+          -- toggle with <leader>ih
+          opts.desc = "LSP: Toggle Inlay Hints"
+          vim.keymap.set("n", "<leader>ih", function()
+            if vim.lsp.inlay_hint.is_enabled() then
+              vim.lsp.inlay_hint.enable(false)
+            else
+              vim.lsp.inlay_hint.enable(true)
+            end
+          end, opts)
+        end
       end,
     })
 
-    -- 4. Cosmetics (Signs and Virtual Text)
     vim.diagnostic.config({
       signs = {
         text = {
