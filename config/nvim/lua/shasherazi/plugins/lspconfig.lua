@@ -89,7 +89,12 @@ return {
         vim.keymap.set("n", "<leader>D", "<cmd>Telescope diagnostics bufnr=0<CR>", opts)
 
         opts.desc = "Diagnostics: Line"
-        vim.keymap.set("n", "<leader>d", function() vim.diagnostic.open_float { border = "single" } end, opts)
+        vim.keymap.set(
+          "n",
+          "<leader>d",
+          function() vim.diagnostic.open_float { border = "single", source = true } end,
+          opts
+        )
 
         opts.desc = "LSP: Restart"
         vim.keymap.set("n", "<leader>rs", "<cmd>LspRestart<CR>", opts)

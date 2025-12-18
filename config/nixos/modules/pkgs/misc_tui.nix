@@ -5,5 +5,7 @@
     fastfetch
     fortune
     lazygit
+    pciutils
+    tree
   ];
 }

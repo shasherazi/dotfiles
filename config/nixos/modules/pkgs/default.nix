@@ -6,6 +6,7 @@
     ./docs.nix
     ./editors.nix
     ./fonts.nix
+    ./games.nix
     ./media.nix
     ./misc_gui.nix
     ./misc_tui.nix
