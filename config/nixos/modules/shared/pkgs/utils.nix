@@ -1,0 +1,29 @@
+{ pkgs, ... }:
+{
+  environment.systemPackages = with pkgs; [
+    acpi
+    bluetui
+    bluez
+    dmidecode
+    dunst
+    exiftool
+    ffmpeg
+    file
+    libmtp
+    lshw
+    git
+    gnupg
+    imagemagick
+    jmtpfs
+    jq
+    libnotify
+    ntfs3g
+    parted
+    pciutils
+    playerctl
+    rar
+    syncthing
+    unzip
+    zsh
+  ];
+}

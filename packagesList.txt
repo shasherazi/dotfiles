@@ -1,0 +1,63 @@
+acpi
+archlinux-keyring
+bat
+blueman
+bluez
+bluez-utils
+bspwm - LATER X
+clang
+clipmenu - LATER X
+cronie
+dbus-python
+dmenu-emoji - LATER X
+docx2txt
+dunst
+fd
+ffmpegthumbnailer
+gnome-keyring
+hacksaw - LATER X
+htop
+highlight
+imagemagick
+intel-media-driver
+j4-dmenu-desktop - LATER X
+jq
+jre-openjdk
+libreoffice-fresh
+libsecret
+lynx
+mediainfo
+nitrogen - LATER X
+neofetch
+network-manager-applet - LATER X
+nano
+nodejs
+npm
+ntfs-3g
+notification-daemon
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+p7zip
+perl-image-exiftool
+picom - LATER X
+polybar - LATER X
+poppler
+power-profiles-daemon
+python-pip
+ripgrep
+rofi
+rofi-emoji
+scrot - LATER X
+sxhkd - LATER X
+tumbler
+transmission-cli
+ueberzug
+unrar
+unzip
+wmctrl
+xarchiver
+xclip
+zaread-git
+zathura-pdf-mupdf
+zip

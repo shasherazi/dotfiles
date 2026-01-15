@@ -1,0 +1,30 @@
+@theme "./config"
+
+window {
+    width: 70%;
+    height: 90%;
+}
+
+listview {
+    columns: 3;
+}
+
+element{
+    padding: 0;
+    margin: 0;
+    orientation: vertical;
+}
+
+element-icon {
+    margin: 0;
+    padding: 0;
+    size: 240px;
+}
+
+element-text {
+    margin: 0;
+    padding: 0 0 10 0;
+    width: 0;
+    horizontal-align: 0.5;
+}
+

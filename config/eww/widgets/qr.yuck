@@ -1,0 +1,14 @@
+(defwidget qr []
+  (box :orientation "vertical" :spacing 10 :class "qr-main"
+    (input :text qr_text 
+           :onchange "eww update qr_text='{}'"
+           :onaccept "bash ~/.config/eww/scripts/generate_qr.sh")
+    (button :label "Generate QR" 
+            :onclick "bash ~/.config/eww/scripts/generate_qr.sh")
+    (scroll :height 200 :width 300
+      (label :text qr_ascii 
+             :class "qr-ascii"))
+    (button :label "Close" 
+            :onclick "eww close qr_input")
+  )
+)

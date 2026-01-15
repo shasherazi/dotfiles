@@ -1,0 +1,11 @@
+(defpoll wifiName :interval "1s"
+  :initial-value "N/A"
+  "nmcli connection show | awk 'NR==2 {print $1}' || echo 'No wifi connected'"
+)
+
+(defwidget wifi []
+  (box :class "wifi"
+    :tooltip "${wifiName}"
+    " "
+  )
+)

@@ -1,0 +1,6 @@
+darkmatter     = #1a1b26 background
+bogart         = #a9b1d6 foreground
+accent1        = #414868
+accent2        = #f7768e
+accent3        = #9ece6a
+accent4        = #d5d6db

@@ -1,0 +1,13 @@
+(defpoll eta :interval "1s"
+  :initial-value "infinity"
+  "acpi | awk -F, '{print $NF}' | awk '{$1=$1};1'"
+)
+
+
+(defwidget battery []
+  (box
+    :class "battery ${EWW_BATTERY.BAT0.status == 'Charging' ? 'battery-charging' : ''}"
+    :tooltip "${eta}"
+    "${EWW_BATTERY.BAT0.capacity}% ${EWW_BATTERY.BAT0.status == 'Charging' ? '󰂄' : '󰁹'}"
+  )
+)

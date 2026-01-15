@@ -1,0 +1,40 @@
+#!/bin/sh
+
+file=$1
+w=$2
+h=$3
+x=$4
+y=$5
+
+image() {
+	kitty +kitten icat --silent --stdin no --transfer-mode file --place "${w}x${h}@${x}x${y}" "$1" </dev/null >/dev/tty
+}
+
+CACHE="$HOME/.cache/lf/thumbnail.$(stat --printf '%n\0%i\0%F\0%s\0%W\0%Y' -- "$(readlink -f "$1")" | date "+%s" | awk '{print $1}')"
+# CACHE = "$HOME/.cache/lf/thumbnail"
+
+# image preview
+if [[ "$(file -Lb --mime-type "$file")" =~ ^image ]]; then
+	image "$file"
+	exit 1
+fi
+
+if [[ "$(file -Lb --mime-type "$file")" =~ ^video ]]; then
+	# TODO: use CACHE
+	ffmpegthumbnailer -i "$file" -o "$CACHE" -s 0
+	image "$CACHE"
+	exit 1
+fi
+
+# pdf preview
+if [[ "$(file -Lb --mime-type "$file")" =~ ^application/pdf ]]; then
+	pdftoppm -jpeg -f 1 -singlefile "$file" "$CACHE"
+	image "$CACHE".jpg
+	exit 1
+fi
+
+# text preview
+if [[ "$(file -Lb "$file")" =~ .*text.* ]]; then
+	bat --color=always --style=plain --pager=never --theme=ansi "$file"
+	exit 1
+fi

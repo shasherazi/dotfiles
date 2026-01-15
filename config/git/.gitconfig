@@ -1,0 +1,17 @@
+[user]
+	signingkey = 5F52FEE99CB35682CDE6A3FE556D74F7D9A29B8A
+	name = shasherazi
+	email = hassanrandomz@gmail.com
+[commit]
+	gpgsign = true
+[init]
+  defaultBranch = main
+[tag]
+	gpgSign = true
+[core]
+	autocrlf = input
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

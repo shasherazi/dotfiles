@@ -1,0 +1,13 @@
+@theme "./config"
+
+element {
+    padding: 0;
+}
+
+element-icon {
+    padding: 0;
+}
+
+window {
+    width: 460;
+}

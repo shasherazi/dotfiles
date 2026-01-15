@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery Level Check
+
+[Service]
+Type=oneshot
+ExecStart=%h/scripts/batteryAlmostFull.sh

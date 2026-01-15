@@ -1,0 +1,8 @@
+{ ... }:
+{
+  imports = [
+    ./pkgs
+    ./system
+    ./timers
+  ];
+}
