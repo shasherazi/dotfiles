@@ -1,0 +1,255 @@
+#![enable(implicit_some)]
+#![enable(unwrap_newtypes)]
+#![enable(unwrap_variant_newtypes)]
+(
+    address: "127.0.0.1:6600",
+    password: None,
+    theme: Some("theme"),
+    cache_dir: None,
+    lyrics_dir: "/home/shasherazi/Music",
+    on_song_change: ["~/.config/rmpc/scripts/lrc.sh"],
+    volume_step: 5,
+    max_fps: 30,
+    scrolloff: 3,
+    wrap_navigation: false,
+    enable_mouse: true,
+    enable_config_hot_reload: true,
+    status_update_interval_ms: 1000,
+    select_current_song_on_change: false,
+    album_art: (
+        method: Auto,
+        max_size_px: (width: 1200, height: 1200),
+        disabled_protocols: ["http://", "https://"],
+        vertical_align: Center,
+        horizontal_align: Center,
+    ),
+    keybinds: (
+        global: {
+            ":":       CommandMode,
+            "s":       Stop,
+            "s":       Rescan,
+            "-":       VolumeDown,
+            "=":       VolumeUp,
+            "<Tab>":   NextTab,
+            "<S-Tab>": PreviousTab,
+            "1":       SwitchToTab("Current Song"),
+            "2":       SwitchToTab("Queue"),
+            "3":       SwitchToTab("Albums"),
+            "4":       SwitchToTab("Album Artists"),
+            "5":       SwitchToTab("Directories"),
+            "6":       SwitchToTab("Playlists"),
+            "0":       SwitchToTab("Search"),
+            "q":       Quit,
+            ">":       NextTrack,
+            "p":       TogglePause,
+            "<Space>": TogglePause,
+            "<":       PreviousTrack,
+            "f":       SeekForward,
+            "z":       ToggleRepeat,
+            "x":       ToggleRandom,
+            "c":       ToggleConsume,
+            "v":       ToggleSingle,
+            "b":       SeekBack,
+            "?":       ShowHelp,
+            "I":       ShowCurrentSongInfo,
+            "O":       ShowOutputs,
+            "P":       ShowDecoders,
+        },
+        navigation: {
+            "k":         Up,
+            "j":         Down,
+            "h":         Left,
+            "l":         Right,
+            "<Up>":      Up,
+            "<Down>":    Down,
+            "<Left>":    Left,
+            "<Right>":   Right,
+            "<C-k>":     PaneUp,
+            "<C-j>":     PaneDown,
+            "<C-h>":     PaneLeft,
+            "<C-l>":     PaneRight,
+            "<C-u>":     UpHalf,
+            "N":         PreviousResult,
+            "a":         Add,
+            "A":         AddAll,
+            "r":         Rename,
+            "n":         NextResult,
+            "g":         Top,
+            "m":         Select,
+            "<C-Space>": InvertSelection,
+            "G":         Bottom,
+            "<CR>":      Confirm,
+            "i":         FocusInput,
+            "J":         MoveDown,
+            "<C-d>":     DownHalf,
+            "/":         EnterSearch,
+            "<C-c>":     Close,
+            "<Esc>":     Close,
+            "K":         MoveUp,
+            "D":         Delete,
+        },
+        queue: {
+            "D":       DeleteAll,
+            "<CR>":    Play,
+            "<C-s>":   Save,
+            "a":       AddToPlaylist,
+            "d":       Delete,
+            "B":       ShowInfo,
+            "C":       JumpToCurrent,
+        },
+    ),
+    search: (
+        case_sensitive: false,
+        mode: Contains,
+        tags: [
+            (value: "any",         label: "Any Tag"),
+            (value: "artist",      label: "Artist"),
+            (value: "album",       label: "Album"),
+            (value: "albumartist", label: "Album Artist"),
+            (value: "title",       label: "Title"),
+            (value: "filename",    label: "Filename"),
+            (value: "genre",       label: "Genre"),
+        ],
+    ),
+    artists: (
+        album_display_mode: SplitByDate,
+        album_sort_by: Date,
+    ),
+    tabs: [
+        (
+            name: "Current Song",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (size: "53%", borders: "RIGHT", pane: Pane(AlbumArt)),
+                    (size: "47%", pane: Split(
+                        direction: Vertical,
+                        panes: [
+                            (size: "7", pane: Split(
+                                direction: Vertical,
+                                borders: "BOTTOM",
+                                panes: [
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Title: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Song(Title)))
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Artist: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Song(Artist)))
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Album: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Song(Album))),
+                                        (kind: Text(" (")),
+                                        (kind: Property(Song(Other("date")))),
+                                        (kind: Text(")")),
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Track: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Song(Track)))
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Group(
+                                                [
+                                                    (kind: Text("Disc: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                                    (kind: Property(Song(Disc))),
+                                                ]
+                                        )),
+                                    ]))),
+                                    // (size: "1", pane: Pane(Property(content: [
+                                    //     (kind: Text("Sample Rate: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                    //     (kind: Property(Song(SampleRate))),
+                                    // ]))),
+                                    // (size: "1", pane: Pane(Property(content: [
+                                    //     (kind: Text("Bitrate: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                    //     (kind: Property(Song(Bits))),
+                                    // ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Bitrate: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Status(Bitrate))),
+                                        (kind: Text("kbps"))
+                                    ]))),
+                                ],
+                            )),
+                            (size: "100%", pane: Pane(Lyrics)),
+                        ],
+                    )),
+                ],
+            ),
+        ),
+        (
+            name: "Queue",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (size: "30%", pane: Split(
+                        direction: Vertical,
+                        panes: [
+                            (size: "35%", pane: Split(
+                                direction: Vertical,
+                                borders: "BOTTOM | RIGHT",
+                                panes: [
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Title: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Song(Title))),
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Artist: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Song(Artist))),
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Album: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Song(Album))),
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Track: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Song(Track))),
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Group(
+                                                [
+                                                    (kind: Text("Disc: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                                    (kind: Property(Song(Disc))),
+                                                ]
+                                        )),
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Bitrate: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Status(Bitrate))),
+                                        (kind: Text("kbps"))
+                                    ]))),
+                                    (size: "1", pane: Pane(Property(content: [
+                                        (kind: Text("Queue Time Remaining: "), style: (fg: "#81a1c1", modifiers: "Bold")),
+                                        (kind: Property(Status(QueueTimeRemaining()))),
+                                    ]))),
+                                ]
+                            )),
+                            (size: "65%", borders: "TOP | RIGHT", pane: Pane(AlbumArt)),
+                        ],
+                    )),
+                    (size: "70%", pane: Pane(Queue)),
+                ],
+            ),
+        ),
+        (
+            name: "Albums",
+            pane: Pane(Albums),
+        ),
+        (
+            name: "Album Artists",
+            pane: Pane(AlbumArtists),
+        ),
+        (
+            name: "Directories",
+            pane: Pane(Directories),
+        ),
+        (
+            name: "Playlists",
+            pane: Pane(Playlists),
+        ),
+        (
+            name: "Search",
+            pane: Pane(Search),
+        ),
+    ],
+)

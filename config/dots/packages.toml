@@ -1,0 +1,425 @@
+[[packages]]
+name = "7zip"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "calibre"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "cowsay"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "foliate"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "fortune-mod-off"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "gwenview"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "jq"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "kvantum"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "libreoffice-still"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "openssh"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "qt6ct"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "stremio"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "tree"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "unzip"
+reason = "ADD DETAILS HERE"
+category = "ADD CATEGORY HERE"
+tags = ["ADD TAGS HERE"]
+
+[[packages]]
+name = "acpi"
+reason = "for ~/dotfiles/scripts/batteryAlmostFull.sh"
+category = "base"
+tags = ["scripts"]
+
+[[packages]]
+name = "alacritty"
+reason = "backup terminal"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "brightnessctl"
+reason = "for brightness control"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "btop"
+reason = "for monitoring system resources"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "clang"
+reason = "for occasional C/C++ compiling when I don't wanna use gcc/g++"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "dolphin"
+reason = "file manager"
+category = "base"
+tags = ["files"]
+
+[[packages]]
+name = "dunst"
+reason = "for notifications"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "evince"
+reason = "PDF reader"
+category = "base"
+tags = ["docs"]
+
+[[packages]]
+name = "fd"
+reason = "for faster file finds for telescope in neovim"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "floorp-bin"
+reason = "for browsing the wide world of web"
+category = "base"
+tags = ["browser"]
+
+[[packages]]
+name = "gammastep"
+reason = "blue light filter"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "gthumb"
+reason = "image viewer"
+category = "base"
+tags = ["media"]
+
+[[packages]]
+name = "keepassxc"
+reason = "password manager"
+category = "base"
+tags = ["security"]
+
+[[packages]]
+name = "kitty"
+reason = "default terminal"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "lazygit"
+reason = "git gui"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "less"
+reason = "for viewing git log"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "mpd"
+reason = "for music playback"
+category = "base"
+tags = ["media"]
+
+[[packages]]
+name = "mpv"
+reason = "for watching videos"
+category = "base"
+tags = ["media"]
+
+[[packages]]
+name = "nano"
+reason = "backup text editor"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "neovim"
+reason = "primary text editor"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "nmtui"
+reason = "network manager tui"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "nodejs"
+reason = "web development"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "noto-fonts"
+reason = "default fonts"
+category = "base"
+tags = ["fonts"]
+
+[[packages]]
+name = "noto-fonts-cjk"
+reason = "fonts for CJK languages"
+category = "base"
+tags = ["fonts"]
+
+[[packages]]
+name = "noto-fonts-emoji"
+reason = "emoji fonts"
+category = "base"
+tags = ["fonts"]
+
+[[packages]]
+name = "npm"
+reason = "Node.js package manager"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "ntfs-3g"
+reason = "NTFS drive support"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "nwg-look"
+reason = "gtk theme manager"
+category = "base"
+tags = ["ui"]
+
+[[packages]]
+name = "obs-studio"
+reason = "screen recording"
+category = "base"
+tags = ["media"]
+
+[[packages]]
+name = "obsidian"
+reason = "note taking"
+category = "base"
+tags = ["docs"]
+
+[[packages]]
+name = "pcmanfm"
+reason = "file manager"
+category = "base"
+tags = ["files"]
+
+[[packages]]
+name = "pfetch"
+reason = "system info viewer"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "python-pip"
+reason = "Python package installer"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "qbittorrent"
+reason = "torrent client"
+category = "base"
+tags = ["media"]
+
+[[packages]]
+name = "ripgrep"
+reason = "file search util"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "rmpc"
+reason = "terminal music player"
+category = "base"
+tags = ["media"]
+
+[[packages]]
+name = "slack-desktop"
+reason = "work communication"
+category = "base"
+tags = ["communication"]
+
+[[packages]]
+name = "syncthing"
+reason = "syncing across devices"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "thunar"
+reason = "file manager"
+category = "base"
+tags = ["files"]
+
+[[packages]]
+name = "vencord"
+reason = "for discord, but better"
+category = "base"
+tags = ["communication"]
+
+[[packages]]
+name = "visual-studio-code-bin"
+reason = "code editor"
+category = "base"
+tags = ["dev"]
+
+[[packages]]
+name = "vlc"
+reason = "video player"
+category = "base"
+tags = ["media"]
+
+[[packages]]
+name = "xarchiver"
+reason = "file archiver"
+category = "base"
+tags = ["files"]
+
+[[packages]]
+name = "zathura"
+reason = "PDF reader"
+category = "base"
+tags = ["docs"]
+
+[[packages]]
+name = "zathura-pdf-poppler"
+reason = "PDF reader plugin"
+category = "base"
+tags = ["docs"]
+
+[[packages]]
+name = "zsh"
+reason = "shell"
+category = "base"
+tags = ["system"]
+
+[[packages]]
+name = "hypridle"
+reason = "hyprland idle detection, for lockscreen trigger"
+category = "hyprland"
+tags = ["system"]
+
+[[packages]]
+name = "hyprland"
+reason = "hyprland window manager"
+category = "hyprland"
+tags = ["system"]
+
+[[packages]]
+name = "hyprlock"
+reason = "hyprland lockscreen"
+category = "hyprland"
+tags = ["security"]
+
+[[packages]]
+name = "hyprpaper"
+reason = "hyprland wallpaper manager"
+category = "hyprland"
+tags = ["system"]
+
+[[packages]]
+name = "xdg-desktop-portal-hyprland"
+reason = "xdg desktop portal for hyprland (idk what it does)"
+category = "hyprland"
+tags = ["system"]
+
+[[packages]]
+name = "cliphist"
+reason = "for clipboard history"
+category = "wayland"
+tags = ["system"]
+
+[[packages]]
+name = "grim"
+reason = "for screenshots"
+category = "wayland"
+tags = ["system"]
+
+[[packages]]
+name = "rofi-wayland"
+reason = "picker for wayland"
+category = "wayland"
+tags = ["system"]
+
+[[packages]]
+name = "slurp"
+reason = "for screenshots"
+category = "wayland"
+tags = ["system"]
+
+[[packages]]
+name = "waybar"
+reason = "wayland status bar"
+category = "wayland"
+tags = ["system"]
+
+[[packages]]
+name = "wl-clipboard"
+reason = "for clipboard management in wayland"
+category = "wayland"
+tags = ["system"]

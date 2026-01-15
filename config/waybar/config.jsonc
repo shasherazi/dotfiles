@@ -1,0 +1,165 @@
+{
+  "spacing": 5,
+  "layer": "top",
+  "position": "right",
+  "margin": "7 7 7 0",
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "tray",
+    "mpd",
+    "pulseaudio",
+    "network#wifi",
+    "network#ethernet",
+    "network#tethering",
+    "custom/powerprofile",
+    "battery"
+  ],
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
+  },
+  "mpd": {
+    "format": " ",
+    "format-disconnected": "",
+    "format-stopped": "",
+    "interval": 1,
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    "tooltip-format": "{elapsedTime:%M:%S}/{totalTime:%M:%S}\n{title}\n{artist}\n{album}",
+    "on-click": "mpc toggle",
+  },
+  "custom/powerprofile": {
+    "format": "{}",
+    "exec": "~/dotfiles/config/waybar/scripts/battery_profiles.sh",
+    "interval": 3,
+    "on-click": "~/dotfiles/config/waybar/scripts/battery_profiles.sh toggle",
+    "return-type": "json",
+    "tooltip": true,
+    "justify": "center"
+  },
+  "battery": {
+    "bat": "BAT0",
+    "interval": 5,
+    "states": {
+      "low": 30,
+    },
+    "format": "{icon}",
+    "format-time": "{H}h {M}min",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "format-charging": "󰁹󱐋",
+    "tooltip-format": "Current percentage: {capacity}%\n{timeTo}"
+  },
+  "clock": {
+    "format": "{:%H\n%M}",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "days": "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    },
+    "justify": "center"
+  },
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "format-icons": {
+      "default": "",
+      "active": ""
+    },
+    "on-click": "activate",
+    "sort-by-number": true,
+    "justify": "center"
+  },
+  "pulseaudio": {
+    "format": "{volume}\n{icon}",
+    "format-bluetooth": "{volume}\n󰂯",
+    "format-icons": {
+      "headphone": "󰋋",
+      "headphone-muted": "󰟎",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        ""
+      ],
+      "default-muted": "󰖁"
+    },
+    "justify": "center",
+    "scroll-step": 1,
+    "ignored-sinks": [
+      "Easy Effects Sink"
+    ]
+  },
+  "cpu": {
+    "interval": 5,
+    "format": " {usage}%",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "max-length": 10
+  },
+  "network#wifi": {
+    "interface": "wlp*",
+    "interval": 1,
+    "format": "{ifname}",
+    "format-wifi": "󰤨 ",
+    "format-disconnected": "",
+    "tooltip-format-wifi": "{essid}\n{signalStrength}% strength\n{ipaddr}\n{bandwidthDownBytes} 󰇚 {bandwidthUpBytes} 󰕒",
+    "tooltip-format-disconnected": "{ifname} disconnected",
+    "justify": "center",
+    "max-length": 50
+  },
+  "network#ethernet": {
+    "interface": "enp*",
+    "interval": 5,
+    "format": "{ifname}",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "",
+    "tooltip-format-ethernet": "{ifname} connected\n{ipaddr}\n{bandwidthDownBytes} 󰇚 {bandwidthUpBytes} 󰕒",
+    "tooltip-format-disconnected": "{ifname} disconnected",
+    "justify": "center",
+    "max-length": 50
+  },
+  "network#tethering": {
+    "interface": "enp0s2*",
+    "interval": 5,
+    "format": "{ifname}",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "",
+    "tooltip-format-ethernet": "{ifname} connected\n{ipaddr}\n{bandwidthDownBytes} 󰇚 {bandwidthUpBytes} 󰕒",
+    "tooltip-format-disconnected": "{ifname} disconnected",
+    "justify": "center",
+    "max-length": 50
+  }
+}

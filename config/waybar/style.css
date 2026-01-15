@@ -1,0 +1,131 @@
+@define-color color-bg #1e1e2e;
+@define-color color-bg-alt #313244;
+@define-color color-text #cdd6f4;
+@define-color color-text-alt #bac2de;
+@define-color color-accent1 #a6e3a1;
+@define-color color-accent1-alt #94e2d5;
+@define-color color-accent2 #f38ba8;
+@define-color color-accent3 #f2cdcd;
+@define-color color-accent4 #89b4fa;
+@define-color color-accent5 #fab387;
+
+* {
+  font-family: "JetBrains Mono NF", sans-serif;
+  font-size: 16px;
+}
+
+window#waybar {
+  background-color: @color-bg;
+  border-radius: 10px;
+  color: @color-text;
+}
+
+#clock {
+  color: @color-accent1;
+  background-color: @color-bg-alt;
+  font-family: "Oxanium ExtraBold", sans-serif;
+  font-size: 18px;
+  padding: 8px 0;
+  padding-top: 12px;
+  border-radius: 5px;
+}
+
+#mpd {
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+
+#mpd.playing {
+  background-color: @color-accent5;
+  color: @color-bg;
+}
+
+#mpd.paused {
+  background-color: @color-bg-alt;
+  color: @color-text-alt;
+}
+
+#custom-powerprofile {
+  background-color: @color-bg-alt;
+  padding: 5px 0px;
+  border-radius: 5px;
+  color: @color-text;
+}
+
+#battery {
+  margin-bottom: 5px;
+  background-color: @color-bg-alt;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+
+#battery.discharging {
+  color: @color-text;
+}
+
+#battery.low {
+  background-color: @color-accent2;
+  color: @color-bg;
+}
+
+#battery.charging {
+  background-color: @color-accent1;
+  color: @color-bg;
+}
+
+#pulseaudio.muted {
+  color: @color-bg-alt;
+  background-color: @color-accent2;
+}
+
+#pulseaudio {
+  background-color: @color-bg-alt;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+
+#network {
+  background-color: @color-bg-alt;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+
+#workspaces {
+  padding: 4px 5px;
+}
+
+#workspaces button {
+  margin-top: 3px;
+  padding: 3px 10px;
+  color: @color-bg-alt;
+  background-color: @color-accent4;
+  transition: padding 0.2s ease-in-out;
+}
+
+#workspaces button.active {
+  color: @color-bg;
+  background-color: @color-accent3;
+  padding: 10px 10px;
+}
+
+#workspaces button:hover:not(.active) {
+  transition: none;
+  box-shadow: inherit;
+  text-shadow: inherit;
+  color: @color-accent4;
+  background: none;
+  background-color: @color-bg;
+}
+
+.modules-center {
+  padding: 0 5px;
+}
+
+.modules-right {
+  padding: 0 5px;
+  border-radius: 0px;
+}
+
+tooltip {
+  background-color: @color-bg-alt;
+}

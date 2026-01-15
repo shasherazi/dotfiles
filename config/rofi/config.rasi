@@ -1,0 +1,71 @@
+configuration {
+    display-drun: "Applications:";
+    display-run: "Run:";
+    display-emoji: "Emoji:";
+    display-window: "Windows:";
+    show-icons: true;
+    icon-theme: "WhiteSur-dark";
+    modi: "window,drun,run";
+}
+
+
+// to avoid weird theme mixing
+@theme "/dev/null"
+
+* {
+    background : #1e1e2e;
+    foreground : #cdd6f4;
+    border : #f5e0dc;
+    selection-fg: #a6e3a1;
+    selection-bg: #313244;
+    background-color: @background;
+    spacing: 0;
+}
+
+// the search input text
+entry {
+    text-color: @foreground;
+    padding: 10;
+}
+
+// where it says "Applications"
+prompt {
+    text-color: @foreground;
+    padding: 10;
+}
+
+// All ekements' text
+element {
+    text-color: @foreground;
+    background-color: @background;
+    padding: 10;
+}
+
+element-text {
+    text-color: inherit;
+    vertical-align: 0.5;
+    background-color: inherit;
+}
+
+element-icon {
+    size: 30;
+    padding: 0 10;
+    background-color: inherit;
+}
+
+element selected {
+    text-color: @selection-fg;
+    background-color: @selection-bg;
+}
+
+listview {
+    lines: 8;
+}
+
+window {
+    border-radius: 0;
+    border: 1px;
+    border-color: @border;
+    padding: 0 0 10 0;
+    background-color: @background;
+}

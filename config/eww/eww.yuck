@@ -1,0 +1,66 @@
+(include "./widgets/time.yuck")
+(include "./widgets/workspaces.yuck")
+(include "./widgets/wifi.yuck")
+(include "./widgets/battery.yuck")
+(include "./widgets/volume.yuck")
+(include "./widgets/qr.yuck")
+
+(defwidget mainBar []
+  (box
+    :class "main"
+    (leftSide)
+    (center)
+    (rightSide)
+  )
+)
+
+(defwidget rightSide []
+  (box
+    :class "right"
+    :halign "end"
+    (volume)
+    (wifi)
+    (battery)
+  )
+)
+
+(defwidget leftSide []
+  (box
+    :class "left"
+    :halign "start"
+    (workspaces)
+  )
+)
+
+(defwidget center []
+  (box
+    :class "center"
+    :halign "center"
+    (timeWidget)
+  )
+)
+
+(defwindow bar
+  :class "bar"
+  :monitor 0
+  :geometry (geometry :x "0%"
+    :y "5px"
+    :width "100%"
+  :anchor "top center")
+  :stacking "bottom"
+  :exclusive true
+  :focusable false
+  :wm-ignore true
+  (mainBar)
+)
+
+(defvar qr_text "")
+(defvar qr_ascii "Enter text and press Enter or click Generate")
+
+(defwindow qr_input
+  :geometry (geometry :x "20%" :y "10%" :width "400px" :height "400px")
+  :monitor 0
+  :stacking "overlay"
+  :focusable true
+  (qr)
+)

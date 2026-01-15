@@ -1,0 +1,191 @@
+#![enable(implicit_some)]
+#![enable(unwrap_newtypes)]
+#![enable(unwrap_variant_newtypes)]
+(
+    default_album_art_path: None,
+    show_song_table_header: true,
+    draw_borders: true,
+    format_tag_separator: " | ",
+    song_table_album_separator: None,
+    browser_column_widths: [20, 38, 42],
+    background_color: None,
+    text_color: None,
+    header_background_color: None,
+    modal_background_color: None,
+    modal_backdrop: false,
+    preview_label_style: (fg: "#cba6f7"),
+    preview_metadata_group_style: (fg: "#cba6f7", modifiers: "Bold"),
+    tab_bar: (
+        active_style: (fg: "#1e1e2e", bg: "#cdd6f4", modifiers: "Bold"),
+        inactive_style: (),
+    ),
+    highlighted_item_style: (fg: "#f9e2af", modifiers: "Bold"),
+    current_item_style: (fg: "#1e1e2e", bg: "#f2cdcd", modifiers: "Bold"),
+    borders_style: (fg: "#585b70"),
+    highlight_border_style: (fg: "blue"),
+    symbols: (
+        song: "󰎇",
+        dir: "",
+        playlist: "󰲸",
+        marker: "󰐾 ",
+        ellipsis: "...",
+        song_style: None,
+        dir_style: None,
+        playlist_style: None,
+    ),
+    level_styles: (
+        info: (fg: "blue", bg: "black"),
+        warn: (fg: "yellow", bg: "black"),
+        error: (fg: "red", bg: "black"),
+        debug: (fg: "light_green", bg: "black"),
+        trace: (fg: "magenta", bg: "black"),
+    ),
+    progress_bar: (
+        symbols: ["█", "█", "◗", "█", "█"],
+        track_style: (fg: "#1e2030"),
+        elapsed_style: (fg: "#94e2d5"),
+        thumb_style: (fg: "#94e2d5"),
+        use_track_when_empty: false,
+    ),
+    scrollbar: (
+        symbols: ["│", "┃", "▲", "▼"],
+        track_style: (fg: "#585b70"),
+        ends_style: (fg: "#585b70"),
+        thumb_style: (fg: "#585b70"),
+    ),
+    song_table_format: [
+        (
+            prop: (kind: Property(Title),
+                default: (kind: Text("Unknown"))
+            ),
+            width: "35%",
+        ),
+        (
+            prop: (kind: Property(Artist),
+                default: (kind: Text("Unknown"))
+            ),
+            width: "20%",
+        ),
+        (
+            prop: (kind: Property(Album), style: (fg: "white"),
+                default: (kind: Text("Unknown Album"), style: (fg: "white"))
+            ),
+            width: "35%",
+        ),
+        (
+            prop: (kind: Property(Duration),
+                default: (kind: Text("-"))
+            ),
+            width: "10%",
+            alignment: Right,
+        ),
+    ],
+    components: {
+        "CurrentSong": Split(
+            direction: Horizontal,
+            panes: [
+                (size: "25", pane: Pane(Property(
+                    content: [
+                        (kind: Text(""), style: (fg: "#f5e0dc", modifiers: "Bold")),
+                        (kind: Property(Status(StateV2(playing_label: "  ", paused_label: "  ", stopped_label: "  ",
+                                                        playing_style: (fg: "#f5e0dc", modifiers: "Bold"),
+                                                        paused_style: (fg: "#f5e0dc", modifiers: "Bold"),
+                                                        stopped_style: (fg: "#f5e0dc", modifiers: "Bold"))))),
+                        (kind: Text(" "), style: (fg: "#f5e0dc", modifiers: "Bold")),
+                        (kind: Property(Status(Elapsed)), style: (fg: "#f5c2e7")),
+                        (kind: Text(" / "), style: (fg: "#f5c2e7")),
+                        (kind: Property(Status(Duration)), style: (fg: "#f5c2e7")),
+                    ], align: Left
+                ))),
+                (size: "100%", pane: Pane(Property(
+                    content: [
+                            (kind: Property(Song(Title)), style: (fg: "#f38ba8", modifiers: "Bold"),
+                                default: (kind: Text("No Song"), style: (modifiers: "Bold"))
+                            ),
+                            (kind: Text(" - ")),
+                            (kind: Property(Song(Artist)), style: (fg: "#eba0ac", modifiers: "Bold"),
+                                default: (kind: Text("Unknown"), style: (modifiers: "Bold"))
+                            ),
+                            (kind: Text(" - ")),
+                            (kind: Property(Song(Album)), style: (fg: "#fab387", modifiers: "Bold"),
+                                default: (kind: Text("Unknown Album"))
+                            )
+                    ], align: Center, scroll_speed: 2
+                ))),
+                (size: "25", pane: Pane(Property(
+                    content: [
+                        (kind: Text("[ "),style: (fg: "#585b70")),
+                        (kind: Property(Status(RepeatV2(
+                                        on_label: "", off_label: "",
+                                        on_style: (fg: "#a6e3a1", modifiers: "Bold"),
+                                        off_style: (fg: "#585b70", modifiers: "Bold"))))),
+                        (kind: Text(" | "),style: (fg: "#585b70")),
+                        (kind: Property(Status(RandomV2(
+                                        on_label: "", off_label: "",
+                                        on_style: (fg: "#a6e3a1", modifiers: "Bold"),
+                                        off_style: (fg: "#585b70", modifiers: "Bold"))))),
+                        (kind: Text(" | "),style: (fg: "#585b70")),
+                        (kind: Property(Status(ConsumeV2(
+                                        on_label: "󰮯", off_label: "󰮯", oneshot_label: "󰮯󰇊",
+                                        on_style: (fg: "#a6e3a1", modifiers: "Bold"),
+                                        oneshot_style: (fg: "#a6e3a1", modifiers: "Bold"), 
+                                        off_style: (fg: "#585b70", modifiers: "Bold"))))),
+                        (kind: Text(" | "),style: (fg: "#585b70")),
+                        (kind: Property(Status(SingleV2(
+                                        on_label: "󰎤", off_label: "󰎦", oneshot_label: "󰇊", off_oneshot_label: "󱅊",
+                                        on_style: (fg: "#a6e3a1", modifiers: "Bold"),
+                                        oneshot_style: (fg: "#a6e3a1", modifiers: "Bold"),
+                                        off_style: (fg: "#585b70", modifiers: "Bold"))))),
+                        (kind: Text(" ]"),style: (fg: "#585b70")),
+                        (kind: Text(" ")),
+                        (kind: Text("󰕾 "), style: (fg: "#94e2d5")),
+                        (kind: Property(Status(Volume)), style: (fg: "#94e2d5")),
+                        (kind: Text("%"), style: (fg: "#94e2d5")),
+                    ], align: Right
+                ))),
+            ]
+        )
+    },
+    layout: Split(
+        direction: Vertical,
+        panes: [
+            (
+                pane: Pane(Tabs),
+                size: "3",
+            ),
+            (
+                pane: Pane(TabContent),
+                size: "100%",
+            ),
+            (
+                pane: Component("CurrentSong"),
+                size: "2",
+                borders: "TOP"
+            ),
+            (
+                pane: Pane(ProgressBar),
+                size: "1",
+            ),
+        ],
+    ),
+    header: (rows: []),
+    browser_song_format: [
+        (
+            kind: Group([
+                (kind: Property(Track)),
+                (kind: Text(" ")),
+            ])
+        ),
+        (
+            kind: Group([
+                (kind: Property(Artist)),
+                (kind: Text(" - ")),
+                (kind: Property(Title)),
+            ]),
+            default: (kind: Property(Filename))
+        ),
+    ],
+    lyrics: (
+        timestamp: false
+    )
+)

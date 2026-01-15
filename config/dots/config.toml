@@ -1,0 +1,174 @@
+sort_by = "category"
+install_command = "yay -S --noconfirm --needed {packages}"
+dotfiles_dir = "/home/shasherazi/dotfiles"
+scripts_dir = "/home/shasherazi/dotfiles/scripts"
+
+[[symlinks]]
+source = "assets/.icons"
+destination = ".icons"
+type = "dir"
+
+[[symlinks]]
+source = "assets/.themes"
+destination = ".themes"
+type = "dir"
+
+[[symlinks]]
+source = "scripts"
+destination = "scripts"
+type = "dir"
+
+[[symlinks]]
+source = "config/alacritty"
+destination = ".config/alacritty"
+type = "dir"
+
+[[symlinks]]
+source = "config/bspwm"
+destination = ".config/bspwm"
+type = "dir"
+
+[[symlinks]]
+source = "config/dmenu"
+destination = ".config/dmenu"
+type = "dir"
+
+[[symlinks]]
+source = "config/dots"
+destination = ".config/dots"
+type = "dir"
+
+[[symlinks]]
+source = "config/dunst"
+destination = ".config/dunst"
+type = "dir"
+
+[[symlinks]]
+source = "config/eww"
+destination = ".config/eww"
+type = "dir"
+
+[[symlinks]]
+source = "config/gammastep"
+destination = ".config/gammastep"
+type = "dir"
+
+[[symlinks]]
+source = "config/hypr"
+destination = ".config/hypr"
+type = "dir"
+
+[[symlinks]]
+source = "config/kitty"
+destination = ".config/kitty"
+type = "dir"
+
+[[symlinks]]
+source = "config/lf"
+destination = ".config/lf"
+type = "dir"
+
+[[symlinks]]
+source = "config/mpd"
+destination = ".config/mpd"
+type = "dir"
+
+[[symlinks]]
+source = "config/mutt"
+destination = ".config/mutt"
+type = "dir"
+
+[[symlinks]]
+source = "config/nitrogen"
+destination = ".config/nitrogen"
+type = "dir"
+
+[[symlinks]]
+source = "config/nvim"
+destination = ".config/nvim"
+type = "dir"
+
+[[symlinks]]
+source = "config/polybar"
+destination = ".config/polybar"
+type = "dir"
+
+[[symlinks]]
+source = "config/picom"
+destination = ".config/picom"
+type = "dir"
+
+[[symlinks]]
+source = "config/rmpc"
+destination = ".config/rmpc"
+type = "dir"
+
+[[symlinks]]
+source = "config/rofi"
+destination = ".config/rofi"
+type = "dir"
+
+[[symlinks]]
+source = "config/sxhkd"
+destination = ".config/sxhkd"
+type = "dir"
+
+[[symlinks]]
+source = "config/systemd"
+destination = ".config/systemd"
+type = "dir"
+
+[[symlinks]]
+source = "config/tmux"
+destination = ".config/tmux"
+type = "dir"
+
+[[symlinks]]
+source = "config/qtile"
+destination = ".config/qtile"
+type = "dir"
+
+[[symlinks]]
+source = "config/waybar"
+destination = ".config/waybar"
+type = "dir"
+
+[[symlinks]]
+source = "config/wofi"
+destination = ".config/wofi"
+type = "dir"
+
+[[symlinks]]
+source = "config/zathura"
+destination = ".config/zathura"
+type = "dir"
+
+[[symlinks]]
+source = "config/zsh/.zsh_plugins"
+destination = ".zsh_plugins"
+type = "dir"
+
+[[symlinks]]
+source = "config/git/.gitconfig"
+destination = ".gitconfig"
+type = "file"
+
+[[symlinks]]
+source = "config/zsh/.p10k.zsh"
+destination = ".p10k.zsh"
+type = "file"
+
+[[symlinks]]
+source = "config/zsh/.zshrc"
+destination = ".zshrc"
+type = "file"
+
+[[symlinks]]
+source = "config/electron-flags.conf"
+destination = ".config/electron-flags.conf"
+type = "file"
+
+[[symlinks]]
+source = "config/kdeglobals"
+destination = ".config/kdeglobals"
+type = "file"
