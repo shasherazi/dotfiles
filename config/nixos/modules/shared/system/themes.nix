@@ -7,6 +7,12 @@ let
     stripRoot = false;
   };
 
+  PosyCursor = pkgs.fetchzip {
+    url = "https://github.com/shasherazi/dotfiles/raw/refs/heads/main/assets/cursors/posy-cursor.tar.xz";
+    sha256 = "sha256-R3YPV1VyFbTlJHvXTIOn6rq4Z3KCEQzSODcppSlsbbU=";
+    stripRoot = false;
+  };
+
   WhiteSurIcons = pkgs.fetchzip {
     url = "https://github.com/shasherazi/dotfiles/raw/refs/heads/main/assets/icons/WhiteSurIcons.tar.xz";
     sha256 = "sha256-PEbjZ2FDm8+NukAINfM0T4yKDVweMNPt2SiXY6DJIew=";
@@ -49,6 +55,8 @@ let
     # cursors
     install_if_missing "${McMojaveCursors}/McMojave-cursors" \
       "$icons_dir/McMojave-cursors"
+    install_if_missing "${PosyCursor}/Posy_Cursor" \
+      "$icons_dir/Posy_Cursor"
 
     # icons
     install_if_missing "${WhiteSurIcons}/WhiteSur" \
