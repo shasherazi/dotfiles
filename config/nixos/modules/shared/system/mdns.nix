@@ -10,5 +10,12 @@
 
     # Allow mDNS traffic (UDP 5353) through the firewall
     openFirewall = true;
+
+    publish = {
+      enable = true;
+      addresses = true;
+      workstation = true;
+      userServices = true;
+    };
   };
 }
