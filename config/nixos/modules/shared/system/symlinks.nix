@@ -38,7 +38,7 @@ let
         return 0
       fi
 
-      ln -s "$src" "$dst"
+      ln -sf "$src" "$dst"
       echo "dotfiles: linked $dst -> $src"
     }
 
@@ -66,7 +66,7 @@ let
         return 0
       fi
 
-      ln -s "$src" "$dst"
+      ln -sf "$src" "$dst"
       echo "dotfiles: linked $dst -> $src"
     }
 
