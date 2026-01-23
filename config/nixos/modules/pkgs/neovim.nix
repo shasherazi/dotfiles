@@ -13,6 +13,7 @@
     python3Packages.flake8
     hyprls
     lua-language-server
+    markdownlint-cli
     nil
     nixd
     prettierd

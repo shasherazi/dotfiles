@@ -8,6 +8,7 @@ return {
 
     lint.linters_by_ft = {
       javascript = { 'eslint_d' },
+      markdown = { 'markdownlint' },
       typescript = { 'eslint_d' },
       python = { 'flake8' },
     }

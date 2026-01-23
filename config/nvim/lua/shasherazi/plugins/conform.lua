@@ -11,6 +11,7 @@ return {
         html = { "prettierd" },
         javascript = { "prettierd" },
         json = { "prettierd" },
+        markdown = { "prettierd" },
         python = { "black" },
         typescript = { "prettierd" },
         typescriptreact = { "prettierd" },

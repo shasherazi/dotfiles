@@ -81,6 +81,7 @@ alias rof="cd ~/.config/rofi && $EDITOR config.rasi && exit"
 alias sxh="cd ~/.config/sxhkd && $EDITOR sxhkdrc && exit"
 alias tmx="cd ~/.config/tmux && $EDITOR tmux.conf && exit"
 alias way="cd ~/.config/waybar && $EDITOR config.jsonc && exit"
+alias val="cd ~/obsidian-vault/ && $EDITOR && exit"
 alias zat="cd ~/.config/zathura && $EDITOR zathurarc && exit"
 alias zrc="$EDITOR ~/.zshrc && exit"
 
