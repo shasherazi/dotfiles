@@ -1,9 +1,8 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
-    alacritty
     kitty
+    kdePackages.konsole
     tmux
   ];
 }
-

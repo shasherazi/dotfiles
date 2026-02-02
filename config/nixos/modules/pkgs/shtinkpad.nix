@@ -1,7 +1,8 @@
 { ... }:
 {
   imports = [
-    ./ssh.nix
+    ./battery-tlp.nix
     ./games.nix
+    ./ssh.nix
   ];
 }

@@ -6,6 +6,7 @@
     ripgrep
 
     # lsp stuff
+    astro-language-server
     black
     clang-tools
     emmet-language-server

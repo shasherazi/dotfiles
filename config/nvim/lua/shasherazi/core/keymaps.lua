@@ -14,7 +14,12 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
-k.set('n', '<Esc>', '<cmd>nohlsearch<CR>') -- Clear search highlighting with <Esc> in normal mode
+-- fix j and k for wrapped lines
+k.set({ "n", "v" }, "k", "v:count == 0 ? 'gk' : 'k'", { expr = true })
+k.set({ "n", "v" }, "j", "v:count == 0 ? 'gj' : 'j'", { expr = true })
+
+-- Clear search highlighting with <Esc> in normal mode
+k.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 --  See `:help wincmd` for a list of all window commands
 k.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })

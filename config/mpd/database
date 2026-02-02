@@ -7104,7 +7104,7 @@ added: 1767310650
 song_end
 end: Fire Within (2013)
 directory: For Emma, Forever Ago
-mtime: 1767537482
+mtime: 1768494570
 begin: For Emma, Forever Ago
 song_begin: 01 - Flume.flac
 Time: 219
@@ -13234,7 +13234,7 @@ mtime: 1759154953
 added: 1766423539
 song_end
 song_begin: 24 - Pass Judgement.flac
-Time: 260.507
+Time: 260.508
 Album: House of the Dragon: Season 1 (Soundtrack From the HBO® Series)
 Composer: Ramin Djawadi
 Date: 2022-10-23
@@ -14146,7 +14146,7 @@ mtime: 1759156836
 added: 1766423539
 song_end
 song_begin: 16 - I Do Not Know My Part.flac
-Time: 64.736
+Time: 64.737
 Album: House of the Dragon: Season 2 (Soundtrack from the HBO® Series)
 Date: 2024-08-04
 Disc: 1
@@ -15502,123 +15502,6 @@ playlist_begin: playlist.m3u8
 mtime: 1765203219
 playlist_end
 end: James Newton Howard - Batman Begins (Original Motion Picture Soundtrack)
-directory: jschlatt-A Very 1999 Christmas
-mtime: 1753969612
-begin: jschlatt-A Very 1999 Christmas
-song_begin: 1.1.Let it Snow! Let it Snow! Let it Snow!.flac
-Time: 116.013
-Title: Let it Snow! Let it Snow! Let it Snow!
-Album: A Very 1999 Christmas
-AlbumArtist: jschlatt
-Artist: jschlatt
-Track: 1
-Disc: 1
-Date: 2024-12-01
-Composer: Jule Styne and Sammy Cahn
-Format: 44100:24:2
-mtime: 1753968924
-added: 1766423538
-song_end
-song_begin: 1.2.Baby, Its Cold Outside.flac
-Time: 145.453
-Title: Baby, It's Cold Outside
-Album: A Very 1999 Christmas
-AlbumArtist: jschlatt
-Artist: jschlatt
-Track: 2
-Disc: 1
-Date: 2024-12-01
-Composer: Frank Loesser
-Format: 44100:24:2
-mtime: 1753969024
-added: 1766423538
-song_end
-song_begin: 1.3.White Christmas.flac
-Time: 182.84
-Title: White Christmas
-Album: A Very 1999 Christmas
-AlbumArtist: jschlatt
-Artist: jschlatt
-Track: 3
-Disc: 1
-Date: 2024-12-01
-Composer: Irving Berlin
-Format: 44100:24:2
-mtime: 1753969100
-added: 1766423538
-song_end
-song_begin: 1.4.The Christmas Song.flac
-Time: 195.16
-Title: The Christmas Song
-Album: A Very 1999 Christmas
-AlbumArtist: jschlatt
-Artist: jschlatt
-Track: 4
-Disc: 1
-Date: 2024-12-01
-Composer: Mel Torme and Robert Wells
-Format: 44100:24:2
-mtime: 1753969288
-added: 1766423538
-song_end
-song_begin: 1.5.Santa Claus Is Comin to Town.flac
-Time: 137.72
-Title: Santa Claus Is Comin' to Town
-Album: A Very 1999 Christmas
-AlbumArtist: jschlatt
-Artist: jschlatt
-Track: 5
-Disc: 1
-Date: 2024-12-01
-Composer: J. Fred Coots and Haven Gillespie
-Format: 44100:24:2
-mtime: 1753969349
-added: 1766423538
-song_end
-song_begin: 1.6.Have Yourself a Merry Little Christmas.flac
-Time: 218.48000000000002
-Title: Have Yourself a Merry Little Christmas
-Album: A Very 1999 Christmas
-AlbumArtist: jschlatt
-Artist: jschlatt
-Track: 6
-Disc: 1
-Date: 2024-12-01
-Composer: Hugh Martin
-Composer: Ralph Blane
-Format: 44100:24:2
-mtime: 1753969457
-added: 1766423538
-song_end
-song_begin: 1.7.Happy Holidays.flac
-Time: 172.066
-Title: Happy Holidays
-Album: A Very 1999 Christmas
-AlbumArtist: jschlatt
-Artist: jschlatt
-Track: 7
-Disc: 1
-Date: 2024-12-01
-Composer: Irving Berlin
-Format: 44100:24:2
-mtime: 1753969526
-added: 1766423538
-song_end
-song_begin: 1.8.Its the Most Wonderful Time of the Year.flac
-Time: 145.786
-Title: It's the Most Wonderful Time of the Year
-Album: A Very 1999 Christmas
-AlbumArtist: jschlatt
-Artist: jschlatt
-Track: 8
-Disc: 1
-Date: 2024-12-01
-Composer: Eddie Pola and George Wyle
-Format: 44100:24:2
-mtime: 1753969612
-added: 1766423538
-song_end
-end: jschlatt-A Very 1999 Christmas
 directory: Main Hoon Na (2004) [FLAC].[FLAC-CD-RIP]
 mtime: 1755582956
 begin: Main Hoon Na (2004) [FLAC].[FLAC-CD-RIP]
@@ -23318,7 +23201,7 @@ added: 1767999004
 song_end
 end: The Devil's Walk
 directory: The Elder Scrolls V Skyrim Original Game Soundtrack (2011)
-mtime: 1768842121
+mtime: 1768842768
 begin: The Elder Scrolls V Skyrim Original Game Soundtrack (2011)
 song_begin: 01 - Dragonborn.flac
 Time: 235.636
@@ -26814,6 +26697,210 @@ mtime: 1765202195
 added: 1766423539
 song_end
 end: UNDERTALE Soundtrack (2015)
+directory: Various Artists - Devdas (Original Motion Picture Soundtrack) (2002) FLAC
+mtime: 1769793462
+begin: Various Artists - Devdas (Original Motion Picture Soundtrack) (2002) FLAC
+song_begin: 01. Silsila Ye Chahat Ka (From Devdas).flac
+Time: 326.89300000000003
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 1
+Artist: Shreya Ghoshal
+MUSICBRAINZ_TRACKID: 43a9f794-904a-47e1-b854-fc48ff20a2f7
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: 082c9dab-f097-3997-b5e1-6dca1c64ae2b
+Album: Devdas
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Silsila Ye Chaahat Ka
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+Format: 44100:16:2
+mtime: 1769793328
+added: 1769299906
+song_end
+song_begin: 02. Maar Daala (From Devdas).flac
+Time: 280.08
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 2
+Artist: Kavita Krishnamurthy
+MUSICBRAINZ_TRACKID: d7d7460a-f813-4823-982f-c76a5a2f6754
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: ad60c05a-321b-3833-bdee-2b54507d11c7
+Album: Devdas
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Maar Dala
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+Format: 44100:16:2
+mtime: 1769793328
+added: 1769299906
+song_end
+song_begin: 03. Bairi Piya (From Devdas).flac
+Time: 323.133
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 3
+Artist: Shreya Ghoshal and Udit Narayan
+MUSICBRAINZ_TRACKID: f11a1165-5dcc-46a5-a612-f813fa25d044
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: 63b59ca4-2cf3-3fe2-8b70-43baa05bd1af
+Album: Devdas
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Bairi Piya
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+Format: 44100:16:2
+mtime: 1769793370
+added: 1769299906
+song_end
+song_begin: 04. Kaahe Chhed (From Devdas).flac
+Time: 323.533
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 4
+Artist: Madhuri Dixit and Kavita Krishnamurthy
+MUSICBRAINZ_TRACKID: f566cbbe-1047-4ce9-b1e5-9bd366667b33
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: 89699b23-569f-301a-9460-c15fae9621b3
+Album: Devdas
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Kaahe Chhed Mohe
+Format: 44100:16:2
+mtime: 1769793386
+added: 1769299906
+song_end
+song_begin: 05. Chalak Chalak (From Devdas).flac
+Time: 312.72
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 5
+Artist: Shreya Ghoshal, Udit Narayan and Vinod Rathod
+MUSICBRAINZ_TRACKID: c8a1e2cb-d391-4ef6-9d68-d05435bbea50
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: 2648f4a7-13c2-3246-bbea-02ce6e013f9e
+Album: Devdas
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Chalak Chalak
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+Format: 44100:16:2
+mtime: 1769793403
+added: 1769299906
+song_end
+song_begin: 06. Hamesha Tumko Chaha (From Devdas).flac
+Time: 362.293
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 6
+Artist: Kavita Krishnamurthy and Udit Narayan
+MUSICBRAINZ_TRACKID: ce0773c0-380d-456c-9cbe-83015a5c6f42
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: f8aa2bde-acc5-3d66-bd35-71485d3dc630
+Album: Devdas
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Hamesha Tumko Chaha
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+Format: 44100:16:2
+mtime: 1769793416
+added: 1769299906
+song_end
+song_begin: 07. Woh Chand Jaisi Ladki (From Devdas).flac
+Time: 272.146
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 7
+Artist: Udit Narayan
+MUSICBRAINZ_TRACKID: bd47133d-8295-4236-a1a1-9e127882f88b
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: 972da84b-743a-359a-93fc-27c8c20e30b0
+Album: Devdas
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Woh Chand Jaisi Ladki
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+Format: 44100:16:2
+mtime: 1769793328
+added: 1769299906
+song_end
+song_begin: 08. Morey Piya (From Devdas).flac
+Time: 340.546
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 8
+Artist: Shreya Ghoshal and Jaspinder Narula
+MUSICBRAINZ_TRACKID: 722f469d-453c-44db-96a3-7c3cc587c592
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: 6bfc9f36-9d94-3ba7-afb6-8dc26c08da74
+Album: Devdas
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Morey Piya
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+Format: 44100:16:2
+mtime: 1769793448
+added: 1769299906
+song_end
+song_begin: 09. Dev's Last Journey - The Theme (From Devdas).flac
+Time: 243.213
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 9
+Artist: Rashmi Sharma
+MUSICBRAINZ_TRACKID: 5c108707-8e6e-4058-8dca-bd510f0e69cd
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: 1aae01c2-334f-369b-a636-c7f2a1b7bfe2
+Album: Devdas
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Devdas: The Theme
+Format: 44100:16:2
+mtime: 1769793328
+added: 1769299906
+song_end
+song_begin: 10. Dola Re Dola (From Devdas).flac
+Time: 395.866
+MUSICBRAINZ_ALBUMARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+MUSICBRAINZ_ARTISTID: f0321554-8ec0-47c5-a939-c7f2b158947e
+Label: Universal Music India Pvt Ltd.
+MUSICBRAINZ_ALBUMID: a30fefa1-0011-41b5-8b1f-934d71663959
+Track: 10
+Artist: Shreya Ghoshal and Kavita Krishnamurthy
+MUSICBRAINZ_TRACKID: 68142d1b-5fe1-4b70-a94f-6be44a5ca6c3
+AlbumArtist: Various Artists
+MUSICBRAINZ_RELEASETRACKID: eca77cab-b851-36e8-94ba-b3cb15220b45
+Album: Devdas
+OriginalDate: 2002-01-01
+Date: 2002
+Title: Dola Re Dola
+MUSICBRAINZ_RELEASEGROUPID: 827a5bae-33e7-360c-8c8e-8e78f35711d2
+Format: 44100:16:2
+mtime: 1769793462
+added: 1769299906
+song_end
+end: Various Artists - Devdas (Original Motion Picture Soundtrack) (2002) FLAC
 directory: Various Artists - Shreya Unplugged (2024) [WEB FLAC]
 mtime: 1755589861
 begin: Various Artists - Shreya Unplugged (2024) [WEB FLAC]

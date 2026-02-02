@@ -1,0 +1,9 @@
+@theme "./config"
+
+entry, prompt, element-text {
+    font: "Mono 18";
+}
+
+element {
+    padding: 5;
+}
