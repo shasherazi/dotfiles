@@ -1,0 +1,13 @@
+brightnessctl
+cliphist
+gammastep
+grim
+hypridle
+hyprland
+hyprlock
+hyprpaper
+rofi
+slurp
+waybar
+wl-clipboard
+xdg-desktop-portal-gtk

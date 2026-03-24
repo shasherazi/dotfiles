@@ -13,8 +13,8 @@ bindkey "^[[3~" delete-char
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 HISTDUP=erase
 unsetopt beep
 setopt HIST_SAVE_NO_DUPS
@@ -37,10 +37,10 @@ export XDG_STATE_HOME="${HOME}/.local/state"
 export VISUAL="/usr/bin/env nvim"
 export EDITOR="/usr/bin/env nvim"
 
-export ANDROID_HOME=${HOME}/Android/Sdk
-export PATH=${ANDROID_HOME}/tools:${PATH}
-export PATH=${ANDROID_HOME}/emulator:${PATH}
-export PATH=${ANDROID_HOME}/platform-tools:${PATH}
+# export ANDROID_HOME=${HOME}/Android/Sdk
+# export PATH=${ANDROID_HOME}/tools:${PATH}
+# export PATH=${ANDROID_HOME}/emulator:${PATH}
+# export PATH=${ANDROID_HOME}/platform-tools:${PATH}
 export PATH="$PATH:${HOME}/.local/bin"
 export PATH=~/.cargo/bin:$PATH
 
@@ -73,7 +73,6 @@ alias dun="cd ~/.config/dunst && $EDITOR dunstrc && exit"
 alias gam="cd ~/.config/gammastep && $EDITOR config.ini && exit"
 alias hyp="cd ~/.config/hypr && $EDITOR hyprland.conf && exit"
 alias kit="cd ~/.config/kitty && $EDITOR kitty.conf && exit"
-# alias nxc="cd ~/.config/nixos && $EDITOR configuration.nix && exit"
 alias nxc='tmux new-session -A -s nxc -c "$HOME/.config/nixos" \; split-window -h -p 36 -c "$HOME/.config/nixos" \; select-pane -L \; send-keys "$EDITOR" Enter'
 alias pic="cd ~/.config/picom && $EDITOR picom.conf && exit"
 alias pol="cd ~/.config/polybar && $EDITOR config.ini && exit"
@@ -96,5 +95,5 @@ source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+# export SDKMAN_DIR="$HOME/.sdkman"
+# [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

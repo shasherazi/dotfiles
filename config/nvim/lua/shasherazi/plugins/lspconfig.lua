@@ -32,7 +32,13 @@ return {
       -- pyright = {},
 
       astro = {},
-      clangd = {},
+      bashls = {},
+      clangd = {
+        cmd = {
+          "clangd",
+          "--query-driver=/run/current-system/sw/bin/g++,/run/current-system/sw/bin/gcc,/run/current-system/sw/bin/clang,/run/current-system/sw/bin/clang++",
+        },
+      },
       emmet_language_server = {},
       jsonls = {},
       hyprls = {},
@@ -91,26 +97,26 @@ return {
         opts.desc = "LSP: References"
         vim.keymap.set("n", "gr", "<cmd>Telescope lsp_references<CR>", opts)
 
-        opts.desc = "LSP: Code action"
-        vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts)
+        -- opts.desc = "LSP: Code action"
+        -- vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts)
 
         opts.desc = "LSP: Rename"
-        vim.keymap.set("n", "<leader>rn", function() return ":IncRename " .. vim.fn.expand("<cword>") end,
+        vim.keymap.set("n", "<leader>ln", function() return ":IncRename " .. vim.fn.expand("<cword>") end,
           { expr = true, buffer = ev.buf, desc = "LSP: Rename" })
 
-        opts.desc = "Diagnostics: Buffer"
-        vim.keymap.set("n", "<leader>D", "<cmd>Telescope diagnostics bufnr=0<CR>", opts)
+        -- opts.desc = "Diagnostics: Buffer"
+        -- vim.keymap.set("n", "<leader>D", "<cmd>Telescope diagnostics bufnr=0<CR>", opts)
 
-        opts.desc = "Diagnostics: Line"
-        vim.keymap.set(
-          "n",
-          "<leader>d",
-          function() vim.diagnostic.open_float { border = "single", source = true } end,
-          opts
-        )
+        -- opts.desc = "Diagnostics: Line"
+        -- vim.keymap.set(
+        --   "n",
+        --   "<leader>d",
+        --   function() vim.diagnostic.open_float { border = "single", source = true } end,
+        --   opts
+        -- )
 
-        opts.desc = "LSP: Restart"
-        vim.keymap.set("n", "<leader>rs", "<cmd>LspRestart<CR>", opts)
+        -- opts.desc = "LSP: Restart"
+        -- vim.keymap.set("n", "<leader>rs", "<cmd>LspRestart<CR>", opts)
 
         vim.keymap.set("i", "<C-h>", vim.lsp.buf.signature_help, opts)
 
@@ -131,19 +137,19 @@ return {
           })
         end
 
-        if client and client:supports_method(vim.lsp.protocol.Methods.textDocument_inlayHint, ev.buf) then
-          vim.lsp.inlay_hint.enable()
-
-          -- toggle with <leader>ih
-          opts.desc = "LSP: Toggle Inlay Hints"
-          vim.keymap.set("n", "<leader>ih", function()
-            if vim.lsp.inlay_hint.is_enabled() then
-              vim.lsp.inlay_hint.enable(false)
-            else
-              vim.lsp.inlay_hint.enable(true)
-            end
-          end, opts)
-        end
+        -- if client and client:supports_method(vim.lsp.protocol.Methods.textDocument_inlayHint, ev.buf) then
+        --   vim.lsp.inlay_hint.enable()
+        --
+        --   -- toggle with <leader>ih
+        --   opts.desc = "[L]SP Toggle [I]nlay hints"
+        --   vim.keymap.set("n", "<leader>li", function()
+        --     if vim.lsp.inlay_hint.is_enabled() then
+        --       vim.lsp.inlay_hint.enable(false)
+        --     else
+        --       vim.lsp.inlay_hint.enable(true)
+        --     end
+        --   end, opts)
+        -- end
       end,
     })
 

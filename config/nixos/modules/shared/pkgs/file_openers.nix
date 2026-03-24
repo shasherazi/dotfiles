@@ -15,6 +15,9 @@
 
     # images
     kdePackages.gwenview
+    gthumb
+    qimgv
+    sxiv
 
     # text
     kdePackages.kate

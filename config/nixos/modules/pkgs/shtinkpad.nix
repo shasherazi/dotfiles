@@ -1,7 +1,7 @@
 { ... }:
 {
   imports = [
-    ./battery-tlp.nix
+    ./battery-ppd.nix
     ./games.nix
     ./ssh.nix
   ];

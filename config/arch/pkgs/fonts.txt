@@ -1,0 +1,6 @@
+noto-fonts-cjk
+noto-fonts-emoji
+otf-firamono-nerd
+ttf-firacode-nerd
+ttf-jetbrains-mono-nerd
+ttf-noto-nerd

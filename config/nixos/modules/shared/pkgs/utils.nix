@@ -13,15 +13,20 @@
     lshw
     git
     gnupg
+    i2c-tools
     imagemagick
     jmtpfs
     jq
     libnotify
     ntfs3g
     parted
+    pavucontrol
     pciutils
     playerctl
+    pulsemixer
     rar
+    socat
+    stress-ng
     syncthing
     unzip
     zsh

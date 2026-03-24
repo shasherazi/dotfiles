@@ -25,7 +25,7 @@ return {
 
     -- Open mini files at root directory
     -- root directory is determined by current working directory
-    vim.keymap.set("n", "<leader>e", function()
+    vim.keymap.set("n", "<leader>ee", function()
       MiniFiles.open()
     end, { desc = "Open file explorer" })
 
@@ -53,21 +53,6 @@ return {
       enable_autocmd = false,
     }
 
-
-    --                                       ▄▄
-    --          ▀▀        ▀▀                 ██ ▀▀  ██   ▀▀       ▀▀
-    -- ███▄███▄ ██  ████▄ ██     ▄█▀▀▀ ████▄ ██ ██ ▀██▀▀ ██ ▄███▄ ██  ████▄
-    -- ██ ██ ██ ██  ██ ██ ██     ▀███▄ ██ ██ ██ ██  ██  ▀██ ██ ██ ██  ██ ██
-    -- ██ ██ ██ ██▄ ██ ██ ██▄ ██ ▄▄▄█▀ ████▀ ██ ██▄ ██   ██ ▀███▀ ██▄ ██ ██
-    --                                 ██                ██
-    --                                 ▀▀              ▀▀▀
-
-    local MiniSplitjoin = require("mini.splitjoin")
-    MiniSplitjoin.setup({
-      mappings = {
-        toggle = "<leader>sj",
-      },
-    })
 
     --                                                              ▄▄
     --          ▀▀        ▀▀            ██         ██               ██ ▀▀

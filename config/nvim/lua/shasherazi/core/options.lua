@@ -1,5 +1,11 @@
 local o = vim.opt
 
+vim.filetype.add({
+  extension = {
+    mdx = "markdown",
+  },
+})
+
 o.mouse = 'a'                        -- Enable mouse support in all modes (helpful for resizing splits, etc.)
 o.number = true                      -- Enable line numbers
 o.relativenumber = true              -- Enable relative line numbers

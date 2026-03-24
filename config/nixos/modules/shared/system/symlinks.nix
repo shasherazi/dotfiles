@@ -78,6 +78,7 @@ let
 
     # ---- ~/.config dirs ----
     link_dir "$DOTFILES/config/alacritty" "$HOME/.config/alacritty"
+    link_dir "$DOTFILES/config/arch" "$HOME/.config/arch"
     link_dir "$DOTFILES/config/dunst" "$HOME/.config/dunst"
     link_dir "$DOTFILES/config/gammastep" "$HOME/.config/gammastep"
     link_dir "$DOTFILES/config/hypr" "$HOME/.config/hypr"

@@ -1,0 +1,4 @@
+# visual studio code
+code
+nano
+neovim

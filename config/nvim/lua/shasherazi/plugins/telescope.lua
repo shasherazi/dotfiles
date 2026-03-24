@@ -39,20 +39,20 @@ return {
     telescope.load_extension("themes")
 
     -- keymaps
-    vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Find files" })
-    vim.keymap.set("n", "<leader>fr", builtin.oldfiles, { desc = "Open recent files" })
-    vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Live grep" })
-    vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "List buffers" })
-
-    vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Help tags" })
-    vim.keymap.set("n", "<leader>fk", builtin.keymaps, { desc = "List keymaps" })
-    vim.keymap.set("n", "<leader>fC", builtin.commands, { desc = "List commands" })
+    -- vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Find files" })
+    -- vim.keymap.set("n", "<leader>fr", builtin.oldfiles, { desc = "Open recent files" })
+    -- vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Live grep" })
+    -- vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "List buffers" })
+    --
+    -- vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Help tags" })
+    -- vim.keymap.set("n", "<leader>fk", builtin.keymaps, { desc = "List keymaps" })
+    -- vim.keymap.set("n", "<leader>fC", builtin.commands, { desc = "List commands" })
 
     -- vim.keymap.set("n", "<leader>fgc", builtin.git_commits, { desc = "Git commits" })
     -- vim.keymap.set("n", "<leader>fgs", builtin.git_status, { desc = "Git status" })
     -- vim.keymap.set("n", "<leader>fgb", builtin.git_branches, { desc = "Git branches" })
 
-    vim.keymap.set("n", "<leader>fc", "<cmd>Telescope themes<CR>",
-      { noremap = true, silent = true, desc = "Colorscheme Switcher" })
+    -- vim.keymap.set("n", "<leader>fc", "<cmd>Telescope themes<CR>",
+    --   { noremap = true, silent = true, desc = "Colorscheme Switcher" })
   end,
 }

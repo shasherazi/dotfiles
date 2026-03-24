@@ -1,0 +1,3 @@
+kvantum
+nwg-look
+qt6ct

@@ -61,17 +61,16 @@ k.set('v', 'p', '"_dP', opts) -- Paste over selected text without yanking it
 k.set('n', 'x', '"_x', opts)  -- Delete character without yanking it
 
 -- tab stuff
-k.set('n', '<leader>tn', '<cmd>tabnew<CR>', { desc = 'New tab' })
-k.set('n', '<leader>tc', '<cmd>tabclose<CR>', { desc = 'Close tab' })
-k.set('n', '<leader>th', '<cmd>tabprevious<CR>', { desc = 'Previous tab' })
-k.set('n', '<leader>tl', '<cmd>tabnext<CR>', { desc = 'Next tab' })
+-- k.set('n', '<leader>tn', '<cmd>tabnew<CR>', { desc = 'New tab' })
+-- k.set('n', '<leader>tc', '<cmd>tabclose<CR>', { desc = 'Close tab' })
+-- k.set('n', '<leader>th', '<cmd>tabprevious<CR>', { desc = 'Previous tab' })
+-- k.set('n', '<leader>tl', '<cmd>tabnext<CR>', { desc = 'Next tab' })
 
 -- buffer stuff
-k.set('n', '<leader>bd', '<cmd>bdelete<CR>', { desc = 'Delete buffer' })
-k.set('n', 'L', '<cmd>bnext<CR>', { desc = 'Next buffer' })
-k.set('n', 'H', '<cmd>bprevious<CR>', { desc = 'Previous buffer' })
-k.set('n', '<leader>bl', '<cmd>ls<CR>', { desc = 'List buffers' })
-k.set('n', '<leader>bc', '<cmd>%bd|e#|bd#<CR>', { desc = 'Close all buffers except current' })
+-- k.set('n', '<leader>bd', '<cmd>bdelete<CR>', { desc = 'Delete buffer' })
+-- k.set('n', 'L', '<cmd>bnext<CR>', { desc = 'Next buffer' })
+-- k.set('n', 'H', '<cmd>bprevious<CR>', { desc = 'Previous buffer' })
+-- k.set('n', '<leader>bc', '<cmd>%bd|e#|bd#<CR>', { desc = 'Close all buffers except current' })
 
 -- todo-comments
 vim.keymap.set("n", "]t", function()

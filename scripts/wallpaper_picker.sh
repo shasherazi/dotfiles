@@ -3,7 +3,11 @@
 # Default wallpaper directory if not set
 WALLPAPER_DIR=/home/shasherazi/wallpapers
 
-WALLPAPER=$(for a in ~/wallpapers/*; do echo -en "$(basename "$a")\0icon\x1f$a\n" ; done | rofi -dmenu -config ~/.config/rofi/wallpaper.rasi)
+WALLPAPER=$(
+  for a in ~/wallpapers/*; do
+    printf "%s\0icon\x1f%s\n" "${a##*/}" "$a"
+  done | shuf | rofi -dmenu -config ~/.config/rofi/wallpaper.rasi
+)
 
 if [ -z "$WALLPAPER" ]; then
     exit 0

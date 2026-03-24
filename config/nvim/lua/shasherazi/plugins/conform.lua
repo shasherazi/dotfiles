@@ -7,6 +7,7 @@ return {
 
     conform.setup({
       formatters_by_ft = {
+        shell = { "shfmt" },
         css = { "prettierd" },
         html = { "prettierd" },
         javascript = { "prettierd" },
