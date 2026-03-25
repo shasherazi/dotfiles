@@ -2,3 +2,4 @@
 code
 nano
 neovim
+vim
