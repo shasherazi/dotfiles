@@ -52,8 +52,10 @@
   users.users.shasherazi = {
     isNormalUser = true;
     extraGroups = [
+      "dialout"
       "wheel"
       "networkmanager"
+      "input"
     ];
     shell = pkgs.zsh;
   };

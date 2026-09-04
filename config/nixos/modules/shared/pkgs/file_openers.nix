@@ -16,7 +16,7 @@
     # images
     kdePackages.gwenview
     gthumb
-    qimgv
+    # qimgv # starts building v8 from scratch
     sxiv
 
     # text

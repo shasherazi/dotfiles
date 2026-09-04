@@ -1,3 +1,5 @@
+export GPG_TTY=$(tty)
+
 fortune | cowsay
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -37,19 +39,19 @@ export XDG_STATE_HOME="${HOME}/.local/state"
 export VISUAL="/usr/bin/env nvim"
 export EDITOR="/usr/bin/env nvim"
 
-# export ANDROID_HOME=${HOME}/Android/Sdk
+export ANDROID_HOME=${HOME}/Android/Sdk
 # export PATH=${ANDROID_HOME}/tools:${PATH}
 # export PATH=${ANDROID_HOME}/emulator:${PATH}
 # export PATH=${ANDROID_HOME}/platform-tools:${PATH}
 export PATH="$PATH:${HOME}/.local/bin"
 export PATH=~/.cargo/bin:$PATH
+export PATH="$PATH:/home/shasherazi/.dotnet/tools"
 
 export npm_config_prefix="$HOME/.local"
 # export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 export $(dbus-launch)
 # export CM_SELECTIONS="clipboard" # monitor only "clipboard" clipboard for clipmenud
 export _JAVA_AWT_WM_NONREPARENTING=1 # makes jetbrains IDEs work
-export GPG_TTY=$(tty)
 
 # aliases
 alias ..="cd .."
@@ -67,11 +69,12 @@ alias vim="$EDITOR"
 alias nvim="$EDITOR"
 
 # file shortcuts
-alias bsp="cd ~/,config/bspwm && $EDITOR bspwmrc && exit"
+alias arc='tmux new-session -A -s arc -c "$HOME/.config/arch" \; split-window -h -p 36 -c "$HOME/.config/arch" \; select-pane -L \; send-keys "$EDITOR" Enter'
+alias bsp="cd ~/.config/bspwm && $EDITOR bspwmrc && exit"
 alias bkm="cd ~/dotfiles/scripts/launchers && $EDITOR bookmarks.csv && exit"
 alias dun="cd ~/.config/dunst && $EDITOR dunstrc && exit"
 alias gam="cd ~/.config/gammastep && $EDITOR config.ini && exit"
-alias hyp="cd ~/.config/hypr && $EDITOR hyprland.conf && exit"
+alias hyp="cd ~/.config/hypr && $EDITOR hyprland.lua && exit"
 alias kit="cd ~/.config/kitty && $EDITOR kitty.conf && exit"
 alias nxc='tmux new-session -A -s nxc -c "$HOME/.config/nixos" \; split-window -h -p 36 -c "$HOME/.config/nixos" \; select-pane -L \; send-keys "$EDITOR" Enter'
 alias pic="cd ~/.config/picom && $EDITOR picom.conf && exit"
@@ -97,3 +100,9 @@ source ~/.zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 # export SDKMAN_DIR="$HOME/.sdkman"
 # [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/shasherazi/google-cloud-sdk/path.zsh.inc' ]; then . '/home/shasherazi/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/shasherazi/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/shasherazi/google-cloud-sdk/completion.zsh.inc'; fi

@@ -5,6 +5,7 @@ set -euo pipefail
 echo "Starting dotfiles symlinking..."
 
 DOTFILES="$HOME/dotfiles"
+ARCH_CONFIG="$HOME/dotfiles/config/arch"
 
 # Ensure the dotfiles repository actually exists before proceeding
 if [ ! -d "$DOTFILES" ]; then
@@ -78,7 +79,7 @@ link_file() {
 
 echo "Linking files in \$HOME..."
 # ---- $HOME links (files) ----
-link_file "$DOTFILES/config/git/.gitconfig" "$HOME/.gitconfig"
+link_file "$ARCH_CONFIG/git/.gitconfig" "$HOME/.gitconfig"
 link_file "$DOTFILES/config/zsh/.zshrc" "$HOME/.zshrc"
 link_file "$DOTFILES/config/zsh/.p10k.zsh" "$HOME/.p10k.zsh"
 link_dir "$DOTFILES/config/zsh/.zsh_plugins" "$HOME/.zsh_plugins"
@@ -89,15 +90,15 @@ link_dir "$DOTFILES/config/alacritty" "$HOME/.config/alacritty"
 link_dir "$DOTFILES/config/arch" "$HOME/.config/arch"
 link_dir "$DOTFILES/config/dunst" "$HOME/.config/dunst"
 link_dir "$DOTFILES/config/gammastep" "$HOME/.config/gammastep"
-link_dir "../config/hypr" "$HOME/.config/hypr"
+link_dir "$ARCH_CONFIG/config/hypr" "$HOME/.config/hypr"
 link_dir "$DOTFILES/config/kitty" "$HOME/.config/kitty"
 link_dir "$DOTFILES/config/mpd" "$HOME/.config/mpd"
 link_dir "$DOTFILES/config/nixos" "$HOME/.config/nixos"
-link_dir "$DOTFILES/config/nvim" "$HOME/.config/nvim"
+link_dir "$ARCH_CONFIG/config/nvim" "$HOME/.config/nvim"
 link_dir "$DOTFILES/config/rmpc" "$HOME/.config/rmpc"
 link_dir "$DOTFILES/config/rofi" "$HOME/.config/rofi"
 link_dir "$DOTFILES/config/tmux" "$HOME/.config/tmux"
-link_dir "$DOTFILES/config/waybar" "$HOME/.config/waybar"
+link_dir "$ARCH_CONFIG/config/waybar" "$HOME/.config/waybar"
 link_dir "$DOTFILES/config/zathura" "$HOME/.config/zathura"
 
 echo "Linking isolated files in ~/.config..."

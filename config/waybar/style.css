@@ -15,15 +15,17 @@
 }
 
 window#waybar {
-  background-color: @color-bg;
+  /* background-color: @color-bg; */
+  background: transparent;
   border-radius: 10px;
   color: @color-text;
 }
 
 #clock {
   color: @color-accent1;
-  background-color: @color-bg-alt;
-  font-family: "Oxanium ExtraBold", sans-serif;
+  background-color: @color-bg;
+  font-family: "Oxanium ExtraLight", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   padding: 8px 0;
   padding-top: 12px;
@@ -53,7 +55,6 @@ window#waybar {
 }
 
 #battery {
-  margin-bottom: 5px;
   background-color: @color-bg-alt;
   padding: 5px 0px;
   border-radius: 5px;
@@ -91,7 +92,7 @@ window#waybar {
 }
 
 #workspaces {
-  padding: 4px 5px;
+  padding: 0px;
 }
 
 #workspaces button {
@@ -102,10 +103,14 @@ window#waybar {
   transition: padding 0.2s ease-in-out;
 }
 
+#workspaces button:first-child {
+  margin-top: 0;
+}
+
 #workspaces button.active {
   color: @color-bg;
   background-color: @color-accent3;
-  padding: 10px 10px;
+  padding: 15px 10px;
 }
 
 #workspaces button:hover:not(.active) {
@@ -117,13 +122,20 @@ window#waybar {
   background-color: @color-bg;
 }
 
+.modules-left {
+  background-color: @color-bg;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 .modules-center {
   padding: 0 5px;
 }
 
 .modules-right {
-  padding: 0 5px;
-  border-radius: 0px;
+  background-color: @color-bg;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 tooltip {

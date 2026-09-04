@@ -6,6 +6,7 @@
     ripgrep
 
     # lsp stuff
+    arduino-language-server
     astro-language-server
     bash-language-server
     black
@@ -23,8 +24,10 @@
     shfmt
     shellcheck
     tailwindcss-language-server
+    tree-sitter
     ty
     typescript-language-server
+    vhdl-ls
     vscode-json-languageserver
     vtsls
   ];

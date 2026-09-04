@@ -2,6 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     acpi
+    android-tools
     bluetui
     bluez
     dmidecode
@@ -15,7 +16,6 @@
     gnupg
     i2c-tools
     imagemagick
-    jmtpfs
     jq
     libnotify
     ntfs3g
@@ -24,7 +24,9 @@
     pciutils
     playerctl
     pulsemixer
+    qrencode
     rar
+    scrcpy
     socat
     stress-ng
     syncthing

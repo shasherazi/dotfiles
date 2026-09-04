@@ -1,5 +1,6 @@
 return {
   "hrsh7th/nvim-cmp",
+  event = "InsertEnter",
   dependencies = {
     "hrsh7th/cmp-buffer",                     -- suggestions from current buffer
     "hrsh7th/cmp-path",                       -- suggestions from file system paths

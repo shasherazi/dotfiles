@@ -32,7 +32,7 @@
       "playing": ""
     },
     "tooltip-format": "{elapsedTime:%M:%S}/{totalTime:%M:%S}\n{title}\n{artist}\n{album}",
-    "on-click": "mpc toggle",
+    "on-click": "mpc toggle"
   },
   "custom/powerprofile": {
     "format": "{}",
@@ -47,7 +47,7 @@
     "bat": "BAT0",
     "interval": 5,
     "states": {
-      "low": 30,
+      "low": 30
     },
     "format": "{icon}",
     "format-time": "{H}h {M}min",
@@ -59,7 +59,7 @@
       " "
     ],
     "format-charging": "󰁹󱐋",
-    "tooltip-format": "Current percentage: {capacity}%\n{timeTo}"
+    "tooltip-format": "Current percentage: {capacity}%\nCurrent power: {power}W\n{timeTo}"
   },
   "clock": {
     "format": "{:%H\n%M}",

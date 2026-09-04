@@ -6,6 +6,7 @@ return {
     "mason-org/mason.nvim",
   },
   config = function()
+    vim.env.PATH = vim.fn.stdpath("data") .. "/mason/bin:" .. vim.env.PATH
     local mason = require("mason")
 
     mason.setup({
@@ -31,6 +32,7 @@ return {
       -- clangd = {},
       -- pyright = {},
 
+      arduino_language_server = {},
       astro = {},
       bashls = {},
       clangd = {
@@ -62,6 +64,7 @@ return {
       ron_lsp = { filetypes = { "ron" } },
       tailwindcss = {},
       ty = {}, -- python type checker written in rust
+      vhdl_ls = {},
       vtsls = {},
     }
 

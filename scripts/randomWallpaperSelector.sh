@@ -10,7 +10,8 @@ if [ "$XDG_SESSION_TYPE" = "x11" ]; then
 elif [ "$XDG_SESSION_TYPE" = "wayland" ]; then
 	# Set a random wallpaper using swaybg with a transition step
 	WALLPAPER=$(find "$WALLPAPER_DIR" -type f -printf "%p\n" | shuf -n 1)
-	hyprctl hyprpaper reload ,"$WALLPAPER"
+  hyprctl hyprpaper wallpaper eDP-1, "$WALLPAPER"
+  echo "$WALLPAPER" > ~/.cache/wallpaper
 	dunstify -t 3000 -r 1337 "Wallpaper changed to $(basename "$WALLPAPER")"
 else
 	echo "Unsupported desktop environment: $XDG_SESSION_TYPE"

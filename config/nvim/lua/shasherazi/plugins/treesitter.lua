@@ -1,35 +1,43 @@
 return {
-  'nvim-treesitter/nvim-treesitter',
-  build = ':TSUpdate',
-  branch = "master",
+  "nvim-treesitter/nvim-treesitter",
+  build = ":TSUpdate",
+  lazy = false,
 
   config = function()
-    local treesitter = require('nvim-treesitter.configs')
-    treesitter.setup({
-      auto_install = true,
-      ensure_installed = {},
-      sync_install = false,
-      ignore_install = {},
-      modules = {},
-
-      highlight = {
-        enable = true,
-        additional_vim_regex_highlighting = {},
-      },
-
-      indent = {
-        enable = true,
-        disable = {}
-      },
-
-      incremental_selection = {
-        enable = true,
-        keymaps = {
-          init_selection = "<C-space>",
-          node_incremental = "<C-space>",
-          -- node_decremental = "<M-Space>",
-        },
-      },
+    require("nvim-treesitter").setup({
+      install_dir = vim.fn.stdpath("data") .. "/site",
     })
-  end
+
+    local disabled = {
+      TelescopePrompt = true,
+      minifiles = true,
+    }
+
+    vim.api.nvim_create_autocmd("FileType", {
+      callback = function(args)
+        local ft = vim.bo[args.buf].filetype
+        local bt = vim.bo[args.buf].buftype
+
+        -- skip prompts, special buffers, and known non-parser filetypes
+        if bt ~= "" or disabled[ft] then
+          return
+        end
+
+        local lang = vim.treesitter.language.get_lang(ft) or ft
+
+        -- auto-install only for real filetypes
+        pcall(function()
+          require("nvim-treesitter").install({ lang }):wait(300000)
+        end)
+
+        pcall(vim.treesitter.start, args.buf, lang)
+
+        vim.opt_local.foldmethod = "expr"
+        vim.opt_local.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+
+        vim.bo[args.buf].indentexpr =
+        "v:lua.require'nvim-treesitter'.indentexpr()"
+      end,
+    })
+  end,
 }

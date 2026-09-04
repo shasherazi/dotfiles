@@ -1,5 +1,5 @@
 # visual studio code
-code
 nano
 neovim
 vim
+visual-studio-code-bin

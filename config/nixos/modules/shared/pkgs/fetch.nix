@@ -4,7 +4,6 @@
     afetch
     fastfetch
     macchina
-    neofetch
     nerdfetch
     pfetch
     screenfetch

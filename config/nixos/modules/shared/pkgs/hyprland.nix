@@ -8,6 +8,7 @@
     hypridle
     hyprlock
     hyprpaper
+    hyprpicker
     rofi
     slurp
     waybar

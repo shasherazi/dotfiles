@@ -1,6 +1,6 @@
 info_begin
 format: 2
-mpd_version: 0.24.6
+mpd_version: 0.24.14
 fs_charset: UTF-8
 tag: Artist
 tag: ArtistSort
@@ -4313,75 +4313,6 @@ mtime: 1768401785
 added: 1768401828
 song_end
 end: A Very 1999 Christmas (Deluxe)
-directory: Abida Khanam - Channe Naal Chanani, Vol. 51
-mtime: 1770143919
-begin: Abida Khanam - Channe Naal Chanani, Vol. 51
-song_begin: 01 - Abida Khanam Channe Naal Chanani.mp3
-Time: 607.118
-Artist: Abida Khanam
-AlbumArtist: Attaullah Khan Esakhelvi
-Title: Channe Naal Chanani
-Album: Channe Naal Chanani, Vol. 51
-Track: 1
-Date: 1994
-Disc: 1
-Format: 44100:16:2
-mtime: 1770143919
-added: 1766423538
-song_end
-song_begin: 02 - Attaullah Khan Esakhelvi Channe Naal Chanani.mp3
-Time: 742.44
-Artist: Attaullah Khan Esakhelvi
-AlbumArtist: Attaullah Khan Esakhelvi
-Title: Channe Naal Chanani
-Album: Channe Naal Chanani, Vol. 51
-Track: 2
-Date: 1994
-Disc: 1
-Format: 44100:16:2
-mtime: 1770143905
-added: 1766423538
-song_end
-song_begin: 04 - Attaullah Khan Esakhelvi Chimta Taan Vajda.mp3
-Time: 456.766
-Artist: Attaullah Khan Esakhelvi
-AlbumArtist: Attaullah Khan Esakhelvi
-Title: Chimta Taan Vajda
-Album: Channe Naal Chanani, Vol. 51
-Track: 4
-Date: 1994
-Disc: 1
-Format: 44100:16:2
-mtime: 1770143905
-added: 1766423538
-song_end
-song_begin: 05 - Abida Khanam Ve Isakheil Door Te Nahin.mp3
-Time: 494.988
-Artist: Abida Khanam
-AlbumArtist: Attaullah Khan Esakhelvi
-Title: Ve Isakheil Door Te Nahin
-Album: Channe Naal Chanani, Vol. 51
-Track: 5
-Date: 1994
-Disc: 1
-Format: 44100:16:2
-mtime: 1770143919
-added: 1766423538
-song_end
-song_begin: 06 - Attaullah Khan Esakhelvi Ve Isakheil Door Te Nahin.mp3
-Time: 877.256
-Artist: Attaullah Khan Esakhelvi
-AlbumArtist: Attaullah Khan Esakhelvi
-Title: Ve Isakheil Door Te Nahin
-Album: Channe Naal Chanani, Vol. 51
-Track: 6
-Date: 1994
-Disc: 1
-Format: 44100:16:2
-mtime: 1770143905
-added: 1766423538
-song_end
-end: Abida Khanam - Channe Naal Chanani, Vol. 51
 directory: Abida Parveen - Ghazal Ka Safar Vol. I
 mtime: 1763657971
 begin: Abida Parveen - Ghazal Ka Safar Vol. I
@@ -4478,7 +4409,7 @@ added: 1766423538
 song_end
 end: Abida Parveen - Ghazal Ka Safar Vol. I
 directory: Agnes Obel - Citizen Of Glass [2016] [FLAC]
-mtime: 1768004293
+mtime: 1774978544
 begin: Agnes Obel - Citizen Of Glass [2016] [FLAC]
 song_begin: 01 Stretch Your Eyes.flac
 Time: 311.40000000000003
@@ -4628,8 +4559,90 @@ mtime: 1768001961
 playlist_end
 end: Agnes Obel - Citizen Of Glass [2016] [FLAC]
 directory: Attaullah Khan Esakhelvi
-mtime: 1763642682
+mtime: 1786223953
 begin: Attaullah Khan Esakhelvi
+directory: Abida Khanam - Channe Naal Chanani, Vol. 51
+mtime: 1784895813
+begin: Attaullah Khan Esakhelvi/Abida Khanam - Channe Naal Chanani, Vol. 51
+song_begin: 01 - Abida Khanam Channe Naal Chanani.mp3
+Time: 607.118
+Artist: Abida Khanam
+AlbumArtist: Attaullah Khan Esakhelvi
+Title: Channe Naal Chanani
+Album: Channe Naal Chanani, Vol. 51
+Track: 1
+Date: 1994
+Disc: 1
+Format: 44100:16:2
+mtime: 1770143919
+added: 1786223959
+song_end
+song_begin: 02 - Attaullah Khan Esakhelvi Channe Naal Chanani.mp3
+Time: 742.44
+Artist: Attaullah Khan Esakhelvi
+AlbumArtist: Attaullah Khan Esakhelvi
+Title: Channe Naal Chanani
+Album: Channe Naal Chanani, Vol. 51
+Track: 2
+Date: 1994
+Disc: 1
+Format: 44100:16:2
+mtime: 1770143905
+added: 1786223959
+song_end
+song_begin: 03 - Abida Khanam Chimta Taan Vajda.mp3
+Time: 522.7760000000001
+Artist: Abida Khanam
+AlbumArtist: Attaullah Khan Esakhelvi
+Title: Chimta Taan Vajda
+Album: Channe Naal Chanani, Vol. 51
+Track: 3
+Date: 1994
+Disc: 1
+Format: 48000:16:2
+mtime: 1784895813
+added: 1786223959
+song_end
+song_begin: 04 - Attaullah Khan Esakhelvi Chimta Taan Vajda.mp3
+Time: 456.766
+Artist: Attaullah Khan Esakhelvi
+AlbumArtist: Attaullah Khan Esakhelvi
+Title: Chimta Taan Vajda
+Album: Channe Naal Chanani, Vol. 51
+Track: 4
+Date: 1994
+Disc: 1
+Format: 44100:16:2
+mtime: 1770143905
+added: 1786223959
+song_end
+song_begin: 05 - Abida Khanam Ve Isakheil Door Te Nahin.mp3
+Time: 494.988
+Artist: Abida Khanam
+AlbumArtist: Attaullah Khan Esakhelvi
+Title: Ve Isakheil Door Te Nahin
+Album: Channe Naal Chanani, Vol. 51
+Track: 5
+Date: 1994
+Disc: 1
+Format: 44100:16:2
+mtime: 1770143919
+added: 1786223959
+song_end
+song_begin: 06 - Attaullah Khan Esakhelvi Ve Isakheil Door Te Nahin.mp3
+Time: 877.256
+Artist: Attaullah Khan Esakhelvi
+AlbumArtist: Attaullah Khan Esakhelvi
+Title: Ve Isakheil Door Te Nahin
+Album: Channe Naal Chanani, Vol. 51
+Track: 6
+Date: 1994
+Disc: 1
+Format: 44100:16:2
+mtime: 1770143905
+added: 1786223959
+song_end
+end: Attaullah Khan Esakhelvi/Abida Khanam - Channe Naal Chanani, Vol. 51
 directory: Attaullah Khan Esakhelvi - Nikki Jaee Gal Toon Rusda Aen, Vol. 3
 mtime: 315532800
 begin: Attaullah Khan Esakhelvi/Attaullah Khan Esakhelvi - Nikki Jaee Gal Toon Rusda Aen, Vol. 3
@@ -5344,6 +5357,315 @@ mtime: 1767309043
 added: 1767311145
 song_end
 end: Birdy (2011)
+directory: Bon Iver, Bon Iver (10th Anniversary Edition)
+mtime: 1786420479
+begin: Bon Iver, Bon Iver (10th Anniversary Edition)
+song_begin: 1-01 Perth.flac
+Time: 262.08
+Title: Perth
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 1
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: 84e50f81-4cd5-4586-ba7b-dc8ee4a97e43
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: 6865762b-2800-40e5-88ef-c562e350c857
+Format: 44100:16:2
+mtime: 1786420334
+added: 1786420510
+song_end
+song_begin: 1-02 Minnesota, WI.flac
+Time: 232.44
+Title: Minnesota, WI
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 2
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: d8c90a11-8ed7-4b66-a0b2-21e99fe4536e
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: 7406fa09-07ee-4828-91c9-d73f91cda12a
+Format: 44100:16:2
+mtime: 1786420344
+added: 1786420510
+song_end
+song_begin: 1-03 Holocene.flac
+Time: 336.613
+Title: Holocene
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 3
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Vernon
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: c218b538-538d-4d71-9f6d-d063f5c57188
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: 1d01074c-de43-4ec7-8c7f-88e87f2ef1bc
+Format: 44100:16:2
+mtime: 1786420358
+added: 1786420510
+song_end
+song_begin: 1-04 Towers.flac
+Time: 188.04
+Title: Towers
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 4
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Vernon
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: dd86c6c0-aefb-4cd1-a4d7-3843d5efc902
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: 1d96afb6-d8a3-4613-8d77-236bfcc77aa1
+Format: 44100:16:2
+mtime: 1786420367
+added: 1786420510
+song_end
+song_begin: 1-05 Michicant.flac
+Time: 225.733
+Title: Michicant
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 5
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Vernon
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: d54609fe-4ecd-46db-8b40-23a89ca1c689
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: 84a3c711-42a7-45a7-82fd-0c89d9e70714
+Format: 44100:16:2
+mtime: 1786420376
+added: 1786420510
+song_end
+song_begin: 1-06 Hinnom, TX.flac
+Time: 165.013
+Title: Hinnom, TX
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 6
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: 5458d853-4231-4539-93f1-eb557e6d1e8e
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: e415de59-fc68-4057-a20f-8557baa0c1af
+Format: 44100:16:2
+mtime: 1786420384
+added: 1786420510
+song_end
+song_begin: 1-07 Wash..flac
+Time: 298.586
+Title: Wash.
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 7
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: 8612df62-c231-48bc-b907-e5fe8120a13f
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: 217ce3e5-2d73-4b0e-838d-288904264747
+Format: 44100:16:2
+mtime: 1786420395
+added: 1786420510
+song_end
+song_begin: 1-08 Calgary.flac
+Time: 250.20000000000002
+Title: Calgary
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 8
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison
+Composer: Matthew Boutwell McCaughan
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: bf769c18-b6b9-41e7-a4f2-ba80751b82f8
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: ec31abc7-3ad7-4488-b7b9-5d2ae97829f5
+Format: 44100:16:2
+mtime: 1786420407
+added: 1786420510
+song_end
+song_begin: 1-09 Lisbon, OH.flac
+Time: 93.36
+Title: Lisbon, OH
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 9
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: d2252d1c-d9e3-47ea-b2cd-b4a59b32b684
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: 4c78a01c-a890-4cdc-b5f1-a9452b465d5c
+Format: 44100:16:2
+mtime: 1786420433
+added: 1786420510
+song_end
+song_begin: 1-10 BethRest.flac
+Time: 316.8
+Title: Beth/Rest
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 10
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_TRACKID: 529c9a89-f04d-40e8-a922-f035a6ab5a32
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_RELEASETRACKID: 02119b8f-c9fd-4728-99c3-9ed4af0b0894
+Format: 44100:16:2
+mtime: 1786420418
+added: 1786420510
+song_end
+song_begin: 1-11 Hinnom, TX (AIR Studios – 4ADJagjaguwar Session).flac
+Time: 225.39000000000001
+Title: Hinnom, TX (AIR Studios – 4AD/Jagjaguwar Session)
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 11
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_TRACKID: 30edc7a4-797b-4b2a-a9fd-0b83eb4374b3
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_RELEASETRACKID: 0a1e35dd-047a-455c-8b7a-fa8e726686c2
+Format: 44100:16:2
+mtime: 1786420427
+added: 1786420510
+song_end
+song_begin: 1-12 Wash. (AIR Studios – 4ADJagjaguwar Session).flac
+Time: 324.436
+Title: Wash. (AIR Studios – 4AD/Jagjaguwar Session)
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 12
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_TRACKID: f81d8122-6698-45b2-b193-f8d31445fa39
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_RELEASETRACKID: 3fe524be-1924-427b-9162-224be367754d
+Format: 44100:16:2
+mtime: 1786420445
+added: 1786420510
+song_end
+song_begin: 1-13 I Can't Make You Love Me (AIR Studios – 4ADJagjaguwar Session).flac
+Time: 286.661
+Title: I Can't Make You Love Me (AIR Studios – 4AD/Jagjaguwar Session)
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 13
+Disc: 1
+Date: 2011-06-20
+Composer: Michael Barry Reid
+Composer: Allen Shamblin
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_TRACKID: 592293f0-113a-46c7-8863-456882200541
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_RELEASETRACKID: b1db79b6-7269-4d79-9fdd-814be1f5d83f
+Format: 44100:16:2
+mtime: 1786420465
+added: 1786420510
+song_end
+song_begin: 1-14 Babys (AIR Studios – 4ADJagjaguwar Session).flac
+Time: 373.111
+Title: Babys (AIR Studios – 4AD/Jagjaguwar Session)
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 14
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_TRACKID: 32285fa5-fc18-4262-85f6-6c07a3bf9347
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_RELEASETRACKID: 2046a660-3bef-4f37-b1a4-7f667b649c20
+Format: 44100:16:2
+mtime: 1786420455
+added: 1786420510
+song_end
+song_begin: 1-15 BethRest (AIR Studios – 4ADJagjaguwar Session).flac
+Time: 404.435
+Title: Beth/Rest (AIR Studios – 4AD/Jagjaguwar Session)
+Artist: Bon Iver
+Album: Bon Iver, Bon Iver (10th Anniversary Edition)
+AlbumArtist: Bon Iver
+Track: 15
+Disc: 1
+Date: 2011-06-20
+Composer: Justin Deyarmond Edison Vernon
+MUSICBRAINZ_RELEASEGROUPID: 2cb36662-3560-4b90-a0a5-7924ac039490
+MUSICBRAINZ_ALBUMID: bcf5b4c3-5378-431c-9d56-a3d00223aa91
+MUSICBRAINZ_ALBUMARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_TRACKID: 7c368d41-5870-4fd4-be36-187c30d09997
+MUSICBRAINZ_ARTISTID: 437a0e49-c6ae-42f6-a6c1-84f25ed366bc
+MUSICBRAINZ_RELEASETRACKID: ea25fee5-556b-422b-9756-2ca77a2ca949
+Format: 44100:16:2
+mtime: 1786420477
+added: 1786420510
+song_end
+end: Bon Iver, Bon Iver (10th Anniversary Edition)
 directory: Celeste Original Soundtrack
 mtime: 1754689181
 begin: Celeste Original Soundtrack
@@ -7578,7 +7900,7 @@ mtime: 1768002114
 playlist_end
 end: Fever Ray - Fever Ray (Deluxe Edition) (2009) [FLAC]
 directory: Fire Within (2013)
-mtime: 1767311052
+mtime: 1778669101
 begin: Fire Within (2013)
 song_begin: Birdy - Fire Within - 01 - Skinny Love.flac
 Time: 201.08
@@ -16319,7 +16641,7 @@ mtime: 1765203219
 playlist_end
 end: James Newton Howard - Batman Begins (Original Motion Picture Soundtrack)
 directory: Main Hoon Na (2004) [FLAC].[FLAC-CD-RIP]
-mtime: 1755582956
+mtime: 1779916484
 begin: Main Hoon Na (2004) [FLAC].[FLAC-CD-RIP]
 song_begin: 01 - Sonu Nigam & Shreya Ghoshal - Main Hoon Na.flac
 Time: 361.84000000000003
@@ -16842,535 +17164,509 @@ mtime: 1765118181
 added: 1766423538
 song_end
 end: METRO BOOMIN PRESENTS SPIDER-MAN_ ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE _ DELUXE EDITION) (2023)
-directory: Minecraft
-mtime: 1766162668
-begin: Minecraft
-directory: 2017 - Minecraft꞉ Norse Mythology (Original Soundtrack)
-mtime: 1754001178
-begin: Minecraft/2017 - Minecraft꞉ Norse Mythology (Original Soundtrack)
-song_begin: 01. Asgard (Overworld).flac
-Time: 216.917
-Title: Asgard (Overworld)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+directory: Mick Giacchino - The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+mtime: 1776701850
+begin: Mick Giacchino - The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+song_begin: 01 Scherzo for a Flightless Bird (The Penguin Theme).flac
+Time: 194.668
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Scherzo for a Flightless Bird (The Penguin Theme)
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 1
-Format: 44100:16:2
-mtime: 1754000221
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776693395
+added: 1776701865
 song_end
-song_begin: 02. Jotrunheim (Overworld).flac
-Time: 177.83
-Title: Jotrunheim (Overworld)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 02 Time to Ascend.flac
+Time: 159.354
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Time to Ascend
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 2
-Format: 44100:16:2
-mtime: 1754000316
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776693425
+added: 1776701865
 song_end
-song_begin: 03. Midgard (Overworld).flac
-Time: 178.948
-Title: Midgard (Overworld)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 03 Mother of Oz (Bonus Track).flac
+Time: 138.713
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Mother of Oz (Bonus Track)
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 3
-Format: 44100:16:2
-mtime: 1754000384
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695234
+added: 1776701865
 song_end
-song_begin: 04. Aegir and Ran (Nether).flac
-Time: 244.512
-Title: Aegir and Ran (Nether)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 04 Bird of Aqua Paradise.flac
+Time: 174.274
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Bird of Aqua Paradise
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 4
-Format: 44100:16:2
-mtime: 1754000483
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695276
+added: 1776701865
 song_end
-song_begin: 05. Vanaheim (Overworld).flac
-Time: 219.61100000000002
-Title: Vanaheim (Overworld)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 05 Pinky and the Slain.flac
+Time: 265.752
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Pinky and the Slain
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 5
-Format: 44100:16:2
-mtime: 1754000563
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695324
+added: 1776701865
 song_end
-song_begin: 06. Alfheim (Overworld).flac
-Time: 187.049
-Title: Alfheim (Overworld)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 06 Shots and Chasers.flac
+Time: 201.221
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Shots and Chasers
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 6
-Format: 44100:16:2
-mtime: 1754000655
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695362
+added: 1776701865
 song_end
-song_begin: 07. Valhalla (Nether).flac
-Time: 276.962
-Title: Valhalla (Nether)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 07 Strife of the Party.flac
+Time: 141.333
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Strife of the Party
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 7
-Format: 44100:16:2
-mtime: 1754000786
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695389
+added: 1776701865
 song_end
-song_begin: 08. Svartalfheim (Overworld).flac
-Time: 162.522
-Title: Svartalfheim (Overworld)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 08 Put the Blame on the Maimed.flac
+Time: 287.818
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Put the Blame on the Maimed
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 8
-Format: 44100:16:2
-mtime: 1754000852
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695438
+added: 1776701865
 song_end
-song_begin: 09. Muspelheim (Overworld).flac
-Time: 185.839
-Title: Muspelheim (Overworld)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 09 Strike a Deal.flac
+Time: 108.586
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Strike a Deal
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 9
-Format: 44100:16:2
-mtime: 1754000923
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695457
+added: 1776701865
 song_end
-song_begin: 10. Folkvangr (Overworld).flac
-Time: 195.483
-Title: Folkvangr (Overworld)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 10 VicTory (Bonus Track).flac
+Time: 115.577
+Date: 2024-11-10
+Label: WaterTower Music
+Title: VicTory (Bonus Track)
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 10
-Format: 44100:16:2
-mtime: 1754000995
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695506
+added: 1776701865
 song_end
-song_begin: 11. Hel (Nether).flac
-Time: 199.423
-Title: Hel (Nether)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 11 Arrested Developments.flac
+Time: 193.872
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Arrested Developments
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 11
-Format: 44100:16:2
-mtime: 1754001085
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695540
+added: 1776701865
 song_end
-song_begin: 12. Einherjar (The End).flac
-Time: 183.415
-Title: Einherjar (The End)
-Artist: Gareth Coker
-Album: Minecraft: Norse Mythology (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2017
+song_begin: 12 Slammer Time.flac
+Time: 100.421
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Slammer Time
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 12
-Format: 44100:16:2
-mtime: 1754001167
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695561
+added: 1776701865
 song_end
-end: Minecraft/2017 - Minecraft꞉ Norse Mythology (Original Soundtrack)
-directory: 2020 - Minecraft꞉ Glide Mini Game (Original Soundtrack)
-mtime: 1754002434
-begin: Minecraft/2020 - Minecraft꞉ Glide Mini Game (Original Soundtrack)
-song_begin: 01. In the Flow (Map 4).flac
-Time: 126.308
-Title: In the Flow (Map 4)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 1
-Format: 44100:16:2
-mtime: 1754001224
-added: 1766423538
-song_end
-song_begin: 02. Flight of Fancy (Map 3).flac
-Time: 146.76500000000001
-Title: Flight of Fancy (Map 3)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 2
-Format: 44100:16:2
-mtime: 1754001287
-added: 1766423538
-song_end
-song_begin: 03. Glide (Map 1).flac
-Time: 131.675
-Title: Glide (Map 1)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 3
-Format: 44100:16:2
-mtime: 1754001345
-added: 1766423538
-song_end
-song_begin: 04. Departures (Map 7).flac
-Time: 120.889
-Title: Departures (Map 7)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 4
-Format: 44100:16:2
-mtime: 1754001387
-added: 1766423538
-song_end
-song_begin: 05. Soothing Voyage (Map 2).flac
-Time: 125.319
-Title: Soothing Voyage (Map 2)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 5
-Format: 44100:16:2
-mtime: 1754001434
-added: 1766423538
-song_end
-song_begin: 06. Tense Takeoff (Map 6).flac
-Time: 126.782
-Title: Tense Takeoff (Map 6)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 6
-Format: 44100:16:2
-mtime: 1754001474
-added: 1766423538
-song_end
-song_begin: 07. Wonderful Wings (Map 5).flac
-Time: 124.766
-Title: Wonderful Wings (Map 5)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 7
-Format: 44100:16:2
-mtime: 1754001512
-added: 1766423538
-song_end
-song_begin: 08. Shrunk Soaring (Shrunk 1).flac
-Time: 129.622
-Title: Shrunk Soaring (Shrunk 1)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 8
-Format: 44100:16:2
-mtime: 1754001563
-added: 1766423538
-song_end
-song_begin: 09. Pacy Piloting (Shrunk 3).flac
-Time: 119.61800000000001
-Title: Pacy Piloting (Shrunk 3)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 9
-Format: 44100:16:2
-mtime: 1754001609
-added: 1766423538
-song_end
-song_begin: 10. Wicked Wings (Shrunk 2).flac
-Time: 120.34
-Title: Wicked Wings (Shrunk 2)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 10
-Format: 44100:16:2
-mtime: 1754001666
-added: 1766423538
-song_end
-song_begin: 11. Velocity and Dynamism (Body 2).flac
-Time: 127.56400000000001
-Title: Velocity and Dynamism (Body 2)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 11
-Format: 44100:16:2
-mtime: 1754001719
-added: 1766423538
-song_end
-song_begin: 12. Locomotion (Body 1).flac
-Time: 142.934
-Title: Locomotion (Body 1)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
-Track: 12
-Format: 44100:16:2
-mtime: 1754001775
-added: 1766423538
-song_end
-song_begin: 13. Mobile Maneuvers (Body 3).flac
-Time: 125.108
-Title: Mobile Maneuvers (Body 3)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 13 Driving Miss Crazy.flac
+Time: 234.965
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Driving Miss Crazy
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 13
-Format: 44100:16:2
-mtime: 1754001827
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695606
+added: 1776701865
 song_end
-song_begin: 14. Progression and Passage (Canyon 2).flac
-Time: 124.357
-Title: Progression and Passage (Canyon 2)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 14 Trial by Liar.flac
+Time: 162.605
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Trial by Liar
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 14
-Format: 44100:16:2
-mtime: 1754001873
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695634
+added: 1776701865
 song_end
-song_begin: 15. Canyon Clearance (Canyon 1).flac
-Time: 137.023
-Title: Canyon Clearance (Canyon 1)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 15 From the Ashes (Bonus Track).flac
+Time: 122.804
+Date: 2024-11-10
+Label: WaterTower Music
+Title: From the Ashes (Bonus Track)
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 15
-Format: 44100:16:2
-mtime: 1754001926
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695691
+added: 1776701865
 song_end
-song_begin: 16. Roaming Wanderer (Canyon 3).flac
-Time: 124.357
-Title: Roaming Wanderer (Canyon 3)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 16 Sofia Gigante (Bonus Track).flac
+Time: 159.92000000000002
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Sofia Gigante (Bonus Track)
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 16
-Format: 44100:16:2
-mtime: 1754001973
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695721
+added: 1776701865
 song_end
-song_begin: 17. Icaria (Icarus 2).flac
-Time: 130.477
-Title: Icaria (Icarus 2)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 17 Maroni Exchange.flac
+Time: 222.689
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Maroni Exchange
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 17
-Format: 44100:16:2
-mtime: 1754002025
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695789
+added: 1776701865
 song_end
-song_begin: 18. Wings of Daedalus (Icarus 1).flac
-Time: 118.578
-Title: Wings of Daedalus (Icarus 1)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 18 Free Bliss (Bonus Track).flac
+Time: 124.396
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Free Bliss (Bonus Track)
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 18
-Format: 44100:16:2
-mtime: 1754002065
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695815
+added: 1776701865
 song_end
-song_begin: 19. Aviation (Excalibur 2).flac
-Time: 125.3
-Title: Aviation (Excalibur 2)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 19 Nose Goes (Bonus Track).flac
+Time: 92.18
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Nose Goes (Bonus Track)
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 19
-Format: 44100:16:2
-mtime: 1754002120
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695832
+added: 1776701865
 song_end
-song_begin: 20. Excalibur Excursion (Excalibur 1).flac
-Time: 124.782
-Title: Excalibur Excursion (Excalibur 1)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 20 Squid Maims.flac
+Time: 128.173
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Squid Maims
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 20
-Format: 44100:16:2
-mtime: 1754002169
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695855
+added: 1776701865
 song_end
-song_begin: 21. Celtic Crossing (Celtic 1).flac
-Time: 140.463
-Title: Celtic Crossing (Celtic 1)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 21 Getting Even.flac
+Time: 211.978
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Getting Even
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 21
-Format: 44100:16:2
-mtime: 1754002217
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776695904
+added: 1776701865
 song_end
-song_begin: 22. Tour of Tors (Celtic 2).flac
-Time: 131.143
-Title: Tour of Tors (Celtic 2)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 22 Crack One Open.flac
+Time: 171.901
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Crack One Open
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 22
-Format: 44100:16:2
-mtime: 1754002273
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776700772
+added: 1776701865
 song_end
-song_begin: 23. Yinglong (Chinese Mythology 1).flac
-Time: 122.045
-Title: Yinglong (Chinese Mythology 1)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 23 Scorn on the Cobb.flac
+Time: 185.81900000000002
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Scorn on the Cobb
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 23
-Format: 44100:16:2
-mtime: 1754002320
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701299
+added: 1776701865
 song_end
-song_begin: 24. Pixiu (Chinese Mythology 2).flac
-Time: 116.035
-Title: Pixiu (Chinese Mythology 2)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 24 Family Lies.flac
+Time: 345.277
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Family Lies
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 24
-Format: 44100:16:2
-mtime: 1754002371
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701407
+added: 1776701865
 song_end
-song_begin: 25. Tianma (Chinese Mythology 3).flac
-Time: 142.091
-Title: Tianma (Chinese Mythology 3)
-Artist: Gareth Coker
-Album: Minecraft: Glide Mini Game (Original Soundtrack)
-AlbumArtist: Gareth Coker
-Composer: Gareth Coker
-Genre: Score
-Date: 2020
+song_begin: 25 Councilman and Cobbs.flac
+Time: 131.839
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Councilman and Cobbs
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
 Track: 25
-Format: 44100:16:2
-mtime: 1754002428
-added: 1766423538
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701447
+added: 1776701865
 song_end
-end: Minecraft/2020 - Minecraft꞉ Glide Mini Game (Original Soundtrack)
+song_begin: 26 Oz and Ma (Bonus Track).flac
+Time: 89.428
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Oz and Ma (Bonus Track)
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
+Track: 26
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701474
+added: 1776701865
+song_end
+song_begin: 27 Sofia's Suite.flac
+Time: 294.579
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Sofia's Suite
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
+Track: 27
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701546
+added: 1776701865
+song_end
+song_begin: 28 Victor's Suite.flac
+Time: 259.128
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Victor's Suite
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
+Track: 28
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701623
+added: 1776701865
+song_end
+song_begin: 29 March of The Penguin.flac
+Time: 203.326
+Date: 2024-11-10
+Label: WaterTower Music
+Title: March of The Penguin
+Artist: Mick Giacchino
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Mick Giacchino
+Track: 29
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701700
+added: 1776701865
+song_end
+song_begin: 30 Please Tell Me Now.flac
+Time: 107.465
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Please Tell Me Now
+Artist: Shayna Steele
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Arnold Clawson
+Track: 30
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701736
+added: 1776701865
+song_end
+song_begin: 31 Let's Face the Music and Dance.flac
+Time: 251.079
+Date: 2024-11-10
+Label: WaterTower Music
+Title: Let's Face the Music and Dance
+Artist: Shayna Steele
+Genre: Series de televisión
+Album: The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+Composer: Irving Berlin
+Track: 31
+Disc: 1
+AlbumArtist: Mick Giacchino
+Format: 48000:24:2
+mtime: 1776701829
+added: 1776701865
+song_end
+end: Mick Giacchino - The Penguin (Soundtrack from the HBO® Original Series) (Expanded Edition)
+directory: Minecraft
+mtime: 1785536137
+begin: Minecraft
 directory: Axolotl (2018)
 mtime: 1753999651
 begin: Minecraft/Axolotl (2018)
@@ -17390,486 +17686,6 @@ mtime: 1753999636
 added: 1766423538
 song_end
 end: Minecraft/Axolotl (2018)
-directory: Battle & Tumble
-mtime: 1754002037
-begin: Minecraft/Battle & Tumble
-song_begin: 01 - Toys on a Tear (Shrunk).flac
-Time: 150.823
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Toys on a Tear (Shrunk)
-Track: 1
-Format: 44100:16:2
-mtime: 1754000003
-added: 1766423538
-song_end
-song_begin: 02 - Dance of the Blocks (Shrunk).flac
-Time: 135.452
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Dance of the Blocks (Shrunk)
-Track: 2
-Format: 44100:16:2
-mtime: 1754000063
-added: 1766423538
-song_end
-song_begin: 03 - Master Builder (Shrunk).flac
-Time: 155.446
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Master Builder (Shrunk)
-Track: 3
-Format: 44100:16:2
-mtime: 1754000137
-added: 1766423538
-song_end
-song_begin: 04 - Double Time (Tumble).flac
-Time: 74.623
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Double Time (Tumble)
-Track: 4
-Format: 44100:16:2
-mtime: 1754000191
-added: 1766423538
-song_end
-song_begin: 05 - Nimbly Does It (Tumble).flac
-Time: 70.608
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Nimbly Does It (Tumble)
-Track: 5
-Format: 44100:16:2
-mtime: 1754000240
-added: 1766423538
-song_end
-song_begin: 06 - Chop Chop (Tumble).flac
-Time: 66.666
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Chop Chop (Tumble)
-Track: 6
-Format: 44100:16:2
-mtime: 1754000283
-added: 1766423538
-song_end
-song_begin: 07 - Agile Accelerando (Tumble).flac
-Time: 71.412
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Agile Accelerando (Tumble)
-Track: 7
-Format: 44100:16:2
-mtime: 1754000322
-added: 1766423538
-song_end
-song_begin: 08 - Lickety Split (Tumble).flac
-Time: 72.499
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Lickety Split (Tumble)
-Track: 8
-Format: 44100:16:2
-mtime: 1754000355
-added: 1766423538
-song_end
-song_begin: 09 - Time is of the Essence (Tumble).flac
-Time: 63.999
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Time Is of the Essence (Tumble)
-Track: 9
-Format: 44100:16:2
-mtime: 1754000383
-added: 1766423538
-song_end
-song_begin: 10 - Swift Descent (Tumble).flac
-Time: 73.333
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Swift Descent (Tumble)
-Track: 10
-Format: 44100:16:2
-mtime: 1754000417
-added: 1766423538
-song_end
-song_begin: 11 - Dashing on the Double (Tumble).flac
-Time: 67.502
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Dashing on the Double (Tumble)
-Track: 11
-Format: 44100:16:2
-mtime: 1754000449
-added: 1766423538
-song_end
-song_begin: 12 - Pronto (Tumble).flac
-Time: 60.7
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Pronto (Tumble)
-Track: 12
-Format: 44100:16:2
-mtime: 1754000477
-added: 1766423538
-song_end
-song_begin: 13 - Breakneck Boogie (Tumble).flac
-Time: 69.81700000000001
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Breakneck Boogie (Tumble)
-Track: 13
-Format: 44100:16:2
-mtime: 1754000507
-added: 1766423538
-song_end
-song_begin: 14 - Hastilude (Fantasy).flac
-Time: 227.083
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Hastilude (Fantasy)
-Track: 14
-Format: 44100:16:2
-mtime: 1754000599
-added: 1766423538
-song_end
-song_begin: 15 - Crusaders (Fantasy).flac
-Time: 218.163
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Crusaders (Fantasy)
-Track: 15
-Format: 44100:16:2
-mtime: 1754000675
-added: 1766423538
-song_end
-song_begin: 16 - Born to Arms (Fantasy).flac
-Time: 132.712
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Born to Arms (Fantasy)
-Track: 16
-Format: 44100:16:2
-mtime: 1754000729
-added: 1766423538
-song_end
-song_begin: 17 - 8-Bits, Pieces & Chunks (City).flac
-Time: 179.998
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: 8-Bits, Pieces & Chunks (City)
-Track: 17
-Format: 44100:16:2
-mtime: 1754000799
-added: 1766423538
-song_end
-song_begin: 18 - Beat Around the Block (City).flac
-Time: 196.362
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Beat Around the Block (City)
-Track: 18
-Format: 44100:16:2
-mtime: 1754000886
-added: 1766423538
-song_end
-song_begin: 19 - From District to District (City).flac
-Time: 194.823
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: From District to District (City)
-Track: 19
-Format: 44100:16:2
-mtime: 1754000965
-added: 1766423538
-song_end
-song_begin: 20 - Precincts at Night (City).flac
-Time: 183.529
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Precincts at Night (City)
-Track: 20
-Format: 44100:16:2
-mtime: 1754001029
-added: 1766423538
-song_end
-song_begin: 21 - Industrial Quarter (City).flac
-Time: 218.18200000000002
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Industrial Quarter (City)
-Track: 21
-Format: 44100:16:2
-mtime: 1754001111
-added: 1766423538
-song_end
-song_begin: 22 - Clockwork Crafter (Steampunk).flac
-Time: 179.999
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Clockwork Crafter (Steampunk)
-Track: 22
-Format: 44100:16:2
-mtime: 1754001184
-added: 1766423538
-song_end
-song_begin: 23 - Magnificent Machines (Steampunk).flac
-Time: 224
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Magnificent Machines (Steampunk)
-Track: 23
-Format: 44100:16:2
-mtime: 1754001287
-added: 1766423538
-song_end
-song_begin: 24 - Steaming Superstructures (Steampunk).flac
-Time: 190.58700000000002
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Steaming Superstructures (Steampunk)
-Track: 24
-Format: 44100:16:2
-mtime: 1754001375
-added: 1766423538
-song_end
-song_begin: 25 - Airship Adventurers (Steampunk).flac
-Time: 170.743
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Airship Adventurers (Steampunk)
-Track: 25
-Format: 44100:16:2
-mtime: 1754001453
-added: 1766423538
-song_end
-song_begin: 26 - Sunset Riders (Frontier).flac
-Time: 148.078
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Sunset Riders (Frontier)
-Track: 26
-Format: 44100:16:2
-mtime: 1754001512
-added: 1766423538
-song_end
-song_begin: 27 - The Outlaw (Frontier).flac
-Time: 172.90800000000002
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: The Outlaw (Frontier)
-Track: 27
-Format: 44100:16:2
-mtime: 1754001581
-added: 1766423538
-song_end
-song_begin: 28 - Desert Duel (Frontier).flac
-Time: 140.178
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Desert Duel (Frontier)
-Track: 28
-Format: 44100:16:2
-mtime: 1754001633
-added: 1766423538
-song_end
-song_begin: 29 - Ghosts in the Tower (Halloween).flac
-Time: 151.401
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Ghosts in the Tower (Halloween)
-Track: 29
-Format: 44100:16:2
-mtime: 1754001697
-added: 1766423538
-song_end
-song_begin: 30 - Warped World (Halloween).flac
-Time: 164.80700000000002
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Warped World (Halloween)
-Track: 30
-Format: 44100:16:2
-mtime: 1754001768
-added: 1766423538
-song_end
-song_begin: 31 - Happy Halloween (Halloween).flac
-Time: 166.079
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Happy Halloween (Halloween)
-Track: 31
-Format: 44100:16:2
-mtime: 1754001834
-added: 1766423538
-song_end
-song_begin: 32 - Wondrous Workshop (Festive).flac
-Time: 165.992
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Wondrous Workshop (Festive)
-Track: 32
-Format: 44100:16:2
-mtime: 1754001904
-added: 1766423538
-song_end
-song_begin: 33 - Crafter's Candy Canes (Festive).flac
-Time: 138.543
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Crafter's Candy Canes (Festive)
-Track: 33
-Format: 44100:16:2
-mtime: 1754001966
-added: 1766423538
-song_end
-song_begin: 34 - Giftwrapped (Festive).flac
-Time: 156.31300000000002
-Album: Minecraft: Battle & Tumble Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Composer: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Giftwrapped (Festive)
-Track: 34
-Format: 44100:16:2
-mtime: 1754002032
-added: 1766423538
-song_end
-end: Minecraft/Battle & Tumble
 directory: Caves & Cliffs
 mtime: 1753998888
 begin: Minecraft/Caves & Cliffs
@@ -18004,231 +17820,6 @@ mtime: 1753998886
 added: 1766423538
 song_end
 end: Minecraft/Caves & Cliffs
-directory: Chinese Mythology
-mtime: 1754002910
-begin: Minecraft/Chinese Mythology
-song_begin: 01 - Xuanzang.flac
-Time: 223.33100000000002
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Xuanzang
-Track: 1
-Format: 44100:16:2
-mtime: 1754002121
-added: 1766423538
-song_end
-song_begin: 02 - Chang'an - Perpetual Peace (Overworld).flac
-Time: 211.348
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Chang'an - Perpetual Peace (Overworld)
-Track: 2
-Format: 44100:16:2
-mtime: 1754002207
-added: 1766423538
-song_end
-song_begin: 03 - Jinshan Temple (Overworld).flac
-Time: 181.017
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Jinshan Temple (Overworld)
-Track: 3
-Format: 44100:16:2
-mtime: 1754002274
-added: 1766423538
-song_end
-song_begin: 04 - Tianxi Mountains (Overworld).flac
-Time: 232.799
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Tianxi Mountains (Overworld)
-Track: 4
-Format: 44100:16:2
-mtime: 1754002365
-added: 1766423538
-song_end
-song_begin: 05 - Sun Wukong (Battle).flac
-Time: 206.399
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Sun Wukong (Battle)
-Track: 5
-Format: 44100:16:2
-mtime: 1754002440
-added: 1766423538
-song_end
-song_begin: 06 - White Dragon Horse (Battle).flac
-Time: 145.715
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: White Dragon Horse (Battle)
-Track: 6
-Format: 44100:16:2
-mtime: 1754002478
-added: 1766423538
-song_end
-song_begin: 07 - Hotan Ruins (Nether).flac
-Time: 192.00300000000001
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Hotan Ruins (Nether)
-Track: 7
-Format: 44100:16:2
-mtime: 1754002515
-added: 1766423538
-song_end
-song_begin: 08 - Maijishan Grotto (Nether).flac
-Time: 191.999
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Maijishan Grotto (Nether)
-Track: 8
-Format: 44100:16:2
-mtime: 1754002547
-added: 1766423538
-song_end
-song_begin: 09 - Mountains of Infinite Longevity (Overworld).flac
-Time: 234
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Mountains of Infinite Longevity (Overworld)
-Track: 9
-Format: 44100:16:2
-mtime: 1754002588
-added: 1766423538
-song_end
-song_begin: 10 - Hanging Monastery (Overworld).flac
-Time: 231.273
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Hanging Monastery (Overworld)
-Track: 10
-Format: 44100:16:2
-mtime: 1754002627
-added: 1766423538
-song_end
-song_begin: 11 - Zhu Baije (Battle).flac
-Time: 211.202
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Zhu Baije (Battle)
-Track: 11
-Format: 44100:16:2
-mtime: 1754002672
-added: 1766423538
-song_end
-song_begin: 12 - Sha Wujing (Battle).flac
-Time: 199.83
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Sha Wujing (Battle)
-Track: 12
-Format: 44100:16:2
-mtime: 1754002716
-added: 1766423538
-song_end
-song_begin: 13 - Terracotta Army (The End).flac
-Time: 162.001
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Terracotta Army (The End)
-Track: 13
-Format: 44100:16:2
-mtime: 1754002754
-added: 1766423538
-song_end
-song_begin: 14 - Tsaparang (Nether).flac
-Time: 193.995
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Tsaparang (Nether)
-Track: 14
-Format: 44100:16:2
-mtime: 1754002791
-added: 1766423538
-song_end
-song_begin: 15 - Kunlun Mountains (Overworld).flac
-Time: 157.09
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Kunlun Mountains (Overworld)
-Track: 15
-Format: 44100:16:2
-mtime: 1754002830
-added: 1766423538
-song_end
-song_begin: 16 - Mount Huaguo (Overworld).flac
-Time: 176
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Mount Huaguo (Overworld)
-Track: 16
-Format: 44100:16:2
-mtime: 1754002868
-added: 1766423538
-song_end
-song_begin: 17 - Danxia Rainbow Mountains (Overworld).flac
-Time: 160.005
-Album: Minecraft: Chinese Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Danxia Rainbow Mountains (Overworld)
-Track: 17
-Format: 44100:16:2
-mtime: 1754002902
-added: 1766423538
-song_end
-end: Minecraft/Chinese Mythology
 directory: Dragon Fish (2018)
 mtime: 1753999561
 begin: Minecraft/Dragon Fish (2018)
@@ -18248,405 +17839,6 @@ mtime: 1753999539
 added: 1766423538
 song_end
 end: Minecraft/Dragon Fish (2018)
-directory: Egyptian Mythology
-mtime: 1754003898
-begin: Minecraft/Egyptian Mythology
-song_begin: 01 The Great Pyramids (Overworld).flac
-Time: 203.498
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: The Great Pyramids (Overworld)
-Date: 2018
-Track: 1
-Format: 44100:16:2
-mtime: 1754003455
-added: 1766423538
-song_end
-song_begin: 02 Hathor (Overworld).flac
-Time: 215.056
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Hathor (Overworld)
-Date: 2018
-Track: 2
-Format: 44100:16:2
-mtime: 1754003492
-added: 1766423538
-song_end
-song_begin: 03 Hibis (Overworld).flac
-Time: 215.985
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Hibis (Overworld)
-Date: 2018
-Track: 3
-Format: 44100:16:2
-mtime: 1754003533
-added: 1766423538
-song_end
-song_begin: 04 Journey Through the Duat (Nether).flac
-Time: 210.619
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Journey Through the Duat (Nether)
-Date: 2018
-Track: 4
-Format: 44100:16:2
-mtime: 1754003572
-added: 1766423538
-song_end
-song_begin: 05 Shai (Interlude).flac
-Time: 93.956
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Shai (Interlude)
-Date: 2018
-Track: 5
-Format: 44100:16:2
-mtime: 1754003591
-added: 1766423538
-song_end
-song_begin: 06 Alexandria (Overworld).flac
-Time: 197.203
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Alexandria (Overworld)
-Date: 2018
-Track: 6
-Format: 44100:16:2
-mtime: 1754003629
-added: 1766423538
-song_end
-song_begin: 07 Heliopolis (Overworld).flac
-Time: 185.64600000000002
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Heliopolis (Overworld)
-Date: 2018
-Track: 7
-Format: 44100:16:2
-mtime: 1754003663
-added: 1766423538
-song_end
-song_begin: 08 Temple of Isis (Overworld).flac
-Time: 177.287
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Temple of Isis (Overworld)
-Date: 2018
-Track: 8
-Format: 44100:16:2
-mtime: 1754003694
-added: 1766423538
-song_end
-song_begin: 09 Judges of the Dead (Nether).flac
-Time: 236.52
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Judges of the Dead (Nether)
-Date: 2018
-Track: 9
-Format: 44100:16:2
-mtime: 1754003734
-added: 1766423538
-song_end
-song_begin: 10 Renenutet & Meshkenet (Interlude).flac
-Time: 89.627
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Renenutet & Meshkenet (Interlude)
-Date: 2018
-Track: 10
-Format: 44100:16:2
-mtime: 1754003749
-added: 1766423538
-song_end
-song_begin: 11 Abu Simbel (Overworld).flac
-Time: 196.512
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Abu Simbel (Overworld)
-Date: 2018
-Track: 11
-Format: 44100:16:2
-mtime: 1754003780
-added: 1766423538
-song_end
-song_begin: 12 Memphis (Overworld).flac
-Time: 199.513
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Memphis (Overworld)
-Date: 2018
-Track: 12
-Format: 44100:16:2
-mtime: 1754003816
-added: 1766423538
-song_end
-song_begin: 13 Final Judgement (Nether).flac
-Time: 207.614
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Final Judgement (Nether)
-Date: 2018
-Track: 13
-Format: 44100:16:2
-mtime: 1754003855
-added: 1766423538
-song_end
-song_begin: 14 Osiris (The End).flac
-Time: 176.874
-Label: Microsoft Studios Music
-Album: Minecraft: Egyptian Mythology Soundtrack
-Artist: Gareth Coker
-Genre: Game
-Composer: Gareth Coker
-Title: Osiris (The End)
-Date: 2018
-Track: 14
-Format: 44100:16:2
-mtime: 1754003895
-added: 1766423538
-song_end
-end: Minecraft/Egyptian Mythology
-directory: Greek Mythology
-mtime: 1754003416
-begin: Minecraft/Greek Mythology
-song_begin: 01 - Seikilos' Epitaph.flac
-Time: 189.044
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Seikilos' Epitaph
-Track: 1
-Format: 44100:16:2
-mtime: 1754002946
-added: 1766423538
-song_end
-song_begin: 02 - Demeter - God of Farming (Overworld).flac
-Time: 212.05100000000002
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Demeter - God of Farming (Overworld)
-Track: 2
-Format: 44100:16:2
-mtime: 1754002985
-added: 1766423538
-song_end
-song_begin: 03 - Artemis - Goddess of the Wilderness (Nether).flac
-Time: 171.191
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Artemis - Goddess of the Wilderness (Nether)
-Track: 3
-Format: 44100:16:2
-mtime: 1754003016
-added: 1766423538
-song_end
-song_begin: 04 - Lelantos - God of Moving Unseen (Battle).flac
-Time: 209.657
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Lelantos - God of Moving Unseen (Battle)
-Track: 4
-Format: 44100:16:2
-mtime: 1754003051
-added: 1766423538
-song_end
-song_begin: 05 - Hades & Persephone - Gods of the Underworld (Nether).flac
-Time: 205.684
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Hades & Persephone - Gods of the Underworld (Nether)
-Track: 5
-Format: 44100:16:2
-mtime: 1754003084
-added: 1766423538
-song_end
-song_begin: 06 - Apollo - God of Music and the Lyre (Overworld).flac
-Time: 176.311
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Apollo - God of Music and the Lyre (Overworld)
-Track: 6
-Format: 44100:16:2
-mtime: 1754003118
-added: 1766423538
-song_end
-song_begin: 07 - Zeus & Hera - King and Queen of the Gods (Overworld).flac
-Time: 148.258
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Zeus & Hera - King and Queen of the Gods (Overworld)
-Track: 7
-Format: 44100:16:2
-mtime: 1754003143
-added: 1766423538
-song_end
-song_begin: 08 - Ares - God of War (The End).flac
-Time: 143.01
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Ares - God of War (The End)
-Track: 8
-Format: 44100:16:2
-mtime: 1754003174
-added: 1766423538
-song_end
-song_begin: 09 - Poseidon - God of the Sea (Overworld).flac
-Time: 198.461
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Poseidon - God of the Sea (Overworld)
-Track: 9
-Format: 44100:16:2
-mtime: 1754003202
-added: 1766423538
-song_end
-song_begin: 10 - Hermes - The Messenger God (Overworld).flac
-Time: 215.797
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Hermes - The Messenger God (Overworld)
-Track: 10
-Format: 44100:16:2
-mtime: 1754003242
-added: 1766423538
-song_end
-song_begin: 11 - Hephaestus - God of the Forge (Nether).flac
-Time: 162.976
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Hephaestus - God of the Forge (Nether)
-Track: 11
-Format: 44100:16:2
-mtime: 1754003267
-added: 1766423538
-song_end
-song_begin: 12 - Homados - God of Battlenoise & Tumult (Battle).flac
-Time: 227.89600000000002
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Homados - God of Battlenoise & Tumult (Battle)
-Track: 12
-Format: 44100:16:2
-mtime: 1754003314
-added: 1766423538
-song_end
-song_begin: 13 - Britomartis - Goddess of the Hunt (Battle).flac
-Time: 160.215
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Britomartis - Goddess of the Hunt (Battle)
-Track: 13
-Format: 44100:16:2
-mtime: 1754003341
-added: 1766423538
-song_end
-song_begin: 14 - Hestia - Goddess of the Hearth (Overworld).flac
-Time: 191.598
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Hestia - Goddess of the Hearth (Overworld)
-Track: 14
-Format: 44100:16:2
-mtime: 1754003369
-added: 1766423538
-song_end
-song_begin: 15 - Aphrodite - Goddess of Love (Overworld).flac
-Time: 248.364
-Album: Minecraft: Greek Mythology Soundtrack
-AlbumArtist: Gareth Coker
-Artist: Gareth Coker
-Date: 2016
-Genre: Score
-Title: Aphrodite - Goddess of Love (Overworld)
-Track: 15
-Format: 44100:16:2
-mtime: 1754003413
-added: 1766423538
-song_end
-end: Minecraft/Greek Mythology
 directory: Minecraft - Volume Beta
 mtime: 1753283737
 begin: Minecraft/Minecraft - Volume Beta
@@ -20322,6 +19514,74 @@ mtime: 1753970542
 added: 1766423538
 song_end
 end: My Way (2023)
+directory: Nadeem Sarwar
+mtime: 1782496621
+begin: Nadeem Sarwar
+directory: Ya Ali Ya Hussain
+mtime: 1782496600
+begin: Nadeem Sarwar/Ya Ali Ya Hussain
+song_begin: 1. Ya Ali Ya Hussain.mp3
+Time: 683.2570000000001
+Artist: Nadeem Sarwar
+Title: Ya Ali Ya Hussain
+Album: Ya Ali Ya Hussain
+Date: 2009
+Format: 48000:16:2
+mtime: 1782094664
+added: 1782496626
+song_end
+song_begin: 5. Abbas Na Ab Lot Ke.mp3
+Time: 392.974
+Artist: Nadeem Sarwar
+Title: Abbas Na Ab Lot Ke
+Album: Ya Ali Ya Hussain
+Date: 2009
+Format: 44100:16:2
+mtime: 1782097466
+added: 1782496626
+song_end
+song_begin: 6. Matam-E-Shabbir.mp3
+Time: 342.217
+Artist: Nadeem Sarwar
+Title: Matam-E-Shabbir
+Album: Ya Ali Ya Hussain
+Date: 2009
+Format: 48000:16:2
+mtime: 1782099400
+added: 1782496626
+song_end
+song_begin: 7. Main Rahon Ya Na.mp3
+Time: 382.729
+Artist: Nadeem Sarwar
+Title: Main Rahon Ya Na
+Album: Ya Ali Ya Hussain
+Date: 2009
+Format: 48000:16:2
+mtime: 1782099418
+added: 1782496626
+song_end
+song_begin: 8. Salam Abbas Ya Maula.mp3
+Time: 269.449
+Artist: Nadeem Sarwar
+Title: Salam Abbas Ya Maula
+Album: Ya Ali Ya Hussain
+Date: 2009
+Format: 48000:16:2
+mtime: 1782099740
+added: 1782496626
+song_end
+song_begin: 9. Na Ro Maula.mp3
+Time: 453.57800000000003
+Artist: Nadeem Sarwar
+Title: Na Ro Maula
+Album: Ya Ali Ya Hussain
+Date: 2009
+Format: 44100:16:2
+mtime: 1782099842
+added: 1782496626
+song_end
+end: Nadeem Sarwar/Ya Ali Ya Hussain
+end: Nadeem Sarwar
 directory: Nena - Einmal ist keinmal (2006) (2 CD, 82876811492)
 mtime: 1768001042
 begin: Nena - Einmal ist keinmal (2006) (2 CD, 82876811492)
@@ -21034,7 +20294,7 @@ added: 1766423538
 song_end
 end: Nothing But the Best
 directory: Nusrat Fateh Ali Khan
-mtime: 1774379842
+mtime: 1787679525
 begin: Nusrat Fateh Ali Khan
 directory: (1992) - Devotional Songs
 mtime: 1754073993
@@ -21202,6 +20462,122 @@ mtime: 1753876281
 added: 1766423538
 song_end
 end: Nusrat Fateh Ali Khan/(1992) - Devotional Songs
+directory: [1988] Ustad Nusrat Fateh Ali Khan Aston University UK Concert 1988, Vol. 156 (Album) FLAC
+mtime: 1787678678
+begin: Nusrat Fateh Ali Khan/[1988] Ustad Nusrat Fateh Ali Khan Aston University UK Concert 1988, Vol. 156 (Album) FLAC
+song_begin: 01 Is Karam Ka Karon Shukar Kaise Ada (Live Version).flac
+Time: 1943.5720000000001
+Artist: Ustad Nusrat Fateh Ali Khan
+AlbumArtist: Ustad Nusrat Fateh Ali Khan
+Album: Aston University UK Concert 1988
+Title: Is Karam Ka Karon Shukar Kaise Ada (Live Version)
+Genre: Asian Music
+Disc: 1
+Date: 1988-01-01
+Track: 1
+Format: 44100:16:2
+mtime: 1787676088
+added: 1787679531
+song_end
+song_begin: 02 Ali Ali Dam Ali Ali (Live Version).flac
+Time: 1406.642
+Artist: Ustad Nusrat Fateh Ali Khan
+AlbumArtist: Ustad Nusrat Fateh Ali Khan
+Album: Aston University UK Concert 1988
+Title: Ali Ali Dam Ali Ali (Live Version)
+Genre: Asian Music
+Disc: 1
+Date: 1988-01-01
+Track: 2
+Format: 44100:16:2
+mtime: 1787677397
+added: 1787679531
+song_end
+song_begin: 03 Sun Lae Duawan Merain (Live Version).flac
+Time: 1493.714
+Artist: Ustad Nusrat Fateh Ali Khan
+AlbumArtist: Ustad Nusrat Fateh Ali Khan
+Album: Aston University UK Concert 1988
+Title: Sun Lae Duawan Merain (Live Version)
+Genre: Asian Music
+Disc: 1
+Date: 1988-01-01
+Track: 3
+Format: 44100:16:2
+mtime: 1787677124
+added: 1787679531
+song_end
+song_begin: 04 Phiroon Dhoondta Maikadah Tauba Tauba (Live Version).flac
+Time: 1640.278
+Artist: Ustad Nusrat Fateh Ali Khan
+AlbumArtist: Ustad Nusrat Fateh Ali Khan
+Album: Aston University UK Concert 1988
+Title: Phiroon Dhoondta Maikadah Tauba Tauba (Live Version)
+Genre: Asian Music
+Disc: 1
+Date: 1988-01-01
+Track: 4
+Format: 44100:16:2
+mtime: 1787675638
+added: 1787679531
+song_end
+song_begin: 05 Sanson Ki Mala Peh Simrun (Live Version).flac
+Time: 625.689
+Artist: Ustad Nusrat Fateh Ali Khan
+AlbumArtist: Ustad Nusrat Fateh Ali Khan
+Album: Aston University UK Concert 1988
+Title: Sanson Ki Mala Peh Simrun (Live Version)
+Genre: Asian Music
+Disc: 1
+Date: 1988-01-01
+Track: 5
+Format: 44100:16:2
+mtime: 1787677569
+added: 1787679531
+song_end
+song_begin: 06 Diyar-e-ishq Mein Apna Makam Paida Kar (Live Version).flac
+Time: 1608.654
+Artist: Ustad Nusrat Fateh Ali Khan
+AlbumArtist: Ustad Nusrat Fateh Ali Khan
+Album: Aston University UK Concert 1988
+Title: Diyar-e-ishq Mein Apna Makam Paida Kar (Live Version)
+Genre: Asian Music
+Disc: 1
+Date: 1988-01-01
+Track: 6
+Format: 44100:16:2
+mtime: 1787678288
+added: 1787679531
+song_end
+song_begin: 07 Halke Mein Rasulon Ke Woh (Live Version).flac
+Time: 217.89600000000002
+Artist: Ustad Nusrat Fateh Ali Khan
+AlbumArtist: Ustad Nusrat Fateh Ali Khan
+Album: Aston University UK Concert 1988
+Title: Halke Mein Rasulon Ke Woh (Live Version)
+Genre: Asian Music
+Disc: 1
+Date: 1988-01-01
+Track: 7
+Format: 44100:16:2
+mtime: 1787678353
+added: 1787679531
+song_end
+song_begin: 08 Nit Khair Mangan Sohnya Main Teri (Live Version).flac
+Time: 1236.0040000000001
+Artist: Ustad Nusrat Fateh Ali Khan
+AlbumArtist: Ustad Nusrat Fateh Ali Khan
+Album: Aston University UK Concert 1988
+Title: Nit Khair Mangan Sohnya Main Teri (Live Version)
+Genre: Asian Music
+Disc: 1
+Date: 1988-01-01
+Track: 8
+Format: 44100:16:2
+mtime: 1787678673
+added: 1787679531
+song_end
+end: Nusrat Fateh Ali Khan/[1988] Ustad Nusrat Fateh Ali Khan Aston University UK Concert 1988, Vol. 156 (Album) FLAC
 directory: 1996 - Nusrat Fateh Ali Khan & Michael Brook - Night Song
 mtime: 1763658228
 begin: Nusrat Fateh Ali Khan/1996 - Nusrat Fateh Ali Khan & Michael Brook - Night Song
@@ -22431,9 +21807,573 @@ mtime: 1771249244
 added: 1766423538
 song_end
 end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Dil Lagi Bhool Jani, Vol. 2
+directory: Nusrat Fateh Ali Khan - En concert à Paris
+mtime: 1780346153
+begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris
+directory: 1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 1
+mtime: 1780352826
+begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 1
+song_begin: 01 - Hamd.flac
+Time: 1728.2
+MUSICBRAINZ_RELEASEGROUPID: 1db79a17-39a0-3111-915c-a1165d0b45cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 92b954a9-397a-44fd-bb59-9510da97e94b
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Album: En concert à Paris
+Date: 1988
+Disc: 1
+MUSICBRAINZ_TRACKID: 0a21a61d-bb45-44ec-b0b4-c2fee265925d
+Title: Hamd
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASETRACKID: e9f7eff7-d2ec-32b1-9cc5-6a2e5f65fe77
+Track: 1
+Genre: Qawwali
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Movement: Hamd
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1780352826
+added: 1780356822
+song_end
+song_begin: 02 - Naat.flac
+Time: 973.5600000000001
+MUSICBRAINZ_RELEASEGROUPID: 1db79a17-39a0-3111-915c-a1165d0b45cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 92b954a9-397a-44fd-bb59-9510da97e94b
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Album: En concert à Paris
+Date: 1988
+Disc: 1
+MUSICBRAINZ_TRACKID: 91e5b4e6-4655-48d4-a032-44dbc286a4d9
+MUSICBRAINZ_WORKID: 76fdbe87-6c69-4c54-a6de-97a2dd3d2517
+Title: Naat
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASETRACKID: 0548d76b-f18a-3faa-839c-fbec60260ea3
+Track: 2
+Genre: Qawwali
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Movement: "Ô meilleur des hommes! Celui qui t'aime est le véritable croyant" {Naat}
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1780248721
+added: 1780356822
+song_end
+song_begin: 03 - Manaqib Ali.flac
+Time: 985.706
+MUSICBRAINZ_RELEASEGROUPID: 1db79a17-39a0-3111-915c-a1165d0b45cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 92b954a9-397a-44fd-bb59-9510da97e94b
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Album: En concert à Paris
+Date: 1988
+Disc: 1
+MUSICBRAINZ_TRACKID: 97ff9cb1-ae7c-4457-a767-4385274fcad6
+Title: Manaqib Ali
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASETRACKID: 0c0b4d9a-5bf6-3b72-b018-a006e641b76d
+Track: 3
+Genre: Qawwali
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Movement: Manaqib Ali
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1780249519
+added: 1780356822
+song_end
+song_begin: 04 - Manaqib Khawaja Mueenuddin Chishti.flac
+Time: 591.36
+MUSICBRAINZ_RELEASEGROUPID: 1db79a17-39a0-3111-915c-a1165d0b45cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 92b954a9-397a-44fd-bb59-9510da97e94b
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Album: En concert à Paris
+Date: 1988
+Disc: 1
+MUSICBRAINZ_TRACKID: 267fe205-d117-48df-991b-d1c0859bbab9
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Manaqib Khawaja Mueenuddin Chishti
+MUSICBRAINZ_RELEASETRACKID: 79f2b366-cbda-3f8e-b0d2-44d6f23a15a0
+Track: 4
+Genre: Qawwali
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Movement: Manaqib Khawaja Mueenuddin Chishti
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1780249934
+added: 1780356822
+song_end
+end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 1
+directory: 1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 2
+mtime: 1779568983
+begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 2
+song_begin: 01 - Mumudjoat.flac
+Time: 886.866
+MUSICBRAINZ_RELEASEGROUPID: 0e0c2692-4866-32f6-984b-bd8bb28e10cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 84a527e2-2180-4a14-bd05-0c6f0985f427
+Album: En concert à Paris
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1988
+Disc: 2
+MUSICBRAINZ_TRACKID: 7180205d-3609-4654-a293-e88e6f3d8799
+Title: Mumudjoat
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASETRACKID: b8a19553-9953-3b9e-969d-3396774f2563
+Track: 1
+Genre: Folk
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Movement: Mumudjoat
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1779567373
+added: 1780356822
+song_end
+song_begin: 02 - Mevsiye.flac
+Time: 790.066
+MUSICBRAINZ_RELEASEGROUPID: 0e0c2692-4866-32f6-984b-bd8bb28e10cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 84a527e2-2180-4a14-bd05-0c6f0985f427
+Album: En concert à Paris
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1988
+Disc: 2
+MUSICBRAINZ_TRACKID: 3dd3c9b1-07e7-49bc-a150-fe1f246e00f2
+Title: Mevsiye
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASETRACKID: d5a2f72e-38a5-3781-886d-98c3da98e559
+Track: 2
+Genre: Folk
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Movement: Mevsiye
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1779567783
+added: 1780356822
+song_end
+song_begin: 03 - Ghazal 1.flac
+Time: 895.466
+MUSICBRAINZ_RELEASEGROUPID: 0e0c2692-4866-32f6-984b-bd8bb28e10cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 84a527e2-2180-4a14-bd05-0c6f0985f427
+Album: En concert à Paris
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1988
+Disc: 2
+MUSICBRAINZ_TRACKID: d6cee864-bbe3-4386-a6d6-d150b0e2587b
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Ghazal 1
+MUSICBRAINZ_RELEASETRACKID: a517c680-228c-3009-a124-1eaf84e043ea
+Track: 3
+Genre: Folk
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Movement: Ghazal 1
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1779568251
+added: 1780356822
+song_end
+song_begin: 04 - Ghazal 2.flac
+Time: 796.066
+MUSICBRAINZ_RELEASEGROUPID: 0e0c2692-4866-32f6-984b-bd8bb28e10cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 84a527e2-2180-4a14-bd05-0c6f0985f427
+Album: En concert à Paris
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1988
+Disc: 2
+MUSICBRAINZ_TRACKID: 351ea2da-22d4-4106-820f-e884d35dd25e
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Ghazal 2
+MUSICBRAINZ_RELEASETRACKID: a52598de-0274-384b-a104-b610cbe93ccc
+Track: 4
+Genre: Folk
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Movement: Ghazal 2
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1779568596
+added: 1780356822
+song_end
+song_begin: 05 - Ghazal 3.flac
+Time: 789.24
+MUSICBRAINZ_RELEASEGROUPID: 0e0c2692-4866-32f6-984b-bd8bb28e10cc
+OriginalDate: 1988
+MUSICBRAINZ_ALBUMID: 84a527e2-2180-4a14-bd05-0c6f0985f427
+Album: En concert à Paris
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1988
+Disc: 2
+MUSICBRAINZ_TRACKID: 88ddae97-a320-4fdb-a36d-9609ff3bfcfe
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Ghazal 3
+MUSICBRAINZ_RELEASETRACKID: 406c1936-a5bb-3d1f-a40a-30463c85a04e
+Track: 5
+Genre: Folk
+Movement: Ghazal 3
+Conductor: Mohammad Iqbal Naqbi (choirmaster)
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Rehmat Ali (harmonium)
+Performer: Farrukh Fateh Ali Khan (vocals)
+Performer: Ghulam Abbas (vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Format: 44100:16:2
+mtime: 1779568879
+added: 1780356822
+song_end
+end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 2
+directory: 1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 3
+mtime: 1780250976
+begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 3
+song_begin: 01 - Hamd 'O, (Living And Eternal God).flac
+Time: 1774
+MUSICBRAINZ_RELEASEGROUPID: 84d5ecf4-0cbb-4fe5-a227-375a260a06c1
+OriginalDate: 1998
+MUSICBRAINZ_ALBUMID: 2cfbf084-5a4a-4958-925b-1c639dd55c6a
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1998
+Album: En concert à Paris
+Disc: 3
+MUSICBRAINZ_TRACKID: 461a1961-bcae-4336-8c21-7f250a847349
+Title: Hamd 'O, (Living And Eternal God)
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASETRACKID: 62903b11-8dc6-32b8-adb4-8ef02343953c
+Track: 1
+Genre: Qawwali
+Movement: Hamd 'O, (Living And Eternal God)
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Attat Fareed (harmonium, vocals)
+Performer: Farrukh Fateh Ali Khan (harmonium, vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Performer: Mujahed Moubarak Ali Khan (vocals)
+Format: 44100:16:2
+mtime: 1779569804
+added: 1780356822
+song_end
+song_begin: 02 - Nat-I-Sharif 'O Mustafa Light Of The Right Path'.flac
+Time: 1987.506
+MUSICBRAINZ_RELEASEGROUPID: 84d5ecf4-0cbb-4fe5-a227-375a260a06c1
+OriginalDate: 1998
+MUSICBRAINZ_ALBUMID: 2cfbf084-5a4a-4958-925b-1c639dd55c6a
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1998
+Album: En concert à Paris
+Disc: 3
+MUSICBRAINZ_TRACKID: e78a5c9a-0477-47fa-9c17-22e1f968f4a7
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Nat-I-Sharif 'O Mustafa Light Of The Right Path'
+MUSICBRAINZ_RELEASETRACKID: fbd514c5-82bb-37dd-a85c-f28f3241e11a
+Track: 2
+Genre: Qawwali
+Movement: Nat-I-Sharif 'O Mustafa Light Of The Right Path'
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Attat Fareed (harmonium, vocals)
+Performer: Farrukh Fateh Ali Khan (harmonium, vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Performer: Mujahed Moubarak Ali Khan (vocals)
+Format: 44100:16:2
+mtime: 1780250968
+added: 1780356822
+song_end
+end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 3
+directory: 1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 4
+mtime: 1780354150
+begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 4
+song_begin: 01 - Nat-I-Sharif 'O Muhammad, Call Me To Medina'.flac
+Time: 1939.973
+MUSICBRAINZ_RELEASEGROUPID: ed123fbc-1e7e-4805-8ed2-4f9595e106fa
+OriginalDate: 1998
+MUSICBRAINZ_ALBUMID: 21d95ee3-fc86-4ca9-8038-29c80b4be963
+Date: 1998
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Album: En concert à Paris
+Disc: 4
+MUSICBRAINZ_TRACKID: 83c3f105-2ea3-4c4d-a09b-2c50f87639a7
+Title: Nat-I-Sharif 'O Muhammad, Call Me To Medina'
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASETRACKID: e1bd77fb-0fc7-31d8-89e7-7224480ee8a0
+Track: 1
+Genre: Qawwali
+Movement: Nat-I-Sharif 'O Muhammad, Call Me To Medina'
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Attat Fareed (harmonium, vocals)
+Performer: Farrukh Fateh Ali Khan (harmonium, vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Performer: Mujahed Moubarak Ali Khan (vocals)
+Format: 44100:16:2
+mtime: 1780354150
+added: 1780356822
+song_end
+song_begin: 02 - Tarif 'Allah! Muhammad, The Four Friends, Hajji Khwaja Qutb Farid!'.flac
+Time: 1377.3600000000001
+MUSICBRAINZ_RELEASEGROUPID: ed123fbc-1e7e-4805-8ed2-4f9595e106fa
+OriginalDate: 1998
+MUSICBRAINZ_ALBUMID: 21d95ee3-fc86-4ca9-8038-29c80b4be963
+Date: 1998
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Album: En concert à Paris
+Disc: 4
+MUSICBRAINZ_TRACKID: ececb52d-da6b-454c-ad81-6350f6d00bfc
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Tarif 'Allah! Muhammad, The Four Friends, Hajji Khwaja Qutb Farid!'
+MUSICBRAINZ_RELEASETRACKID: 31e7b649-f4fe-3a4d-84ed-adf0769bbd7e
+Track: 2
+Genre: Qawwali
+Movement: Tarif 'Allah! Muhammad, The Four Friends, Hajji Khwaja Qutb Farid!'
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Attat Fareed (harmonium, vocals)
+Performer: Farrukh Fateh Ali Khan (harmonium, vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Performer: Mujahed Moubarak Ali Khan (vocals)
+Format: 44100:16:2
+mtime: 1780352976
+added: 1780356822
+song_end
+song_begin: 03 - Poem In Persian 'I Don't Know Where I Am Going'.flac
+Time: 1116
+MUSICBRAINZ_RELEASEGROUPID: ed123fbc-1e7e-4805-8ed2-4f9595e106fa
+OriginalDate: 1998
+MUSICBRAINZ_ALBUMID: 21d95ee3-fc86-4ca9-8038-29c80b4be963
+Date: 1998
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Album: En concert à Paris
+Disc: 4
+MUSICBRAINZ_TRACKID: 30356106-7dc1-4262-abc1-6f4490a1b970
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Poem In Persian 'I Don't Know Where I Am Going'
+MUSICBRAINZ_RELEASETRACKID: fa8d3d1e-0027-3b5f-a216-9c5183e7dfee
+Track: 3
+Genre: Qawwali
+Movement: Poem In Persian 'I Don't Know Where I Am Going'
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Attat Fareed (harmonium, vocals)
+Performer: Farrukh Fateh Ali Khan (harmonium, vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Performer: Mujahed Moubarak Ali Khan (vocals)
+Format: 44100:16:2
+mtime: 1780350867
+added: 1780356822
+song_end
+end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 4
+directory: 1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 5
+mtime: 1780351774
+begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 5
+song_begin: 01 - Kafi 'Je me suis eprise d'un indifferent_Et j'ai du pleurer en cachette'.flac
+Time: 1027.773
+MUSICBRAINZ_RELEASEGROUPID: 1657a52f-3805-4212-b358-20d65b832e00
+OriginalDate: 1998
+MUSICBRAINZ_ALBUMID: a767e07b-dd95-48bf-9083-881fcbbc01ce
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1998
+Album: En concert à Paris
+Disc: 5
+MUSICBRAINZ_TRACKID: 812ad0e9-2afb-4d07-9480-73d520a8b954
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Kafi 'Je me suis eprise d'un indifferent_Et j'ai du pleurer en cachette'
+MUSICBRAINZ_RELEASETRACKID: fd73ea10-ecf1-334b-88b2-867d599b8ac6
+Track: 1
+Genre: Qawwali
+Movement: Kafi 'Je me suis eprise d'un indifferent_Et j'ai du pleurer en cachette'
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Attat Fareed (harmonium, vocals)
+Performer: Farrukh Fateh Ali Khan (harmonium, vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Performer: Mujahed Moubarak Ali Khan (vocals)
+Format: 44100:16:2
+mtime: 1780351445
+added: 1780356822
+song_end
+song_begin: 02 - Kafi 'Je partiral avec le yogi' de BullheSheh (1680-1753).flac
+Time: 1709.4
+MUSICBRAINZ_RELEASEGROUPID: 1657a52f-3805-4212-b358-20d65b832e00
+OriginalDate: 1998
+MUSICBRAINZ_ALBUMID: a767e07b-dd95-48bf-9083-881fcbbc01ce
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1998
+Album: En concert à Paris
+Disc: 5
+MUSICBRAINZ_TRACKID: d7b250fc-8e0d-4413-a883-ae9edd142c70
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+Title: Kafi 'Je partiral avec le yogi' de BullheSheh (1680-1753)
+MUSICBRAINZ_RELEASETRACKID: c166e2af-9de5-3447-8667-2d73e4523f36
+Track: 2
+Genre: Qawwali
+Movement: Kafi 'Je partiral avec le yogi' de BullheSheh (1680-1753)
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Attat Fareed (harmonium, vocals)
+Performer: Farrukh Fateh Ali Khan (harmonium, vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Performer: Mujahed Moubarak Ali Khan (vocals)
+Format: 44100:16:2
+mtime: 1780259399
+added: 1780356822
+song_end
+song_begin: 03 - 'Haq Ali Maula' Dieu vrai, Ali est le guide.flac
+Time: 1052.866
+MUSICBRAINZ_RELEASEGROUPID: 1657a52f-3805-4212-b358-20d65b832e00
+OriginalDate: 1998
+MUSICBRAINZ_ALBUMID: a767e07b-dd95-48bf-9083-881fcbbc01ce
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+AlbumArtist: Nusrat Fateh Ali Khan
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Date: 1998
+Album: En concert à Paris
+Disc: 5
+MUSICBRAINZ_TRACKID: 398f8c9d-0d89-4402-8186-de8df36260b4
+Title: 'Haq Ali Maula' Dieu vrai, Ali est le guide
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASETRACKID: 2a84e663-9193-3b54-9f40-b8f584a1c3cc
+Track: 3
+Genre: Qawwali
+Movement: 'Haq Ali Maula' Dieu vrai, Ali est le guide
+Artist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+Composer: Nusrat Fateh Ali Khan
+ComposerSort: Fateh Ali Khan, Nusrat
+Performer: Attat Fareed (harmonium, vocals)
+Performer: Farrukh Fateh Ali Khan (harmonium, vocals)
+Performer: Nusrat Fateh Ali Khan (lead vocals)
+Performer: Dildar Hussain (tabla)
+Performer: Mujahed Moubarak Ali Khan (vocals)
+Format: 44100:16:2
+mtime: 1780351707
+added: 1780356822
+song_end
+end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 5
+end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris
+directory: Nusrat Fateh Ali Khan - Kithe Mehr Ali (Aj Sik Mitran Di)
+mtime: 1778009022
+begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Kithe Mehr Ali (Aj Sik Mitran Di)
 directory: Nusrat Fateh Ali Khan - Intoxicated Spirit
 mtime: 1753283801
-begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Intoxicated Spirit
+begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Kithe Mehr Ali (Aj Sik Mitran Di)/Nusrat Fateh Ali Khan - Intoxicated Spirit
 song_begin: 1 Yeh Jo Halka Halka.flac
 Time: 1397.469
 Title: Yeh Jo Halka Halka
@@ -22446,7 +22386,7 @@ Label: Shanachie
 Track: 1
 Format: 44100:16:2
 mtime: 1753876227
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 2 Ruk Pe Rehmat Ka.flac
 Time: 1417.113
@@ -22460,7 +22400,7 @@ Label: Shanachie
 Track: 2
 Format: 44100:16:2
 mtime: 1753876221
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 3 Be Wafa.flac
 Time: 713.409
@@ -22474,7 +22414,7 @@ Label: Shanachie
 Track: 3
 Format: 44100:16:2
 mtime: 1753876215
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 4 Meri Saqi Saqi Yeh.flac
 Time: 828.905
@@ -22488,12 +22428,9 @@ Label: Shanachie
 Track: 4
 Format: 44100:16:2
 mtime: 1753876212
-added: 1766423538
+added: 1778009057
 song_end
-end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Intoxicated Spirit
-directory: Nusrat Fateh Ali Khan - Kithe Mehr Ali (Aj Sik Mitran Di)
-mtime: 1754808671
-begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Kithe Mehr Ali (Aj Sik Mitran Di)
+end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Kithe Mehr Ali (Aj Sik Mitran Di)/Nusrat Fateh Ali Khan - Intoxicated Spirit
 song_begin: 01 - Nusrat Fateh Ali Khan Kithe Mehr Ali (Aj Sik Mitran Di).mp3
 Time: 1834.521
 Artist: Nusrat Fateh Ali Khan
@@ -22505,11 +22442,11 @@ Date: 1989
 Disc: 1
 Format: 44100:16:2
 mtime: 1754808761
-added: 1766423538
+added: 1778009057
 song_end
 end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Kithe Mehr Ali (Aj Sik Mitran Di)
 directory: Nusrat Fateh Ali Khan - Love Songs
-mtime: 1771251655
+mtime: 1778009051
 begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Love Songs
 song_begin: 01 - Woh Hata Rahe Hain Pardah.flac
 Time: 480.466
@@ -22596,82 +22533,6 @@ mtime: 1771251655
 added: 1771251507
 song_end
 end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Love Songs
-directory: Nusrat Fateh Ali Khan - Pakistan _ Nusrat Fateh Ali Khan En Concert À Paris Vol.1 (1985) (2007) [Ocora]
-mtime: 1753911837
-begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Pakistan _ Nusrat Fateh Ali Khan En Concert À Paris Vol.1 (1985) (2007) [Ocora]
-song_begin: 01. Hamd (Louange a Dieu).flac
-Time: 1728.2
-Album: Pakistan : Nusrat Fateh Ali Khan En Concert À Paris Vol.1 (1985)
-AlbumArtist: Nusrat Fateh Ali Khan
-Artist: Nusrat Fateh Ali Khan
-Composer: None
-Date: 2007
-Disc: 1
-Genre: World
-Label: Ocora Radio-France
-MUSICBRAINZ_TRACKID: 0a21a61d-bb45-44ec-b0b4-c2fee265925d
-Performer: Nusrat Fateh Ali Khan
-Title: Hamd (Louange à Dieu)
-Track: 1
-Format: 44100:16:2
-mtime: 1753911404
-added: 1766423538
-song_end
-song_begin: 02. Naat (O meilleur des hommes ! Celui qui t'aime est le meilleur croyant! ).flac
-Time: 973.5600000000001
-Album: Pakistan : Nusrat Fateh Ali Khan En Concert À Paris Vol.1 (1985)
-AlbumArtist: Nusrat Fateh Ali Khan
-Artist: Nusrat Fateh Ali Khan
-Composer: None
-Date: 2007
-Disc: 1
-Genre: World
-Label: Ocora Radio-France
-MUSICBRAINZ_TRACKID: 91e5b4e6-4655-48d4-a032-44dbc286a4d9
-Performer: Nusrat Fateh Ali Khan
-Title: Naat (Ô meilleur des hommes ! Celui qui t'aime est le meilleur croyant! )
-Track: 2
-Format: 44100:16:2
-mtime: 1753911585
-added: 1766423538
-song_end
-song_begin: 03. Manaqib Ali (Louange a Ali).flac
-Time: 985.706
-Album: Pakistan : Nusrat Fateh Ali Khan En Concert À Paris Vol.1 (1985)
-AlbumArtist: Nusrat Fateh Ali Khan
-Artist: Nusrat Fateh Ali Khan
-Composer: None
-Date: 2007
-Disc: 1
-Genre: World
-Label: Ocora Radio-France
-MUSICBRAINZ_TRACKID: 97ff9cb1-ae7c-4457-a767-4385274fcad6
-Performer: Nusrat Fateh Ali Khan
-Title: Manaqib Ali (Louange à Ali)
-Track: 3
-Format: 44100:16:2
-mtime: 1753911742
-added: 1766423538
-song_end
-song_begin: 04. Manaqib Khawaja Mueenuddin Chishti (Louange au Maitre des Maitres).flac
-Time: 591.36
-Album: Pakistan : Nusrat Fateh Ali Khan En Concert À Paris Vol.1 (1985)
-AlbumArtist: Nusrat Fateh Ali Khan
-Artist: Nusrat Fateh Ali Khan
-Composer: None
-Date: 2007
-Disc: 1
-Genre: World
-Label: Ocora Radio-France
-MUSICBRAINZ_TRACKID: 267fe205-d117-48df-991b-d1c0859bbab9
-Performer: Nusrat Fateh Ali Khan
-Title: Manaqib Khawaja Mueenuddin Chishti (Louange au Maître des Maîtres)
-Track: 4
-Format: 44100:16:2
-mtime: 1753911837
-added: 1766423538
-song_end
-end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Pakistan _ Nusrat Fateh Ali Khan En Concert À Paris Vol.1 (1985) (2007) [Ocora]
 directory: Nusrat Fateh Ali Khan - Shamas Ud Doha Badar Ud Doja
 mtime: 1754808750
 begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Shamas Ud Doha Badar Ud Doja
@@ -22703,7 +22564,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 02 - Nusrat Fateh Ali Khan Mast Mast Dam Mast.mp3
 Time: 391.666
@@ -22716,7 +22577,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 03 - Nusrat Fateh Ali Khan Sanoon Ek Pal Chain.mp3
 Time: 767.32
@@ -22729,7 +22590,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 04 - Nusrat Fateh Ali Khan Aaja Tenon Akhiyan Udeek Diyan.mp3
 Time: 902.186
@@ -22742,7 +22603,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 05 - Nusrat Fateh Ali Khan Haq Ali Ali Maula.mp3
 Time: 1721.548
@@ -22755,7 +22616,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 06 - Nusrat Fateh Ali Khan Mera Piya Ghar Aaya.mp3
 Time: 485.373
@@ -22768,7 +22629,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 07 - Nusrat Fateh Ali Khan Ni Main Jana Jogi.mp3
 Time: 1634.169
@@ -22781,7 +22642,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 08 - Nusrat Fateh Ali Khan Ali Da Malang Main.mp3
 Time: 608.746
@@ -22794,7 +22655,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 09 - Nusrat Fateh Ali Khan Mera Ae Charkha.mp3
 Time: 477.676
@@ -22807,7 +22668,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 song_begin: 10 - Nusrat Fateh Ali Khan Sanson Ki Mala.mp3
 Time: 1805.957
@@ -22820,7 +22681,7 @@ Date: 2022
 Disc: 1
 Format: 44100:16:2
 mtime: 1771249183
-added: 1766423538
+added: 1778009057
 song_end
 end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - The Definitive Collection, Vol. 1
 directory: Nusrat Fateh Ali Khan - The Supreme Collection Volume 1
@@ -22981,6 +22842,244 @@ mtime: 1754809060
 added: 1766423538
 song_end
 end: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - Yeh Jo Halka Halka Saroor Hai (Complete Original Version)
+directory: Sorrows, Vol. 69 (1997)
+mtime: 1787591748
+begin: Nusrat Fateh Ali Khan/Sorrows, Vol. 69 (1997)
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 01 - Kab Yaad Mein.mp3
+Time: 550.36
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: Kab Yaad Mein
+Album: Sorrows, Vol. 69
+Track: 1
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: 6c07a07b-5cad-473e-a636-93c28e2d61c0
+MUSICBRAINZ_TRACKID: 2fd1de08-33ce-46ec-93ff-3a543471d1db
+Format: 44100:16:2
+mtime: 1787591479
+added: 1787591776
+song_end
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 02 - Tauba (DNB Remix).mp3
+Time: 369.146
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: Tauba (DNB Remix)
+Album: Sorrows, Vol. 69
+Track: 2
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: 1f73c29e-f704-485f-ac12-a0b4d53bfdb4
+MUSICBRAINZ_TRACKID: 55aaeb66-6f02-4f28-a809-aec2e4c810f2
+Format: 44100:16:2
+mtime: 1787591499
+added: 1787591776
+song_end
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 03 - Tere Bin Nahin Lagda (Original).mp3
+Time: 440.34700000000004
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: Tere Bin Nahin Lagda (Original)
+Album: Sorrows, Vol. 69
+Track: 3
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: dc29059a-d02c-4120-bb20-7e5b81645a80
+MUSICBRAINZ_TRACKID: 28e57878-0de4-470f-be4a-d97401dcbe66
+Format: 44100:16:2
+mtime: 1787591526
+added: 1787591776
+song_end
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 04 - Akhian Noon Chain Nah Awe.mp3
+Time: 406.373
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: Akhian Noon Chain Nah Awe
+Album: Sorrows, Vol. 69
+Track: 4
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: e114c9e0-03f6-490d-b866-2aabf6665f46
+MUSICBRAINZ_TRACKID: 179f6001-3e60-4982-957f-074f55437769
+Format: 44100:16:2
+mtime: 1787591560
+added: 1787591776
+song_end
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 05 - The Wizard Vibrations.mp3
+Time: 237.81300000000002
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: The Wizard Vibrations
+Album: Sorrows, Vol. 69
+Track: 5
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: c759db58-0bec-4d17-b5ff-d6d8466acd3d
+MUSICBRAINZ_TRACKID: 3101f23b-92d4-45e4-b452-8d34ff7a155b
+Format: 44100:16:2
+mtime: 1787591672
+added: 1787591776
+song_end
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 06 - Tauba (Jungle Mix).mp3
+Time: 356.72
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: Tauba (Jungle Mix)
+Album: Sorrows, Vol. 69
+Track: 6
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: 8fdc2766-43fd-4fe1-ba19-8d7937e2c728
+MUSICBRAINZ_TRACKID: fdde36c5-cb26-4f05-9ea7-96c1cdea61d9
+Format: 44100:16:2
+mtime: 1787591690
+added: 1787591776
+song_end
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 07 - Tera Dilruba Sa Chehra.mp3
+Time: 367.173
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: Tera Dilruba Sa Chehra
+Album: Sorrows, Vol. 69
+Track: 7
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: b63d458c-9a23-4268-ab6b-764225463ee0
+MUSICBRAINZ_TRACKID: dfa097e3-2e0c-404d-a10f-a92775dd6a03
+Format: 44100:16:2
+mtime: 1787591654
+added: 1787591776
+song_end
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 08 - Akhian Noon Chain Nah Awe (Rb Remix).mp3
+Time: 397.226
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: Akhian Noon Chain Nah Awe (Rb Remix)
+Album: Sorrows, Vol. 69
+Track: 8
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: 20c1aead-9796-49f9-85b0-78cd4566d4d8
+MUSICBRAINZ_TRACKID: 33be5eda-b286-4b47-a06b-a5794507c918
+Format: 44100:16:2
+mtime: 1787591711
+added: 1787591776
+song_end
+song_begin: Nusrat Fateh Ali Khan - Sorrows, Vol. 69 - 09 - Tauba (Traditional).mp3
+Time: 560.44
+Artist: Nusrat Fateh Ali Khan
+AlbumArtist: Nusrat Fateh Ali Khan
+ArtistSort: Fateh Ali Khan, Nusrat
+AlbumArtistSort: Fateh Ali Khan, Nusrat
+Title: Tauba (Traditional)
+Album: Sorrows, Vol. 69
+Track: 9
+Date: 1997-01-01
+OriginalDate: 1997-01-01
+Genre: Qawwali
+Genre: Ghazal
+Genre: Classical
+Disc: 1
+Label: Oriental Star Agencies Ltd.
+MUSICBRAINZ_ALBUMID: efd9a7f7-20a7-4606-add4-7a847dc9423f
+MUSICBRAINZ_ARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_ALBUMARTISTID: 5968383c-11c1-4c5b-ada0-504a38cec8e7
+MUSICBRAINZ_RELEASEGROUPID: e3bce70b-0edb-41c9-9bd1-5aebad2d5a9f
+MUSICBRAINZ_RELEASETRACKID: 4881c39b-d35c-4df0-893f-1c5c58412ea0
+MUSICBRAINZ_TRACKID: 05712adb-65d9-469b-9687-b11d56029ea2
+Format: 44100:16:2
+mtime: 1787591748
+added: 1787591776
+song_end
+end: Nusrat Fateh Ali Khan/Sorrows, Vol. 69 (1997)
 directory: Supreme Collection, Vol. 18
 mtime: 1772305905
 begin: Nusrat Fateh Ali Khan/Supreme Collection, Vol. 18
@@ -23154,6 +23253,58 @@ mtime: 1771250468
 added: 1771250309
 song_end
 end: Nusrat Fateh Ali Khan/The Best of King Khan - Album 2
+directory: Vol. 27 Kali Kali Zulfon [wav]
+mtime: 1787676652
+begin: Nusrat Fateh Ali Khan/Vol. 27 Kali Kali Zulfon [wav]
+song_begin: 01 Kali Kali Zulfon ke Phande Na Dalo.wav
+Time: 864.667
+Artist: Nusrat Fateh Ali Khan
+Album: Kali Kali Zulfon
+Title: Kali Kali Zulfon ke Phande Na Dalo
+Track: 1
+Genre: Qawwali
+Date: 1988
+Format: 44100:16:2
+mtime: 1787675735
+added: 1787679531
+song_end
+song_begin: 02 Kya Tha jo Ghari Bhar ko.wav
+Time: 966.4
+Artist: Nusrat Fateh Ali Khan
+Album: Kali Kali Zulfon
+Title: Kya Tha jo Ghari Bhar ko
+Track: 2
+Genre: Qawwali
+Date: 1988
+Format: 44100:16:2
+mtime: 1787676063
+added: 1787679531
+song_end
+song_begin: 03 Meri Ankhon ko Bakhshe Hain Aansoo.wav
+Time: 660
+Artist: Nusrat Fateh Ali Khan
+Album: Kali Kali Zulfon
+Title: Meri Ankhon ko Bakhshe Hain Aansoo
+Track: 3
+Genre: Qawwali
+Date: 1988
+Format: 44100:16:2
+mtime: 1787676273
+added: 1787679531
+song_end
+song_begin: 04 Phiroon Dhoondta Maikadah Tauba Tauba.wav
+Time: 1124.667
+Artist: Nusrat Fateh Ali Khan
+Album: Kali Kali Zulfon
+Title: Phiroon Dhoondta Maikadah Tauba Tauba
+Track: 4
+Genre: Qawwali
+Date: 1988
+Format: 44100:16:2
+mtime: 1787676648
+added: 1787679531
+song_end
+end: Nusrat Fateh Ali Khan/Vol. 27 Kali Kali Zulfon [wav]
 directory: Yadon Ke Sayeay: Geet & Ghazals (Urdu), Volume 6
 mtime: 1771248915
 begin: Nusrat Fateh Ali Khan/Yadon Ke Sayeay: Geet & Ghazals (Urdu), Volume 6
@@ -23267,6 +23418,1007 @@ added: 1771248455
 song_end
 end: Nusrat Fateh Ali Khan/Yadon Ke Sayeay: Geet & Ghazals (Urdu), Volume 6
 end: Nusrat Fateh Ali Khan
+directory: Open Letter
+mtime: 1778615511
+begin: Open Letter
+song_begin: 01 Melancholy.m4a
+Time: 105.366
+Artist: Talha Anjum
+Album: Open Letter
+Title: Melancholy
+Track: 1
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 90161396-495e-4f9c-8271-9281dd0ec51e
+MUSICBRAINZ_RELEASETRACKID: 048b857a-b9ae-4d9f-a8c5-f337cfab727e
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778613455
+added: 1778615538
+song_end
+song_begin: 02 Happy Hour.m4a
+Time: 195
+Artist: Talha Anjum
+Album: Open Letter
+Title: Happy Hour
+Track: 2
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Talha Anjum Rasheed
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 99548ee3-7434-4ed9-a6ee-165294f092ca
+MUSICBRAINZ_RELEASETRACKID: f664936b-1660-4ed4-ad88-66c78facb13c
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778613760
+added: 1778615538
+song_end
+song_begin: 03 At The Top.m4a
+Time: 125.21900000000001
+Artist: Talha Anjum
+Album: Open Letter
+Title: At The Top
+Track: 3
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 642e220e-9e6a-4ccd-a06e-6022a2be434e
+MUSICBRAINZ_RELEASETRACKID: 7fcc8221-eff6-47e6-86ec-88331e6c9baf
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778614017
+added: 1778615538
+song_end
+song_begin: 04 Touch Base.m4a
+Time: 302.607
+Artist: Talha Anjum ft. KR$NA & Talhah Yunus
+Album: Open Letter
+Title: Touch Base
+Track: 4
+Genre: Hip-Hop
+Date: 2024-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Talha Yunus
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha ft. KR$NA & Yunus, Talhah
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: da9bb4c8-3cbf-4470-bc06-527974c2ac63
+MUSICBRAINZ_RELEASETRACKID: 56054020-250c-47a6-bcef-16885ee6f06f
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778614478
+added: 1778615538
+song_end
+song_begin: 05 Studio Gangsters.m4a
+Time: 248
+Artist: Talha Anjum ft. Rap Demon
+Album: Open Letter
+Title: Studio Gangsters
+Track: 5
+Genre: Hip-Hop
+Date: 2024-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Sultan Jamil
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha ft. Rap Demon
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: edb19425-9a4e-44dd-bd18-cacc0c82253f
+MUSICBRAINZ_RELEASETRACKID: fe2ba753-2a90-477d-be03-4b5b9131ceb8
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778614212
+added: 1778615538
+song_end
+song_begin: 06 Two Tone.m4a
+Time: 143.674
+Artist: Talha Anjum
+Album: Open Letter
+Title: Two Tone
+Track: 6
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: f0e423e1-1a1d-4310-bc1a-aa22c8a7d8ef
+MUSICBRAINZ_RELEASETRACKID: 7cd1a8ca-4063-4b96-8f0b-9626a9b4d777
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778614086
+added: 1778615538
+song_end
+song_begin: 07 False Prophets.m4a
+Time: 259.049
+Artist: Talha Anjum
+Album: Open Letter
+Title: False Prophets
+Track: 7
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: ff1dda59-ec48-41f7-ba62-f9c0a4300ec0
+MUSICBRAINZ_RELEASETRACKID: f6406384-22d9-4e53-9ecf-246474df75c2
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778613979
+added: 1778615538
+song_end
+song_begin: 08 Desperation.m4a
+Time: 258.259
+Artist: Talha Anjum
+Album: Open Letter
+Title: Desperation
+Track: 8
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: a04d873d-c0cf-4d5e-85a0-978b7b2b8f0f
+MUSICBRAINZ_RELEASETRACKID: 191bcf40-78c6-4189-be8d-e06d159fa049
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778614430
+added: 1778615538
+song_end
+song_begin: 09 Lost in Time.m4a
+Time: 214.589
+Artist: Talha Anjum
+Album: Open Letter
+Title: Lost In Time
+Track: 9
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 8a426c01-8b0f-4f30-a567-db9e2d2ae5d4
+MUSICBRAINZ_RELEASETRACKID: 9a5214ee-0a66-47dc-90bd-85c5e9e9def6
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778613674
+added: 1778615538
+song_end
+song_begin: 10 Kaam Pura.m4a
+Time: 162.911
+Artist: Talha Anjum
+Album: Open Letter
+Title: Kaam Pura
+Track: 10
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 9b56e52c-a591-4bb7-8c14-665878c9ba9c
+MUSICBRAINZ_RELEASETRACKID: 7491537b-1532-43ca-81ff-4c3d21de5b16
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778613607
+added: 1778615538
+song_end
+song_begin: 11 Flex.m4a
+Time: 219.339
+Artist: Talha Anjum
+Album: Open Letter
+Title: Flex
+Track: 11
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: cb920ae6-c6c4-4aea-ba6c-e2bf1b7ba2da
+MUSICBRAINZ_RELEASETRACKID: 35f7c99f-c54b-4764-8c7a-158a48216067
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778613575
+added: 1778615538
+song_end
+song_begin: 12 Glass Half Full.m4a
+Time: 394.76800000000003
+Artist: Talha Anjum ft. JJ47 & Talhah Yunus
+Album: Open Letter
+Title: Glass Half Full
+Track: 12
+Genre: Hip-Hop
+Date: 2024-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Talha Yunus
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha ft. Jahangzeb & Yunus, Talhah
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 6e57936a-5eb3-49de-94a1-d5fbe7aadeb4
+MUSICBRAINZ_RELEASETRACKID: ffe23b77-da39-416e-bb77-dcdf54254968
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778613537
+added: 1778615538
+song_end
+song_begin: 13 Downers at Dusk.m4a
+Time: 256
+Artist: Talha Anjum
+Album: Open Letter
+Title: Downers At Dusk
+Track: 13
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 589b7ccf-fc57-4aaf-a373-5d011bf4cb7e
+MUSICBRAINZ_RELEASETRACKID: 348b3a72-67be-41d0-ae8f-8a54dbc4ac3b
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778614311
+added: 1778615538
+song_end
+song_begin: 14 Secrets.m4a
+Time: 278.402
+Artist: Talha Anjum
+Album: Open Letter
+Title: Secrets
+Track: 14
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 244a9035-4347-4edc-b990-40cfbf6301e8
+MUSICBRAINZ_RELEASETRACKID: 241469cf-5d1f-465c-9605-bb4c9b4bcee3
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778614372
+added: 1778615538
+song_end
+song_begin: 15 Open Letter.m4a
+Time: 192
+Artist: Talha Anjum
+Album: Open Letter
+Title: Open Letter
+Track: 15
+Genre: Hip-Hop, Rap/Hip Hop
+Date: 2023-02-18T00:00:00+00:00
+OriginalDate: 2023-02-18
+Composer: Muhammad Umair Tahir
+Disc: 1
+AlbumArtist: Talha Anjum
+AlbumArtistSort: Anjum, Talha
+ArtistSort: Anjum, Talha
+MUSICBRAINZ_ARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_ALBUMID: ae60d9ae-2ee3-4b21-a6d8-d5c83c76b33a
+MUSICBRAINZ_ALBUMARTISTID: 2b1b5e9b-3572-42e4-863c-720e2af926ca
+MUSICBRAINZ_TRACKID: 52ad6c10-7109-4fd1-862d-3b78a0a87037
+MUSICBRAINZ_RELEASETRACKID: 528a8f8a-0784-42b8-bb92-3a74734559c0
+MUSICBRAINZ_RELEASEGROUPID: ff6fcc75-76c7-4f67-96a5-059f73c30ba7
+Format: 44100:32:2
+mtime: 1778614409
+added: 1778615538
+song_end
+end: Open Letter
+directory: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]
+mtime: 1778008632
+begin: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]
+directory: Greatest Hits I (1981)
+mtime: 1778010585
+begin: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]/Greatest Hits I (1981)
+song_begin: Queen - Greatest Hits - 01 - Bohemian Rhapsody.flac
+Time: 358.106
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Bohemian Rhapsody
+Track: 1
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 02 - Another One Bites The Dust.flac
+Time: 217
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Another One Bites The Dust
+Track: 2
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 03 - Killer Queen.flac
+Time: 182
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Killer Queen
+Track: 3
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 04 - Fat Bottomed Girls.flac
+Time: 204.266
+Track: 4
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Fat Bottomed Girls
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 05 - Bicycle Race.flac
+Time: 183.746
+Track: 5
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Bicycle Race
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 06 - You're My Best Friend.flac
+Time: 172.25300000000001
+Track: 6
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: You’re My Best Friend
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 07 - Don't Stop Me Now.flac
+Time: 211.733
+Track: 7
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Don't Stop Me Now
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 08 - Save Me.flac
+Time: 229
+Track: 8
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Save Me
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 09 - Crazy Little Thing Called Love.flac
+Time: 163.4
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Crazy Little Thing Called Love
+Track: 9
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 10 - Somebody To Love.flac
+Time: 297.62600000000003
+Track: 10
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Somebody to Love
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 11 - Now I'm Here.flac
+Time: 255.24
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Now I'm Here
+Track: 11
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 12 - Good Old-Fashioned Lover Boy.flac
+Time: 175.866
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Good Old-Fashioned Lover Boy
+Track: 12
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 13 - Play The Game.flac
+Time: 213.866
+Track: 13
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Play The Game
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 14 - Flash.flac
+Time: 168
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Flash
+Track: 14
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 15 - Seven Seas Of Rhye.flac
+Time: 170.28
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: Seven Seas Of Rhye
+Track: 15
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 16 - We Will Rock You.flac
+Time: 122.85300000000001
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: We Will Rock You
+Track: 16
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits - 17 - We Are The Champions.flac
+Time: 181.933
+Artist: Queen
+Album: Greatest Hits I
+Date: 1981
+Genre: Rock, Pop
+Title: We Are The Champions
+Track: 17
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+playlist_begin: Greatest Hits.m3u
+mtime: 1778007234
+playlist_end
+end: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]/Greatest Hits I (1981)
+directory: Greatest Hits II (1991)
+mtime: 1778010589
+begin: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]/Greatest Hits II (1991)
+song_begin: Queen - Greatest Hits II - 01 - A Kind Of Magic.flac
+Time: 262.08
+Track: 1
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: A Kind Of Magic
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 02 - Under Pressure.flac
+Time: 236.81300000000002
+Artist: Queen & David Bowie
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: Under Pressure
+Track: 2
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 03 - Radio Ga Ga.flac
+Time: 343.866
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: Radio Ga Ga
+Track: 3
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 04 - I Want It Alll.flac
+Time: 241.413
+Track: 4
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: I Want It Alll
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 05 - I Want To Break Free.flac
+Time: 258.733
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: I Want To Break Free
+Track: 5
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 06 - Innuendo.flac
+Time: 387.866
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: Innuendo
+Track: 6
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 07 - It's Hard Life.flac
+Time: 250
+Track: 7
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: It's Hard Life
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 08 - Breakthru.flac
+Time: 249
+Track: 8
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: Breakthru
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 09 - Who Wants To Live Forever.flac
+Time: 297
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: Who Wants To Live Forever
+Track: 9
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 10 - Headlong.flac
+Time: 273.146
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: Headlong
+Track: 10
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 11 - The Miracle.flac
+Time: 294.853
+Track: 11
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: The Miracle
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 12 - I'm Going Slightly Mad.flac
+Time: 247.98600000000002
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: I'm Going Slightly Mad
+Track: 12
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 13 - The Invisible Man.flac
+Time: 239.013
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: The Invisible Man
+Track: 13
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 14 - Hammer To Fall.flac
+Time: 220.04
+Track: 14
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: Hammer To Fall
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 15 - Friends Will Be Friends.flac
+Time: 248.96
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: Friends Will Be Friends
+Track: 15
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 16 - The Show Must Go On.flac
+Time: 264
+Track: 16
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: The Show Must Go On
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+song_begin: Queen - Greatest Hits II - 17 - One Vision.flac
+Time: 242.333
+Track: 17
+Artist: Queen
+Album: Greatest Hits II
+Date: 1991
+Genre: Rock
+Title: One Vision
+Format: 44100:16:2
+mtime: 1778010482
+added: 1778008666
+song_end
+playlist_begin: Greatest Hits II.m3u
+mtime: 1778007235
+playlist_end
+end: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]/Greatest Hits II (1991)
+directory: Greatest Hits III (1999)
+mtime: 1778011760
+begin: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]/Greatest Hits III (1999)
+song_begin: Queen - Geatest Hits III - 01 - The Show Must Go On (Live).flac
+Time: 275.24
+Artist: Queen and Elton John
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: The Show Must Go On
+Track: 1
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 02 - Under Pressure (Rah mix).flac
+Time: 249
+Artist: Queen and David Bowie
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Under Pressure (Rah mix)
+Track: 2
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 03 - Barcelona.flac
+Time: 264.986
+Artist: Freddie Mercury and Montserrat Caballé
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Barcelona 
+Track: 3
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 04 - Too Much Love Will Kill You.flac
+Time: 259
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Too Much Love Will Kill You
+Track: 4
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 05 - Somebody To Love (Live).flac
+Time: 307.01300000000003
+Artist: Queen and George Michael
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Somebody To Love
+Track: 5
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 09 - Driven By You.flac
+Time: 249.28
+Track: 6
+Artist: Brian May
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Driven by You
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 07 - Heaven For Everyone.flac
+Time: 277.253
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Heaven For Everyone
+Track: 7
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 06 - You Don't Fool Me.flac
+Time: 323
+Track: 8
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: You Don't Fool Me
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 08 - Las Palabras De Amor (The Words Of Love).flac
+Time: 269.733
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Las Palabras De Amor
+Track: 8
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 15 - No-One But You (Only The Good Die Young).flac
+Time: 251.04
+Track: 8
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: No-One But You (Only The Good Die Young)
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 10 - Living On My Own.flac
+Time: 217.733
+Artist: Freddie Mercury
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Living On My Own
+Track: 10
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778009486
+song_end
+song_begin: Queen - Geatest Hits III - 11 - Let Me Live.flac
+Time: 285.253
+Track: 11
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Let Me Live
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 12 - The Great Pretender.flac
+Time: 206.013
+Artist: Freddie Mercury
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: The Great Pretender
+Track: 12
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 13 - Princes Of The Universe.flac
+Time: 211.72
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Princes Of The Universe
+Track: 13
+Format: 44100:16:2
+mtime: 1778010480
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 14 - Another One Bites The Dust.flac
+Time: 261
+Artist: Queen and Wyclef Jean
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Another One Bites The Dust
+Track: 14
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 16 - These Are The Days Of Our Lives.flac
+Time: 262.24
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: These Are The Days Of Our Lives
+Track: 16
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+song_begin: Queen - Geatest Hits III - 17 - Thank God It's Christmas.flac
+Time: 259.786
+Artist: Queen
+Album: Greatest Hits III
+Date: 1999
+Genre: Electronic, Rock, Pop
+Title: Thank God It's Christmas
+Track: 17
+Format: 44100:16:2
+mtime: 1778010481
+added: 1778008666
+song_end
+playlist_begin: Geatest Hits III.m3u
+mtime: 1778007236
+playlist_end
+end: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]/Greatest Hits III (1999)
+end: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]
 directory: Sidhu Moosewala - Moosetape
 mtime: 1767310364
 begin: Sidhu Moosewala - Moosetape
