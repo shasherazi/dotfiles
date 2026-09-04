@@ -1,0 +1,10 @@
+clang
+gcc
+jdk-openjdk
+make
+nodejs
+npm
+python
+python-pip
+rustup
+uv

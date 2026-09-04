@@ -1,0 +1,25 @@
+# archive managers
+ark
+
+# file managers
+dolphin
+nemo
+
+# music
+elisa
+
+# text
+kate
+
+# documents
+okular
+
+# images
+qimgv
+
+# videos
+mpv
+vlc
+
+# torrents
+qbittorrent

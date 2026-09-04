@@ -1,0 +1,4 @@
+nano
+neovim
+vim
+visual-studio-code-bin

@@ -1,0 +1,5 @@
+btop
+cowsay
+fortune-mod
+lazygit
+tree

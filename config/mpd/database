@@ -5361,7 +5361,7 @@ directory: Bon Iver, Bon Iver (10th Anniversary Edition)
 mtime: 1786420479
 begin: Bon Iver, Bon Iver (10th Anniversary Edition)
 song_begin: 1-01 Perth.flac
-Time: 262.08
+Time: 262.079
 Title: Perth
 Artist: Bon Iver
 Album: Bon Iver, Bon Iver (10th Anniversary Edition)
@@ -14372,7 +14372,7 @@ mtime: 1759154953
 added: 1766423539
 song_end
 song_begin: 24 - Pass Judgement.flac
-Time: 260.508
+Time: 260.507
 Album: House of the Dragon: Season 1 (Soundtrack From the HBO® Series)
 Composer: Ramin Djawadi
 Date: 2022-10-23
@@ -15284,7 +15284,7 @@ mtime: 1759156836
 added: 1766423539
 song_end
 song_begin: 16 - I Do Not Know My Part.flac
-Time: 64.737
+Time: 64.736
 Album: House of the Dragon: Season 2 (Soundtrack from the HBO® Series)
 Date: 2024-08-04
 Disc: 1
@@ -20294,7 +20294,7 @@ added: 1766423538
 song_end
 end: Nothing But the Best
 directory: Nusrat Fateh Ali Khan
-mtime: 1787679525
+mtime: 1788517222
 begin: Nusrat Fateh Ali Khan
 directory: (1992) - Devotional Songs
 mtime: 1754073993
@@ -22274,7 +22274,7 @@ directory: 1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 5
 mtime: 1780351774
 begin: Nusrat Fateh Ali Khan/Nusrat Fateh Ali Khan - En concert à Paris/1988 - Nusrat Fateh Ali Khan - En concert à Paris, Volume 5
 song_begin: 01 - Kafi 'Je me suis eprise d'un indifferent_Et j'ai du pleurer en cachette'.flac
-Time: 1027.773
+Time: 1027.772
 MUSICBRAINZ_RELEASEGROUPID: 1657a52f-3805-4212-b358-20d65b832e00
 OriginalDate: 1998
 MUSICBRAINZ_ALBUMID: a767e07b-dd95-48bf-9083-881fcbbc01ce
@@ -23305,9 +23305,9 @@ mtime: 1787676648
 added: 1787679531
 song_end
 end: Nusrat Fateh Ali Khan/Vol. 27 Kali Kali Zulfon [wav]
-directory: Yadon Ke Sayeay: Geet & Ghazals (Urdu), Volume 6
+directory: Yadon Ke Sayeay Geet & Ghazals (Urdu), Volume 6
 mtime: 1771248915
-begin: Nusrat Fateh Ali Khan/Yadon Ke Sayeay: Geet & Ghazals (Urdu), Volume 6
+begin: Nusrat Fateh Ali Khan/Yadon Ke Sayeay Geet & Ghazals (Urdu), Volume 6
 song_begin: Yadon Ke Sayeay.mp3
 Time: 336.224
 Artist: Nusrat Fateh Ali Khan
@@ -23318,7 +23318,7 @@ Track: 1
 Date: 1990
 Format: 44100:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
 song_begin: Saja Hae Maikhana.mp3
 Time: 493.981
@@ -23330,7 +23330,7 @@ Track: 2
 Date: 1990
 Format: 44100:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
 song_begin: Aadmi Aadmi Se Milta Hae.mp3
 Time: 397.839
@@ -23342,7 +23342,7 @@ Track: 3
 Date: 1990
 Format: 48000:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
 song_begin: Dost Kya Khoob Wafaon Ka Sila Dete Hain.mp3
 Time: 498.091
@@ -23354,7 +23354,7 @@ Track: 4
 Date: 1990
 Format: 44100:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
 song_begin: Ae Kash Tujhe Aisa Ik Zakhm-E-Judaee Doon.mp3
 Time: 492.704
@@ -23366,7 +23366,7 @@ Track: 5
 Date: 1990
 Format: 44100:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
 song_begin: Kahan Ake Rukne The Raste.mp3
 Time: 410.366
@@ -23378,7 +23378,7 @@ Track: 6
 Date: 1990
 Format: 44100:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
 song_begin: Komplein Phir Phoot Ayeen.mp3
 Time: 338.593
@@ -23390,7 +23390,7 @@ Track: 7
 Date: 1990
 Format: 44100:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
 song_begin: Gale Lipte Hain Woh Bijli Ke Dar Se.mp3
 Time: 447.123
@@ -23402,7 +23402,7 @@ Track: 8
 Date: 1990
 Format: 44100:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
 song_begin: Kab Yaad Mein Tera Saath Nain.mp3
 Time: 555.467
@@ -23414,9 +23414,9 @@ Track: 9
 Date: 1990
 Format: 44100:16:2
 mtime: 1771248915
-added: 1771248455
+added: 1788517228
 song_end
-end: Nusrat Fateh Ali Khan/Yadon Ke Sayeay: Geet & Ghazals (Urdu), Volume 6
+end: Nusrat Fateh Ali Khan/Yadon Ke Sayeay Geet & Ghazals (Urdu), Volume 6
 end: Nusrat Fateh Ali Khan
 directory: Open Letter
 mtime: 1778615511
@@ -23566,7 +23566,7 @@ mtime: 1778614086
 added: 1778615538
 song_end
 song_begin: 07 False Prophets.m4a
-Time: 259.049
+Time: 259.048
 Artist: Talha Anjum
 Album: Open Letter
 Title: False Prophets
@@ -24000,7 +24000,7 @@ directory: Greatest Hits II (1991)
 mtime: 1778010589
 begin: Queen - Greatest Hits I. II. & III. (The Platinum Collection)(2000)[FLAC]/Greatest Hits II (1991)
 song_begin: Queen - Greatest Hits II - 01 - A Kind Of Magic.flac
-Time: 262.08
+Time: 262.079
 Track: 1
 Artist: Queen
 Album: Greatest Hits II
@@ -26641,7 +26641,7 @@ mtime: 1768759465
 added: 1768842145
 song_end
 song_begin: 42 - Blood and Steel.flac
-Time: 130.385
+Time: 130.38400000000001
 Title: Blood and Steel
 Artist: Jeremy Soule
 AlbumArtist: Jeremy Soule
